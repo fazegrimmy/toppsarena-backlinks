@@ -624,6 +624,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:13:04.202Z",
       "landingUrl": "https://pulse.welodge.co.zw/users/sign_in"
+    },
+    "https://startupsoftheworld.com": {
+      "name": "Startups of the World",
+      "url": "https://startupsoftheworld.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:13:37.317Z",
+      "landingUrl": "https://startupsoftheworld.com/"
+    },
+    "https://content-and-marketing.com": {
+      "name": "Content & Marketing",
+      "url": "https://content-and-marketing.com",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T21:14:10.104Z",
+      "landingUrl": "https://www.content-and-marketing.com/submit-a-tool/"
+    },
+    "https://marketertools.co": {
+      "name": "Marketer Tools",
+      "url": "https://marketertools.co",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:14:41.406Z",
+      "landingUrl": "https://www.marketertools.co/"
+    },
+    "https://startupalternatives.com": {
+      "name": "Startup Alternatives",
+      "url": "https://startupalternatives.com",
+      "status": "attempted_unconfirmed",
+      "details": "Clicked submit but no confirmation detected; listing NOT verified",
+      "checkedAt": "2026-11-23T21:15:15.668Z",
+      "landingUrl": "https://startupalternatives.com/submit"
     }
   }
 }
