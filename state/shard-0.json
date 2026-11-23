@@ -592,6 +592,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T21:10:40.701Z",
       "landingUrl": "https://shipycorn.com/sign-in?redirect=/projects/submit"
+    },
+    "https://starthub.zip/submit": {
+      "name": "starthub.zip",
+      "url": "https://starthub.zip/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:11:15.644Z",
+      "landingUrl": "https://starthub.zip/auth/login?callbackUrl=%2Fsubmit"
+    },
+    "https://techmap.me/": {
+      "name": "Tech Map",
+      "url": "https://techmap.me/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:11:46.969Z",
+      "landingUrl": "https://techmap.me/"
+    },
+    "https://toolfound.com/submit": {
+      "name": "Toolfound",
+      "url": "https://toolfound.com/submit",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:12:18.121Z",
+      "landingUrl": "https://toolfound.com/submit"
+    },
+    "https://web-review.com/submit": {
+      "name": "web-review",
+      "url": "https://web-review.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:12:49.841Z",
+      "landingUrl": "https://web-review.com/submit"
     }
   }
 }
