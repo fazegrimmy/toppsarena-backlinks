@@ -224,6 +224,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:13:25.043Z",
       "landingUrl": "https://www.submissionwebdirectory.com/"
+    },
+    "https://pitchwall.co/": {
+      "name": "PitchWall",
+      "url": "https://pitchwall.co/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:13:59.172Z",
+      "landingUrl": "https://pitchwall.co/submit"
+    },
+    "https://toools.design/": {
+      "name": "Toools.design",
+      "url": "https://toools.design/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:14:30.905Z",
+      "landingUrl": "https://www.toools.design/"
+    },
+    "https://www.producthunt.com/ship": {
+      "name": "Product Hunt Ship",
+      "url": "https://www.producthunt.com/ship",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:15:01.805Z",
+      "landingUrl": "https://www.producthunt.com/ship"
+    },
+    "https://www.startupcosts.co/signup": {
+      "name": "Startup Costs",
+      "url": "https://www.startupcosts.co/signup",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:15:32.654Z",
+      "landingUrl": "https://forsale.godaddy.com/forsale/www.startupcosts.co?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&"
     }
   }
 }
