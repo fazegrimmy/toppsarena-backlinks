@@ -464,6 +464,38 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T21:31:38.410Z",
       "landingUrl": "https://aidirectory.website/submit"
+    },
+    "https://appdirectory.org/get-listed": {
+      "name": "AppDirectory.org",
+      "url": "https://appdirectory.org/get-listed",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T21:32:11.416Z",
+      "landingUrl": "https://appdirectory.org/get-listed"
+    },
+    "https://www.bizindexer.com/": {
+      "name": "BizIndexer",
+      "url": "https://www.bizindexer.com/",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:32:45.979Z",
+      "landingUrl": "https://dev-x2uskxv6voevjkyd.us.auth0.com/u/login?state=hKFo2SBhZm9ZUUI2ZjRjdGJrLXEyeG1ESHd3ZGRIVUtkN0ZoU6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEoxaXVCVnFMM2didm1ZLUI1RWJiVmYzaE9TU292T3NPo2NpZNkgM3JvOWoyZ3h3WHpVWXlONGoyMDhDZWwxSDFtR1lWVU8"
+    },
+    "https://collabe.io/": {
+      "name": "Collabe",
+      "url": "https://collabe.io/",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T21:33:18.010Z",
+      "landingUrl": "https://collabe.io/"
+    },
+    "https://daniellaunches.com/submit": {
+      "name": "DanielLaunches",
+      "url": "https://daniellaunches.com/submit",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:33:49.072Z",
+      "landingUrl": "https://daniellaunches.com/submit"
     }
   }
 }
