@@ -688,6 +688,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T21:17:11.083Z",
       "landingUrl": "https://inlinkswetrust.com/auth/login?next=/submit"
+    },
+    "https://www.rankanything.online": {
+      "name": "Rank Anything",
+      "url": "https://www.rankanything.online",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:17:43.260Z",
+      "landingUrl": "https://www.rankanything.online/"
+    },
+    "https://the-free-directory.co.uk": {
+      "name": "The Free Directory.Co",
+      "url": "https://the-free-directory.co.uk",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T21:18:17.133Z",
+      "landingUrl": "https://the-free-directory.co.uk/submit/"
+    },
+    "https://www.websurl.com": {
+      "name": "Websurl",
+      "url": "https://www.websurl.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:18:49.456Z",
+      "landingUrl": "https://www.websurl.com/submit"
+    },
+    "https://indie.page": {
+      "name": "Indie Page",
+      "url": "https://indie.page",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:19:21.341Z",
+      "landingUrl": "https://indie.page/index.php/Indie.Page"
     }
   }
 }
