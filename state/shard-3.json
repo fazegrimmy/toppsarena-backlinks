@@ -160,6 +160,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T20:36:26.838Z",
       "landingUrl": "https://shipybara.com/sign-in?redirect=%2Fprojects%2Fsubmit"
+    },
+    "https://starterbest.com/submit": {
+      "name": "StarterBest",
+      "url": "https://starterbest.com/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:36:59.462Z",
+      "landingUrl": "https://starterbest.com/auth/login?callbackUrl=%2Fsubmit"
+    },
+    "https://taalk.com/submit-startup": {
+      "name": "Taalk",
+      "url": "https://taalk.com/submit-startup",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:37:30.682Z",
+      "landingUrl": "https://taalk.com/submit-startup/"
+    },
+    "https://www.tinystartups.com/submit": {
+      "name": "Tiny Startups",
+      "url": "https://www.tinystartups.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:38:02.111Z",
+      "landingUrl": "https://www.tinystartups.com/submit"
+    },
+    "https://www.weekhack.com/launches/submit": {
+      "name": "WeekHack",
+      "url": "https://www.weekhack.com/launches/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:38:34.414Z",
+      "landingUrl": "https://www.weekhack.com/auth?next=/launches/submit"
     }
   }
 }
