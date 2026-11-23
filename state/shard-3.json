@@ -560,6 +560,38 @@
       "details": "Form only accepted a URL; manual verification required",
       "checkedAt": "2026-11-23T21:38:07.304Z",
       "landingUrl": "https://peerpush.com/submit"
+    },
+    "https://radarmakers.com/submit": {
+      "name": "RadarMakers",
+      "url": "https://radarmakers.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:38:41.464Z",
+      "landingUrl": "https://radarmakers.com/directories/submit"
+    },
+    "https://www.s5-style.com/submit/guest/": {
+      "name": "S5-Style",
+      "url": "https://www.s5-style.com/submit/guest/",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:39:13.549Z",
+      "landingUrl": "https://www.s5-style.com/submit/guest/"
+    },
+    "https://semilaunch.com/submit": {
+      "name": "SemiLaunch",
+      "url": "https://semilaunch.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:39:46.307Z",
+      "landingUrl": "https://semilaunch.com/auth"
+    },
+    "https://softwareontheweb.com/add-product": {
+      "name": "Software on the Web",
+      "url": "https://softwareontheweb.com/add-product",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:40:18.318Z",
+      "landingUrl": "https://softwareontheweb.com/add-product"
     }
   }
 }
