@@ -784,6 +784,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:23:39.313Z",
       "landingUrl": "https://www.oksaas.co/"
+    },
+    "https://saasavenue.com": {
+      "name": "SaaS Avenue",
+      "url": "https://saasavenue.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:24:12.298Z",
+      "landingUrl": "https://saasavenue.com/get-started"
+    },
+    "https://saasstate.com": {
+      "name": "SaaS State",
+      "url": "https://saasstate.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:24:44.156Z",
+      "landingUrl": "https://saasstate.com/get-started"
+    },
+    "https://softonic.com": {
+      "name": "Softonic",
+      "url": "https://softonic.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:25:14.948Z",
+      "landingUrl": "https://softonic.com/"
+    },
+    "https://techlondon.io": {
+      "name": "TechLondon",
+      "url": "https://techlondon.io",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:25:46.672Z",
+      "landingUrl": "https://techlondon.io/"
     }
   }
 }
