@@ -560,6 +560,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T21:08:50.660Z",
       "landingUrl": "https://www.oribisoft.com/login?next=%2Fsubmit"
+    },
+    "https://www.productlaunchify.com/dashboard": {
+      "name": "Product Launchify",
+      "url": "https://www.productlaunchify.com/dashboard",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:09:24.531Z",
+      "landingUrl": "https://www.productlaunchify.com/sign-in?redirect=/projects/submit"
+    },
+    "https://retrolaunch.io/contact": {
+      "name": "Retro Launch",
+      "url": "https://retrolaunch.io/contact",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:09:55.450Z",
+      "landingUrl": "https://retrolaunch.io/contact"
+    },
+    "https://www.saasquirrel.com/submit": {
+      "name": "SaaSquirrel",
+      "url": "https://www.saasquirrel.com/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:10:27.721Z",
+      "landingUrl": "https://www.saasquirrel.com/?auth=login&next=%2Fsubmit"
+    },
+    "https://siiimple.com/submit/": {
+      "name": "Siiimple",
+      "url": "https://siiimple.com/submit/",
+      "status": "failed_submit_click",
+      "details": "locator.click: Timeout 6500ms exceeded. Call log: - waiting for locator('form').first().locator('button[type=\"submit\"],input[type=\"submit\"],button:not([type])').first() - locator resolved to <input disabled type=\"submit\"",
+      "checkedAt": "2026-11-23T21:11:05.916Z",
+      "landingUrl": "https://siiimple.com/submit/"
     }
   }
 }
