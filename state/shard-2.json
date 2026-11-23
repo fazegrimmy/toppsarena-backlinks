@@ -688,6 +688,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:17:44.392Z",
       "landingUrl": "https://app.marsdd.com/companies"
+    },
+    "https://selected.site": {
+      "name": "Selected Site",
+      "url": "https://selected.site",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:18:21.201Z",
+      "landingUrl": "https://selected.site/"
+    },
+    "https://thefastestweb.site": {
+      "name": "TheFastestWeb",
+      "url": "https://thefastestweb.site",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:18:55.137Z",
+      "landingUrl": "https://www.indietools.app/submit"
+    },
+    "https://widedir.info": {
+      "name": "Widedir",
+      "url": "https://widedir.info",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:19:28.320Z",
+      "landingUrl": "https://widedir.info/submit.php"
+    },
+    "https://inuidea.com/hunt": {
+      "name": "Inuidea",
+      "url": "https://inuidea.com/hunt",
+      "status": "skipped_terms",
+      "details": "Required consent checkbox must be reviewed manually",
+      "checkedAt": "2026-11-23T21:20:27.481Z",
+      "landingUrl": "https://inuidea.com/hunt/submit"
     }
   }
 }
