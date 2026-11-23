@@ -96,6 +96,38 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T20:04:49.959Z",
       "landingUrl": "https://www.a1.gallery/submit"
+    },
+    "https://buildvoyage.com/submit": {
+      "name": "BuildVoyage",
+      "url": "https://buildvoyage.com/submit",
+      "status": "skipped_terms",
+      "details": "Required consent checkbox must be reviewed manually",
+      "checkedAt": "2026-11-23T20:05:23.225Z",
+      "landingUrl": "https://buildvoyage.com/submit"
+    },
+    "https://devpages.io/submit-a-tool": {
+      "name": "DevPages",
+      "url": "https://devpages.io/submit-a-tool",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:05:54.540Z",
+      "landingUrl": "https://devpages.io/submit-a-tool"
+    },
+    "https://fuelup.co/add": {
+      "name": "Fuel Up",
+      "url": "https://fuelup.co/add",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:06:35.837Z",
+      "landingUrl": "https://mantabslot.online/login/"
+    },
+    "https://justlaunched.fyi/submit": {
+      "name": "JustLaunched",
+      "url": "https://justlaunched.fyi/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:07:07.798Z",
+      "landingUrl": "https://justlaunched.fyi/submit"
     }
   }
 }
