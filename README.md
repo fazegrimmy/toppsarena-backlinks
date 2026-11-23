@@ -15,6 +15,7 @@ Four independently researched public directories that explicitly permit keyless 
 | DevElif | https://develif.com/docs | POST /api/submit | Gaming category. Site was already listed; confirmed public direct followed link https://develif.com/s/toppsarena |
 | CurlShip | https://curlship.com/openapi.json | POST /api/submit | Verified public free listing https://curlship.com/l/11593 with **nofollow** link |
 | TechTools Launchpad | https://techtools.cz/launchpad-api/docs | GET /tools?url= preflight, POST /tools | Existing listing found; public API record https://techtools.cz/tools/launchpad/?tool=12141. **HTML backlink is unverified** because listing may render via JavaScript |
+| LaunchAgentic | https://launchagentic.space/for-agents | Anonymous organic agent protocol | Submission accepted; scheduled for 6 December 2026, **not yet published** and not a verified backlink |
 | PromoteIndex | https://promoteindex.com/openapi.json | POST /api/v1/projects | Relevant Community category. Can return a private signed submission queue; temporary tickets remain in memory only, never committed. No automated votes or link-badge requirements |
 
 Current results are in [reports/verified-backlinks.md](reports/verified-backlinks.md). **Verified HTML backlinks require an independently fetched public listing page with a direct `<a href>` to the exact TopPSArena domain.** A successful GitHub job, POST accepted, 409 already listed, redirect, search result or public API-only entry is NOT enough. This is not a promise of search rankings.
@@ -41,3 +42,11 @@ The GitHub Actions job must pass its syntax and unit tests before submitting.
 - [Reviewed provider allowlist](campaign/verified-opportunities.json)
 
 **Limits:** Four eligible APIs are not a high-volume link-building strategy. Gaming-specific publicity, owner outreach and editorial links generally need relevant site owners' approval. A listing that has no public HTML backlink is reported separately, even when its directory API says it is live.
+
+## Qualified gaming opportunities
+
+Research in [`campaign/qualified-outreach.json`](campaign/qualified-outreach.json) identifies **12 specific directories and outreach candidates** relevant to gaming sites or website directories, with **eight other destinations explicitly excluded** due to reciprocal-link, paid, gambling, or wrong-product requirements. Owner-account sites (XtremeTop100, RaGEZONE Top Sites, etc.) are deliberately not auto-submitted. The research queue is **not** a count of submitted links.
+
+## Stable evidence persistence
+
+The scheduled campaign writes the canonical state via [`scripts/save-evidence.mjs`](scripts/save-evidence.mjs) using GitHub's conditional file version updates. Concurrent writes merge by verification and submission timestamps, avoiding the former Git rebase conflicts. [`tests/evidence-merge.test.mjs`](tests/evidence-merge.test.mjs) validates collision handling. These files are included in the passing [GitHub verification tests](https://github.com/fazegrimmy/toppsarena-backlinks/actions/workflows/test-backlinks.yml). Successful submissions do not count until verified public backlinks appear in [`reports/verified-backlinks.md`](reports/verified-backlinks.md).
