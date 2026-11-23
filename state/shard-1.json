@@ -720,6 +720,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:19:56.998Z",
       "landingUrl": "https://instantlaun.ch/"
+    },
+    "https://launchpad.ms": {
+      "name": "Launchpad",
+      "url": "https://launchpad.ms",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:20:36.706Z",
+      "landingUrl": "https://launchpad.ms/sign-in?redirect=/projects/submit"
+    },
+    "https://spotstartups.com": {
+      "name": "spotstartups",
+      "url": "https://spotstartups.com",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:21:08.360Z",
+      "landingUrl": "https://spotstartups.com/login.php?redirect=/submit.php"
+    },
+    "https://launchon.it": {
+      "name": "LaunchOnIt",
+      "url": "https://launchon.it",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T21:21:40.265Z",
+      "landingUrl": "https://launchon.it/"
+    },
+    "https://apprater.com": {
+      "name": "AppRater",
+      "url": "https://apprater.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:22:11.193Z",
+      "landingUrl": "https://forsale.godaddy.com/forsale/apprater.com?utm_source=TDFS_BINNS&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns_base&traffic_type=TDFS_BINNS&traffic_id=binns&"
     }
   }
 }
