@@ -752,6 +752,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:22:11.193Z",
       "landingUrl": "https://forsale.godaddy.com/forsale/apprater.com?utm_source=TDFS_BINNS&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns_base&traffic_type=TDFS_BINNS&traffic_id=binns&"
+    },
+    "https://comparecamp.com": {
+      "name": "Comparecamp",
+      "url": "https://comparecamp.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:22:43.754Z",
+      "landingUrl": "https://comparecamp.com/"
+    },
+    "https://forum.freecodecamp.org": {
+      "name": "FreeCodeCamp",
+      "url": "https://forum.freecodecamp.org",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:23:15.422Z",
+      "landingUrl": "https://forum.freecodecamp.org/"
+    },
+    "https://indiemaker.co": {
+      "name": "IndieMaker",
+      "url": "https://indiemaker.co",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:23:47.243Z",
+      "landingUrl": "https://indiemaker.com/"
+    },
+    "https://opensourcealternative.to": {
+      "name": "Opensourcealternative",
+      "url": "https://opensourcealternative.to",
+      "status": "skipped_required_fields",
+      "details": "Unfilled required fields: software-name software-name cal.com name of open source alternati; repository repository calcom/cal.com repository:; alternativetoname alternativetoname e.g. calendly name of proprie",
+      "checkedAt": "2026-11-23T21:24:20.906Z",
+      "landingUrl": "https://opensourcealternative.to/submit"
     }
   }
 }
