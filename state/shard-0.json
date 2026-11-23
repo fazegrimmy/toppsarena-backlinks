@@ -160,6 +160,38 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T20:08:57.444Z",
       "landingUrl": "https://productfame.com/products/submit"
+    },
+    "https://sidehunt.io/submit": {
+      "name": "Sidehunt",
+      "url": "https://sidehunt.io/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:09:31.192Z",
+      "landingUrl": "https://sidehunt.io/submit"
+    },
+    "https://startuplibrary.net/submit": {
+      "name": "StartupLibrary",
+      "url": "https://startuplibrary.net/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:10:02.644Z",
+      "landingUrl": "https://startuplibrary.net/submit"
+    },
+    "https://thehiveindex.com/submit": {
+      "name": "The Hive Index",
+      "url": "https://thehiveindex.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:10:33.648Z",
+      "landingUrl": "https://thehiveindex.com/submit"
+    },
+    "https://turbo0.com/submit": {
+      "name": "Turbo0",
+      "url": "https://turbo0.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:11:04.626Z",
+      "landingUrl": "https://turbo0.com/submit"
     }
   }
 }
