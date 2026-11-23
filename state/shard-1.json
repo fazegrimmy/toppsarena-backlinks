@@ -784,6 +784,38 @@
       "details": "Unfilled required fields: software-name software-name cal.com name of open source alternati; repository repository calcom/cal.com repository:; alternativetoname alternativetoname e.g. calendly name of proprie",
       "checkedAt": "2026-11-23T21:24:20.906Z",
       "landingUrl": "https://opensourcealternative.to/submit"
+    },
+    "https://saasbadge.com": {
+      "name": "SaaS Badge",
+      "url": "https://saasbadge.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:24:54.519Z",
+      "landingUrl": "https://saasbadge.com/get-started"
+    },
+    "https://saasterritory.com": {
+      "name": "SaaS Territory",
+      "url": "https://saasterritory.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:25:26.504Z",
+      "landingUrl": "https://saasterritory.com/get-started"
+    },
+    "https://www.somethingforthat.com": {
+      "name": "Somethingforthat",
+      "url": "https://www.somethingforthat.com",
+      "status": "failed_runtime",
+      "details": "page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://www.somethingforthat.com/ Call log: - navigating to \"https://www.somethingforthat.com/\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T21:25:56.850Z",
+      "landingUrl": "about:blank"
+    },
+    "https://theindiewall.net": {
+      "name": "theindiewall",
+      "url": "https://theindiewall.net",
+      "status": "failed_runtime",
+      "details": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://theindiewall.net/ Call log: - navigating to \"https://theindiewall.net/\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T21:26:27.018Z",
+      "landingUrl": "about:blank"
     }
   }
 }
