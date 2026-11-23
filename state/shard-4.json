@@ -288,6 +288,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:45:33.995Z",
       "landingUrl": "https://appagg.com/?hl=en"
+    },
+    "https://biqstartups.co/overview/sub": {
+      "name": "Big Startups",
+      "url": "https://biqstartups.co/overview/sub",
+      "status": "failed_runtime",
+      "details": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://biqstartups.co/overview/sub Call log: - navigating to \"https://biqstartups.co/overview/sub\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T20:46:05.492Z",
+      "landingUrl": "about:blank"
+    },
+    "https://clutch.co/review": {
+      "name": "Clutch",
+      "url": "https://clutch.co/review",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:46:36.354Z",
+      "landingUrl": "https://clutch.co/review"
+    },
+    "https://devpost.com/software": {
+      "name": "Dev Post",
+      "url": "https://devpost.com/software",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:47:07.205Z",
+      "landingUrl": "https://devpost.com/software"
+    },
+    "https://www.gartner.com/en/digital-marke": {
+      "name": "Get App",
+      "url": "https://www.gartner.com/en/digital-marke",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:47:37.993Z",
+      "landingUrl": "https://www.gartner.com/en/digital-marke"
     }
   }
 }
