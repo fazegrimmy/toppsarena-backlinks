@@ -160,6 +160,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:09:09.658Z",
       "landingUrl": "https://shipboost.io/submit"
+    },
+    "https://spectacle.is/submit": {
+      "name": "Spectacle",
+      "url": "https://spectacle.is/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:09:44.134Z",
+      "landingUrl": "https://startupvideos.com/auth/login?redirectTo=%2Fsubmit"
+    },
+    "https://submitmatic.com/submit": {
+      "name": "SubmitMatic",
+      "url": "https://submitmatic.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:10:15.862Z",
+      "landingUrl": "https://submitmatic.com/submit-website-to-directories"
+    },
+    "https://thingtesting.com/submit-brand": {
+      "name": "Thing Testing",
+      "url": "https://thingtesting.com/submit-brand",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:10:46.741Z",
+      "landingUrl": "https://thingtesting.com/submit-brand"
+    },
+    "https://webspot.app/submit": {
+      "name": "Webspot",
+      "url": "https://webspot.app/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:11:18.465Z",
+      "landingUrl": "https://webspot.app/auth/login?callbackUrl=%2Fsubmit"
     }
   }
 }
