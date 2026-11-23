@@ -752,6 +752,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:51:12.056Z",
       "landingUrl": "https://forsale.godaddy.com/forsale/www.bestsaastools.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&"
+    },
+    "https://dappradar.com": {
+      "name": "Dappradar",
+      "url": "https://dappradar.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:51:44.358Z",
+      "landingUrl": "https://dappradar.com/"
+    },
+    "https://goodtool.online": {
+      "name": "GoodToolOnline",
+      "url": "https://goodtool.online",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:52:15.527Z",
+      "landingUrl": "https://goodtool.online/"
+    },
+    "https://macmenubar.com": {
+      "name": "Macmenubar",
+      "url": "https://macmenubar.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:52:47.213Z",
+      "landingUrl": "https://macmenubar.com/"
+    },
+    "https://publicbuilders.org": {
+      "name": "Publicbuilders",
+      "url": "https://publicbuilders.org",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:53:18.067Z",
+      "landingUrl": "https://forsale.godaddy.com/forsale/publicbuilders.org?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&"
     }
   }
 }
