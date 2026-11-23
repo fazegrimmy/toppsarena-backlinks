@@ -908,6 +908,151 @@
         "https://webdirectory.top/terms",
         "https://webdirectory.top/"
       ]
+    },
+    {
+      "name": "Startup Buffer",
+      "url": "https://startupbuffer.com/site/submit",
+      "source": "https://www.reddit.com/r/microsaas/comments/1c5fmqk/64_free_tool_submission_sites_for_backlinks_sales",
+      "type": "startup_directory_with_gaming_category",
+      "priority": "high",
+      "status": "verified_owner_form_gaming_category_screenshot_required",
+      "fit": "Official form includes Gaming as a primary category and accepts startup/web products; TopPSArena suits gaming discovery.",
+      "requiresHumanReview": true,
+      "requiresAccount": false,
+      "price": "free_basic_claim_needs_final_form_confirmation",
+      "notes": "Official multi-step form requires name, website URL, valid business email, 3–4 sentence description, and screenshot upload. No API documented; do not fake screenshot or mass-submit.",
+      "evidence": [
+        "https://startupbuffer.com/site/submit",
+        "https://startupbuffer.com/site/tos"
+      ],
+      "automationAllowed": false,
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "name": "Launched!",
+      "url": "https://launched.io/SubmitStartup",
+      "source": "https://www.reddit.com/r/microsaas/comments/1c5fmqk/64_free_tool_submission_sites_for_backlinks_sales",
+      "type": "startup_launch_directory",
+      "priority": "medium",
+      "status": "open_product_review_form_fee_unconfirmed",
+      "fit": "Website must be live startup/product, not a blog; TopPSArena is a gaming web product.",
+      "requiresHumanReview": true,
+      "requiresAccount": false,
+      "price": "not_shown_on_first_party_form",
+      "notes": "Official page says positive review may be published within 24h. Form requires screenshot, contact email, location and pitch. Free listing not confirmed; no automated submission API.",
+      "evidence": [
+        "https://launched.io/newsubmission",
+        "https://launched.io/SubmitStartup"
+      ],
+      "automationAllowed": false,
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "name": "StartupStage",
+      "url": "https://startupstage.app/",
+      "source": "https://www.reddit.com/r/microsaas/comments/1c5fmqk/64_free_tool_submission_sites_for_backlinks_sales",
+      "type": "startup_competition_directory",
+      "priority": "medium",
+      "status": "free_founder_signup_required",
+      "fit": "Can showcase a launched startup/project in a moderated weekly cohort; gaming category acceptance requires check.",
+      "requiresHumanReview": true,
+      "requiresAccount": true,
+      "price": "free_founder_listing_claim",
+      "notes": "Official FAQ says founders register for free and submit a startup pitch; promoted and paid memberships are optional. Cannot submit unattended without account; no fake votes.",
+      "evidence": [
+        "https://startupstage.app/",
+        "https://startupstage.app/startups"
+      ],
+      "automationAllowed": false,
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "name": "orbitlist.io",
+      "url": "https://orbitlist.io/submit",
+      "source": "Parallel discovery 2026-11-23",
+      "type": "general_product_directory_agent_draft_api",
+      "priority": "high",
+      "status": "documented_free_draft_api_pending_suitability_review",
+      "fit": "General live web-product directory accepts a working URL and a product-specific description; TopPSArena can be framed as a gaming discovery web product, not an AI tool.",
+      "requiresHumanReview": true,
+      "requiresAccount": false,
+      "price": "free_standard_review",
+      "notes": "Official docs POST /api/drafts/from-url, PATCH draft, POST /api/drafts/{token}/submit. Requires review/approval of prepared copy and moderation; no auto submit activated, no badge required.",
+      "evidence": [
+        "https://orbitlist.io/api-docs",
+        "https://orbitlist.io/submit"
+      ],
+      "automationAllowed": false,
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "name": "Ignlab Launch",
+      "url": "https://launch.ignlab.net/submit.html",
+      "source": "Parallel discovery 2026-11-23",
+      "type": "general_web_tool_directory",
+      "priority": "medium",
+      "status": "free_manual_form_math_challenge",
+      "fit": "Accepts legitimate web tools including Other category; TopPSArena may be accepted as gaming discovery tool.",
+      "requiresHumanReview": true,
+      "requiresAccount": false,
+      "price": "free",
+      "notes": "Official form has a basic arithmetic anti-bot challenge. No unattended automated form bypass. Published listing only after human review.",
+      "evidence": [
+        "https://launch.ignlab.net/",
+        "https://launch.ignlab.net/submit.html"
+      ],
+      "automationAllowed": false,
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "name": "Add My URL",
+      "url": "https://www.admyurl.com/addurl.php",
+      "source": "Parallel discovery 2026-11-23",
+      "type": "general_directory_with_games_category",
+      "priority": "medium",
+      "status": "free_manual_form_games_category",
+      "fit": "Official submission page offers Games category and free subscription tier; possible direct category relevant to TopPSArena.",
+      "requiresHumanReview": true,
+      "requiresAccount": false,
+      "price": "free",
+      "notes": "Requires original 150–2000-character English description, up to 3 keywords, category/subcategory, email and acceptance of terms. Independent public link value unverified.",
+      "evidence": [
+        "https://www.admyurl.com/addurl.php"
+      ],
+      "automationAllowed": false,
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "name": "The Gaming Diary",
+      "url": "https://www.thegamingdiary.com/submit-a-press-release",
+      "source": "Parallel discovery 2026-11-23",
+      "type": "gaming_editorial_press_release",
+      "priority": "medium",
+      "status": "editorial_press_pitch_manual_only",
+      "fit": "Accepts gaming project launches and gaming brand announcements; useful legitimate coverage if TopPSArena has a meaningful update, not directory spam.",
+      "requiresHumanReview": true,
+      "requiresAccount": false,
+      "price": "publication_cost_unconfirmed",
+      "notes": "Editorial press-release form asks name, email, story details and assets. No guaranteed publication or link; submit only factual newsworthy launch announcement.",
+      "evidence": [
+        "https://www.thegamingdiary.com/submit-a-press-release"
+      ],
+      "automationAllowed": false,
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "checkedOn": "2026-11-23"
     }
   ],
   "parallelResearchSources": [
@@ -982,6 +1127,57 @@
       }
     ],
     "allowlistChange": false,
+    "submissionsAttempted": 0,
+    "newBacklinksVerified": 0
+  },
+  "redditMicrosaas64Review": {
+    "source": "https://www.reddit.com/r/microsaas/comments/1c5fmqk/64_free_tool_submission_sites_for_backlinks_sales",
+    "reviewedOn": "2026-11-23",
+    "rows": 64,
+    "notes": "April 2024 SaaS/AI backlink directory list; many AI-exclusive sites do not fit a gaming discovery website, several duplicate each other or have materially changed fee policy. Does not prove free listings, live anchor links or DA metrics.",
+    "alreadyQualified": [
+      "Product Hunt",
+      "Fazier",
+      "Launching Next",
+      "SaaSHub",
+      "MicroLaunch"
+    ],
+    "exclusions": [
+      {
+        "domain": "fazier.com",
+        "reason": "Official free Basic tier currently requires a reciprocal backlink/badge; non-reciprocal listing is paid",
+        "evidence": "https://fazier.com/submit"
+      },
+      {
+        "domain": "startups.fyi",
+        "reason": "Official Tally form currently demands a paid Featured listing from $29, including payment before publication; Reddit 'free' claim outdated",
+        "evidence": "https://tally.so/r/3lOGLk"
+      },
+      {
+        "domain": "findcool.tools",
+        "reason": "Domain currently expired and for sale",
+        "evidence": "https://findcool.tools/"
+      },
+      {
+        "domain": "first100users.com",
+        "reason": "Submission form targets marketing tools, not a gaming toplist",
+        "evidence": "https://www.first100users.com/submit"
+      },
+      {
+        "domain": "devpost.com",
+        "reason": "Project portfolio/hackathon platform, not ordinary website directory submission",
+        "evidence": "https://info.devpost.com/legal/devpost/community-guidelines"
+      },
+      {
+        "domain": "tinystartups.co",
+        "reason": "Website could not be reached to verify eligibility or submission fee"
+      },
+      {
+        "domain": "aitoolsdirectory.com",
+        "reason": "AI-only directory, TopPSArena currently not an AI product"
+      }
+    ],
+    "automatedSubmissionChanges": "none_from_reddit",
     "submissionsAttempted": 0,
     "newBacklinksVerified": 0
   }
