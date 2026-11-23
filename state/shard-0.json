@@ -224,6 +224,38 @@
       "details": "Validation/challenge text appeared after clicking",
       "checkedAt": "2026-11-23T20:13:13.748Z",
       "landingUrl": "https://www.sonicrun.com/cgi-bin/add.cgi"
+    },
+    "https://microlaunch.net/": {
+      "name": "MicroLaunch",
+      "url": "https://microlaunch.net/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:13:46.155Z",
+      "landingUrl": "https://microlaunch.net/"
+    },
+    "https://startupbase.io/": {
+      "name": "StartupBase",
+      "url": "https://startupbase.io/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:14:17.714Z",
+      "landingUrl": "https://startupbase.io/"
+    },
+    "https://www.superlaun.ch/dashboard/submit": {
+      "name": "Super Launch",
+      "url": "https://www.superlaun.ch/dashboard/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:14:54.725Z",
+      "landingUrl": "https://accounts.superlaun.ch/sign-in?redirect_url=https%3A%2F%2Fwww.superlaun.ch%2Fdashboard%2Fsubmit"
+    },
+    "https://www.tsection.com/": {
+      "name": "Tsection",
+      "url": "https://www.tsection.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:15:27.253Z",
+      "landingUrl": "chrome-error://chromewebdata/"
     }
   }
 }
