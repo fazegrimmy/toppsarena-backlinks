@@ -21,6 +21,8 @@ on:
       - 'scripts/verified-campaign.mjs'
       - 'scripts/backlink-helpers.mjs'
       - 'scripts/launchagentic.mjs'
+      - 'scripts/evidence-merge.mjs'
+      - 'scripts/save-evidence.mjs'
       - 'tests/backlink-helpers.test.mjs'
       - 'tests/launchagentic.test.mjs'
       - 'campaign/verified-opportunities.json'
@@ -55,6 +57,8 @@ jobs:
           node --check scripts/verified-campaign.mjs
           node --check scripts/backlink-helpers.mjs
           node --check scripts/launchagentic.mjs
+          node --check scripts/evidence-merge.mjs
+          node --check scripts/save-evidence.mjs
           node --test tests/*.test.mjs
 
       - name: Submit only via approved free public APIs and verify actual backlink pages
@@ -69,27 +73,11 @@ jobs:
             echo "No report generated" >> "$GITHUB_STEP_SUMMARY"
           fi
 
-      - name: Save persistent publication evidence for hourly notifications
+      - name: Save merged evidence safely without git rebase conflicts
         if: success()
-        run: |
-          git config user.name 'TopPSArena Verification Bot'
-          git config user.email 'notifications@toppsarena.com'
-          git add state/reliable-campaign.json reports/verified-backlinks.md
-          if git diff --cached --quiet; then
-            echo "No new results to save"
-            exit 0
-          fi
-          git commit -m "Store verified TopPSArena backlink evidence"
-          for attempt in 1 2 3 4; do
-            git pull --rebase origin main
-            if git push origin HEAD:main; then
-              echo "Published verified evidence in GitHub repository"
-              exit 0
-            fi
-            sleep 3
-          done
-          echo "Could not push evidence; inspect workflow artifact"
-          exit 1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/save-evidence.mjs
 
       - name: Upload full API and backlink verification record
         if: always()
