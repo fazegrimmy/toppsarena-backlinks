@@ -352,6 +352,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:49:23.880Z",
       "landingUrl": "https://slate.com/pitch"
+    },
+    "https://startups.co.uk/contact-us": {
+      "name": "Startups UK",
+      "url": "https://startups.co.uk/contact-us",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:49:56.094Z",
+      "landingUrl": "https://startups.co.uk/contact-us/"
+    },
+    "https://theindianpreneur.com/advertise-": {
+      "name": "The Indianpreneur",
+      "url": "https://theindianpreneur.com/advertise-",
+      "status": "failed_runtime",
+      "details": "page.goto: Timeout 22000ms exceeded. Call log: - navigating to \"https://theindianpreneur.com/advertise-\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T20:50:48.187Z",
+      "landingUrl": "about:blank"
+    },
+    "https://wep.gov.in/knowledge-bank/mybl": {
+      "name": "Women Entrepreneurs Portal",
+      "url": "https://wep.gov.in/knowledge-bank/mybl",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:51:23.556Z",
+      "landingUrl": "https://wep.gov.in/"
+    },
+    "https://www.launchvault.dev": {
+      "name": "Launch Vault",
+      "url": "https://www.launchvault.dev",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:51:56.057Z",
+      "landingUrl": "https://www.launchvault.dev/sign-in?redirect=/projects/submit"
     }
   }
 }
