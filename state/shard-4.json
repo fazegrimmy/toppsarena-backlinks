@@ -192,6 +192,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:39:06.377Z",
       "landingUrl": "https://wired.business/submit"
+    },
+    "https://buildhop.io/app/create": {
+      "name": "BuildHop",
+      "url": "https://buildhop.io/app/create",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:39:38.818Z",
+      "landingUrl": "https://buildhop.io/auth/login?next=/app/create"
+    },
+    "https://www.launchpact.io/launches/new": {
+      "name": "LaunchPact",
+      "url": "https://www.launchpact.io/launches/new",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:40:10.068Z",
+      "landingUrl": "https://www.launchpact.io/login?next=%2Flaunches%2Fnew"
+    },
+    "https://www.businessseek.biz/page.php?page=submission-policy": {
+      "name": "BusinessSeek.biz",
+      "url": "https://www.businessseek.biz/page.php?page=submission-policy",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:40:41.915Z",
+      "landingUrl": "https://www.businessseek.biz/page.php?page=submission-policy#addurl"
+    },
+    "https://launched.io/": {
+      "name": "Launched!",
+      "url": "https://launched.io/",
+      "status": "failed_runtime",
+      "details": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://launched.io/ Call log: - navigating to \"https://launched.io/\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T20:41:12.313Z",
+      "landingUrl": "about:blank"
     }
   }
 }
