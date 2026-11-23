@@ -7,6 +7,15 @@
         "submittedAt": "2026-11-23T21:06:05.202Z",
         "responseSummary": "{\"error\":\"This site is already listed.\"}",
         "candidateListingUrl": null
+      },
+      "listingUrl": "https://develif.com/s/toppsarena",
+      "verification": {
+        "status": "verified_published",
+        "listedAt": "https://develif.com/s/toppsarena",
+        "destination": "https://toppsarena.com/",
+        "rel": "noopener noreferrer",
+        "followed": true,
+        "checkedAt": "2026-11-23T21:17:35.204Z"
       }
     },
     "CurlShip": {
@@ -24,7 +33,7 @@
         "destination": "https://toppsarena.com/?ref=curlship",
         "rel": "noopener nofollow",
         "followed": false,
-        "checkedAt": "2026-11-23T21:06:07.132Z"
+        "checkedAt": "2026-11-23T21:17:36.401Z"
       }
     }
   },
@@ -34,7 +43,7 @@
       "verification": {
         "status": "not_verifiable",
         "reason": "HTTP 403",
-        "checkedAt": "2026-11-23T21:06:07.193Z"
+        "checkedAt": "2026-11-23T21:17:36.543Z"
       }
     },
     "MeWebLink": {
@@ -45,7 +54,7 @@
         "destination": "https://toppsarena.com/",
         "rel": "ugc nofollow noopener noreferrer",
         "followed": false,
-        "checkedAt": "2026-11-23T21:06:07.672Z"
+        "checkedAt": "2026-11-23T21:17:36.645Z"
       }
     },
     "Zearches": {
@@ -56,9 +65,9 @@
         "destination": "https://toppsarena.com/",
         "rel": "ugc nofollow noopener noreferrer",
         "followed": false,
-        "checkedAt": "2026-11-23T21:06:08.003Z"
+        "checkedAt": "2026-11-23T21:17:36.717Z"
       }
     }
   },
-  "updatedAt": "2026-11-23T21:06:08.003Z"
+  "updatedAt": "2026-11-23T21:17:36.717Z"
 }
