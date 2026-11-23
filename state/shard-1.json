@@ -192,6 +192,38 @@
       "details": "Captcha detected; not bypassed",
       "checkedAt": "2026-11-23T20:11:40.075Z",
       "landingUrl": "https://www.viralindiandiary.com/submit-here/"
+    },
+    "https://althunt.io/new": {
+      "name": "Alt Hunt",
+      "url": "https://althunt.io/new",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:12:12.862Z",
+      "landingUrl": "https://althunt.io/new"
+    },
+    "https://www.g2crowd.com/products/new": {
+      "name": "G2 Crowd",
+      "url": "https://www.g2crowd.com/products/new",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:12:43.943Z",
+      "landingUrl": "https://www.g2.com/products/new"
+    },
+    "https://tools.cafe/new": {
+      "name": "tools.cafe",
+      "url": "https://tools.cafe/new",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:13:16.661Z",
+      "landingUrl": "https://tools.cafe/submit"
+    },
+    "https://www.txtlinks.com/sug_url.php?cat_id=0": {
+      "name": "TXTLinks",
+      "url": "https://www.txtlinks.com/sug_url.php?cat_id=0",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:13:47.812Z",
+      "landingUrl": "https://www.txtlinks.com/sug_url.php?cat_id=0"
     }
   }
 }
