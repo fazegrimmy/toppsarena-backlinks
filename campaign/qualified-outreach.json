@@ -689,6 +689,138 @@
       "backlinkVerified": false,
       "notes": "Free regular submission appears supported but terms checkbox and arithmetic challenge require human review.",
       "evidence": "https://www.siteswebdirectory.com/submit.php?LINK_TYPE=2"
+    },
+    {
+      "name": "PostLaunchKit",
+      "url": "https://postlaunchkit.com/for-agents",
+      "submissionUrl": "https://postlaunchkit.com/api/v1/submit",
+      "type": "gaming_and_general_product_directory",
+      "fit": "Accepts games, web products and useful projects; TopPSArena is a live gaming community directory.",
+      "priority": "high",
+      "status": "documented_free_keyless_api_review_queue",
+      "automationAllowed": false,
+      "requiresHumanReview": false,
+      "requiresAccount": false,
+      "approvalBasis": "Official OpenAPI explicitly permits anonymous JSON POST and a free Games category; accepted submissions await editorial approval. Not yet integrated in live workflow.",
+      "postPayload": {
+        "name": "TopPSArena",
+        "url": "https://toppsarena.com",
+        "one_liner": "Discover and compare private gaming servers across multiple games.",
+        "why_try": "Players can browse private server communities and vote for favourites; server owners can list a server and review activity.",
+        "category": "games",
+        "tags": [
+          "gaming",
+          "private-servers",
+          "server-directory"
+        ],
+        "agent_name": "TopPSArena DirectoryBot"
+      },
+      "linkPolicy": "Default ugc nofollow; reciprocal badge optional and not to be added",
+      "verificationPlan": "GET /api/v1/submissions/{id}; only count after page_url is approved and public HTML anchor verified",
+      "sources": [
+        "https://postlaunchkit.com/for-agents",
+        "https://postlaunchkit.com/openapi.json",
+        "https://postlaunchkit.com/directory/submit/"
+      ],
+      "source": "Parallel research, official pages fetched 2026-11-23",
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "GameNav",
+      "url": "https://game-nav.com/submit",
+      "type": "gaming_resource_directory",
+      "fit": "Explicit gaming resources, tools and communities; requires at least one authentic interface screenshot.",
+      "priority": "high",
+      "status": "free_owner_login_and_editorial_review",
+      "automationAllowed": false,
+      "requiresAccount": true,
+      "requiresHumanReview": true,
+      "approvalBasis": "Official submission page shows free $0 no-badge tier, login and 5-7 business day editorial review",
+      "linkPolicy": "Unverified",
+      "sources": [
+        "https://game-nav.com/submit"
+      ],
+      "source": "Parallel research, official pages fetched 2026-11-23",
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "AZN8",
+      "url": "https://azn8.com/docs/agents",
+      "submissionUrl": "https://azn8.com/api/v1/listings",
+      "type": "general_product_directory",
+      "fit": "Can list general products as 'other'; gaming niche not specifically named, editorial relevance needs recheck.",
+      "priority": "medium",
+      "status": "free_agent_registration_api_key_required",
+      "requiresAccount": true,
+      "requiresHumanReview": false,
+      "automationAllowed": false,
+      "approvalBasis": "Official docs permit API registration then authenticated JSON listing, no badge/payment; returned public HTML claimed followed, unverified for TopPSArena",
+      "linkPolicy": "Provider claims followed external link, independently verify",
+      "sources": [
+        "https://azn8.com/docs/agents"
+      ],
+      "source": "Parallel research, official pages fetched 2026-11-23",
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "Foundry79",
+      "url": "https://sharaco.xyz/add.php",
+      "type": "general_website_directory",
+      "fit": "Gaming and Technology categories accept active websites, but promote a 500+ directory network; low SEO confidence.",
+      "priority": "low",
+      "status": "free_form_review_quality_risk",
+      "requiresAccount": false,
+      "requiresHumanReview": true,
+      "automationAllowed": false,
+      "approvalBasis": "Official simple free web form, human review, optional contact email; directory links to mass-submission network.",
+      "linkPolicy": "Unverified; risk of low-quality mass link network association",
+      "sources": [
+        "https://sharaco.xyz/add.php",
+        "https://sharaco.xyz/"
+      ],
+      "source": "Parallel research, official pages fetched 2026-11-23",
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "Not Human Search",
+      "url": "https://nothumansearch.ai/",
+      "type": "agent_website_index",
+      "fit": "Indexes websites with agent-readable APIs/metadata; TopPSArena should only apply after confirming machine-readable readiness.",
+      "priority": "low",
+      "status": "free_agent_site_index_fit_unconfirmed",
+      "requiresAccount": false,
+      "requiresHumanReview": true,
+      "automationAllowed": false,
+      "approvalBasis": "Read-only catalog site and agent readiness material observed; eligibility of TopPSArena and exact submission contract not fully established",
+      "linkPolicy": "Unverified",
+      "sources": [
+        "https://nothumansearch.ai/"
+      ],
+      "source": "Parallel research, official pages fetched 2026-11-23",
+      "submissionAttempted": false,
+      "backlinkVerified": false
     }
-  ]
+  ],
+  "parallelResearchSources": [
+    {
+      "name": "SubmitMyStartup (read-only dataset)",
+      "url": "https://submitmystartup.com/api",
+      "value": "1,097 places with per-site free, acceptance, required account and observed submission outcome fields. Not a submission API. Last source update 2026-11-20."
+    },
+    {
+      "name": "r88z (read-only dataset)",
+      "url": "https://r88z.com/agents",
+      "value": "572 website directory data points; agent-friendly marker does not guarantee TopPSArena fit or a verified backlink; API at /api/directories."
+    },
+    {
+      "name": "PostLaunchKit (read-only dataset)",
+      "url": "https://postlaunchkit.com/launch-directories/",
+      "value": "Sourced, dated free-tier requirements; 7 checked options and 29 research rows; direct JSON API."
+    }
+  ],
+  "researchUpdate": "2026-11-23"
 }
