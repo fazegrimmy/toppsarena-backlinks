@@ -1,34 +1,33 @@
-# TopPSArena — free directory campaign
+# TopPSArena — Verified Free Backlinks
 
 Website: **https://toppsarena.com**
 
-This public repository contains a **250-site directory research and screening queue** for TopPSArena, a private gaming server toplist. The list is derived from the open-source BacklinkFlow dataset (pinned 15 October 2026). **These are unverified candidates, not 250 confirmed suitable or free listings.**
+**The old 250/519-site bulk submission workflow is retired.** The old candidate archives and their state records remain in this repository for audit, but they are **not** inputs to the active workflow.
 
-## Start on Android
+## Active automation
 
-1. Open **[GitHub Actions](https://github.com/fazegrimmy/toppsarena-backlinks/actions/workflows/toppsarena-backlinks.yml)**.
-2. Choose **Run workflow**.
-3. Choose **preview** to view the entire 250-site queue, divided into five downloadable reports. Preview never submits anything.
-4. To perform a single run covering the full queue, choose **submit**, type **SUBMIT** and supply a **public TopPSArena contact email**. Confirm the run once. Five jobs share the 250 candidates, with at most three running at once.
-5. Inspect each job's status and download the artifacts after completion. A **reported submission** is *not* a **published backlink**.
+[Open the verified-backlink GitHub Actions workflow](https://github.com/fazegrimmy/toppsarena-backlinks/actions/workflows/toppsarena-backlinks.yml)
 
-The runner searches each candidate for an appropriate website listing form, follows a same-site 'Submit' link where available, and skips obvious login, human challenge, payment, missing-form and required-agreement obstacles. It does not bypass CAPTCHA, automate account creation, or pay fees. Some sites will remain manual-only. It does not guarantee 250 live backlinks.
+The workflow checks and, where needed, submits the site only to **explicitly documented, no-cost directory APIs that welcome automated submissions**. It runs automatically after changes to its workflow or script and **twice daily by schedule** (GitHub schedule timing can vary). Manual **submit** and **verify** modes are also available. An existing hourly ChatGPT automation independently checks reported results for new *published* backlinks.
 
-## Repeated runs and progress
+Currently approved publishers:
 
-For live mode the workflow saves checkpoints after every four processed candidates in `state/shard-0.json` through `state/shard-4.json`. The next run skips URLs already checked; the entire queue need not be restarted manually. Each job also uploads a report in its **Artifacts** section. The queue is fixed per version, so sites are not reassigned when the workflow is resumed.
+- **DevElif** — [public API docs](https://develif.com/docs), free, no account, includes **Gaming** category and advertises followed links. Initial API response was **HTTP 409 already listed**, so a new submission was not made and the pre-existing listing's public URL has not yet been verified.
+- **CurlShip** — [public OpenAPI](https://curlship.com/openapi.json), free with a **nofollow** link. The API explicitly accepts bots. Initial HTTP 201 submission resulted in [a verified public TopPSArena listing](https://curlship.com/l/11593) with a direct link to the site.
 
-**Zero credits:** No paid AI endpoint or metered plugin is used. The software is open source and GitHub currently provides free standard hosted runners for public repositories, although provider policies and listing fees can change.
+**A green GitHub workflow, HTTP 201, redirect, or 'submitted' message is not a verified backlink.** A public listing must be retrievable and contain an HTML anchor directly linking to `toppsarena.com`. `nofollow`, `ugc`, and followed status are recorded distinctly. No one claims a ranking benefit based solely on presence of a link.
 
-## Important SEO limitations
+## Reports and evidence
 
-Large-scale directory submissions on low-quality websites can be counterproductive for search performance. The candidate queue includes websites that may be irrelevant, stale, require paid upgrades, or disallow submissions. The tool screens these and records why it skipped them.
+- `state/reliable-campaign.json`: API response status, publication evidence, timestamp, link relationship, and known-link rechecks.
+- `reports/verified-backlinks.md`: human-readable table of actual publicly verified backlink pages, not submission URLs.
+- `campaign/verified-opportunities.json`: reviewed sites with API documentation and free/automation permission.
+- `scripts/verified-campaign.mjs`: checked-in Node.js implementation using native HTTP and strict backlink verification.
 
-For actual SEO reporting, check that a published page exists, that it contains a visible link to https://toppsarena.com and that the referring site is relevant. Avoid claims of verified dofollow links until that has been checked.
+The runner posts to each preapproved publisher **at most once after a definite HTTP response**, so scheduled checks do not create duplicate submissions. It never uses paid listings, bypasses CAPTCHAs, or opens accounts. It stores reports in GitHub and uploads workflow artifacts.
 
-## Files
+## Previous campaign
 
-- `campaign/candidates.json` — 250 deduplicated potential targets, marked as unverified
-- `scripts/campaign.mjs` — browser-based screening, form-filling and status tracker
-- `.github/workflows/toppsarena-backlinks.yml` — one-click 5-shard GitHub Actions workflow
-- `state/shard-*.json` — persistent results written only after live screening
+Earlier runs attempted generic directories from `campaign/candidates.json` and checked a 519-site research database. A site being listed in the research database is **not** evidence it is relevant, free, or able to accept a form submission. These are retained as historical research only; the active workflow does not read them.
+
+For new publishers, require public evidence that the destination supports legitimate free submissions for a private gaming-server directory and explicitly permits the proposed submission method. Add a narrowly reviewed adapter—never blindly resume bulk submissions.
