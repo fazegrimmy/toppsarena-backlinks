@@ -32,6 +32,38 @@
       "details": "page.goto: net::ERR_CONNECTION_CLOSED at https://www.insanelycooltools.com/submit Call log: - navigating to \"https://www.insanelycooltools.com/submit\", waiting until \"domcontentloaded\"",
       "checkedAt": "2026-11-23T20:00:26.122Z",
       "landingUrl": "about:blank"
+    },
+    "https://www.uneed.best/promote-your-tool": {
+      "name": "Uneed",
+      "url": "https://www.uneed.best/promote-your-tool",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:01:00.810Z",
+      "landingUrl": "https://www.uneed.best/pricing"
+    },
+    "https://www.prolinkdirectory.com/submit.php": {
+      "name": "ProLinkDirectory",
+      "url": "https://www.prolinkdirectory.com/submit.php",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:01:32.321Z",
+      "landingUrl": "https://www.prolinkdirectory.com/submit.php"
+    },
+    "https://bufferapps.com/beta-listing/new": {
+      "name": "BufferApps",
+      "url": "https://bufferapps.com/beta-listing/new",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T20:02:06.144Z",
+      "landingUrl": "https://bufferapps.com/submit-product"
+    },
+    "https://www.ontoplist.com/join/": {
+      "name": "OnToplist.com",
+      "url": "https://www.ontoplist.com/join/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:02:37.202Z",
+      "landingUrl": "https://www.ontoplist.com/join/"
     }
   }
 }
