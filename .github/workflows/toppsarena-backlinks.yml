@@ -1,146 +1,87 @@
-name: TopPSArena - Free directory submission
+name: TopPSArena - 250 directory campaign
 
 on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Preview first; submit only after reviewing target sites'
-        type: choice
-        default: preview
+        description: 'Preview all 250 candidates or submit to qualifying forms'
         required: true
+        default: preview
+        type: choice
         options:
           - preview
           - submit
       confirmation:
-        description: 'For submit mode type SUBMIT'
-        type: string
+        description: 'Type SUBMIT for live mode'
         required: false
+        type: string
       contact_email:
-        description: 'Public contact email for submissions (submit mode only)'
-        type: string
+        description: 'Public TopPSArena contact email (only for submit mode)'
         required: false
+        type: string
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/toppsarena-backlinks.yml'
+      - 'scripts/campaign.mjs'
+      - 'campaign/candidates.json'
+      - 'package.json'
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
-  group: toppsarena-backlink-submissions
+  group: toppsarena-directory-campaign
   cancel-in-progress: false
 
 jobs:
-  backlinkflow:
-    name: Preview or attempt three free directory submissions
+  campaign:
+    name: Directory campaign shard ${{ matrix.shard }} of 5
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        shard: [0, 1, 2, 3, 4]
     env:
-      RUN_MODE: ${{ inputs.mode }}
+      RUN_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'preview' }}
+      SHARD: ${{ matrix.shard }}
       CONFIRM: ${{ inputs.confirmation }}
       CONTACT_EMAIL: ${{ inputs.contact_email }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - name: Validate manual submission approval
-        shell: bash
-        run: |
-          if [[ "$RUN_MODE" == "submit" ]]; then
-            if [[ "$CONFIRM" != "SUBMIT" ]]; then
-              echo 'Blocked: type SUBMIT in the confirmation input.'
-              exit 1
-            fi
-            if [[ -z "$CONTACT_EMAIL" || "$CONTACT_EMAIL" != *@* ]]; then
-              echo 'Blocked: please supply a public contact email.'
-              exit 1
-            fi
-          fi
-          if [[ "$RUN_MODE" != "preview" && "$RUN_MODE" != "submit" ]]; then
-            echo 'Invalid mode'
-            exit 1
-          fi
+      - name: Check out candidate queue and previous checkpoints
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
-      - name: Check out pinned open-source BacklinkFlow
-        shell: bash
-        run: |
-          mkdir engine
-          cd engine
-          git init -q
-          git remote add origin https://github.com/imsankz/backlinkflow.git
-          git fetch -q --depth 1 origin b312c9e83b6f6e9b4fd012bc5eb505a7062dde7d
-          git checkout -q FETCH_HEAD
-          npm install --no-audit --no-fund
-          npm run build
+      - name: Install free browser automation library
+        run: npm install --no-audit --no-fund
 
-      - name: Configure TopPSArena without any paid AI API
-        working-directory: engine
-        shell: bash
-        run: |
-          node <<'JS'
-          const fs = require('node:fs');
-          const yaml = require('js-yaml');
-          const config = {
-            siteName: 'TopPSArena',
-            siteUrl: 'https://toppsarena.com',
-            siteEmail: process.env.CONTACT_EMAIL || '',
-            siteDescription: 'TopPSArena is a free multi-game private server directory where players discover gaming communities, explore server profiles and vote in game-specific rankings. Server owners can list their communities and view listing performance.',
-            tags: ['gaming', 'private servers', 'game server directory', 'gaming communities', 'server voting'],
-            contentDomain: 'gaming communities and private server listings',
-            writingSample: 'Explore private game servers and vote for your favourites on TopPSArena. Server owners can create free listings and monitor engagement.',
-            ai: { provider: 'none', baseUrl: '', apiKey: '', model: '', maxCallsPerRun: 0 },
-            pacing: { minSeconds: 90, perDay: 3 }
-          };
-          fs.writeFileSync('linkflow.config.json', JSON.stringify(config, null, 2));
+      - name: Validate the campaign script
+        run: npm run check
 
-          // Use a limited allowlist. These are candidates, not guaranteed free live listings.
-          const allow = ['ASR', 'Offpagesavvy', 'WebsiteHunt', '10words'];
-          const db = yaml.load(fs.readFileSync('data/directories.yaml', 'utf8'));
-          const selected = {};
-          const found = new Set();
-          for (const [category, entries] of Object.entries(db)) {
-            for (const item of entries) {
-              if (!allow.includes(item.name)) continue;
-              if (item.auto !== 'yes' || item.type !== 'form' || item.lang !== 'en') continue;
-              if (['paid', 'dead'].includes(item.status)) continue;
-              if (!item.submitUrl?.startsWith('https://')) continue;
-              if (/paid|badge required|reciprocal/i.test(item.notes || '')) continue;
-              (selected[category] ||= []).push(item);
-              found.add(item.name);
-            }
-          }
-          const missing = allow.filter(name => !found.has(name));
-          if (missing.length) throw new Error('Candidate unavailable in upstream list: ' + missing.join(', '));
-          fs.writeFileSync('data/directories.yaml', yaml.dump(selected));
-          console.log('Candidate directories:', [...found].join(', '));
-          console.log('No paid AI API is configured.');
-          JS
-
-      - name: Install browser for live mode only
-        if: inputs.mode == 'submit'
-        working-directory: engine
-        shell: bash
+      - name: Install browser for approved live mode only
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'submit'
         run: npx playwright install --with-deps chromium
 
-      - name: Run preview or limited submission
-        working-directory: engine
-        shell: bash
-        run: |
-          set -o pipefail
-          if [[ "$RUN_MODE" == "preview" ]]; then
-            node bin/linkflow.js submit https://toppsarena.com --dry-run --limit 4 2>&1 | tee submission-log.txt
-          else
-            node bin/linkflow.js submit https://toppsarena.com --go --limit 4 2>&1 | tee submission-log.txt
-          fi
+      - name: Preview all candidates or run live screening
+        run: node scripts/campaign.mjs
 
-      - name: Save logs and attempted-submission evidence
+      - name: Upload screening records for this shard
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: toppsarena-backlink-results
+          name: toppsarena-directory-shard-${{ matrix.shard }}
           path: |
-            engine/submission-log.txt
-            engine/.linkflow/tracker.json
-            engine/.linkflow/report.md
-            engine/.linkflow/proofs/
-          retention-days: 7
+            results/
+            state/shard-${{ matrix.shard }}.json
           if-no-files-found: warn
+          retention-days: 30
