@@ -1,0 +1,30 @@
+name: TopPSArena - Backlink verification tests
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/verified-campaign.mjs'
+      - 'scripts/backlink-helpers.mjs'
+      - 'tests/backlink-helpers.test.mjs'
+      - '.github/workflows/test-backlinks.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Validate backlink safety and publication checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate syntax
+        run: |
+          node --check scripts/verified-campaign.mjs
+          node --check scripts/backlink-helpers.mjs
+      - name: Run unit tests (no external submissions)
+        run: node --test tests/backlink-helpers.test.mjs
