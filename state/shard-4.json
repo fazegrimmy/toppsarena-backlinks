@@ -128,6 +128,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T20:34:46.728Z",
       "landingUrl": "https://launchnest.io/signin?next=%2Fsubmit"
+    },
+    "https://letterlist.com/submit": {
+      "name": "Letter List",
+      "url": "https://letterlist.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:35:19.781Z",
+      "landingUrl": "https://letterlist.com/submit/#wp--skip-link--target"
+    },
+    "https://mydentify.com/submit": {
+      "name": "Mydentify",
+      "url": "https://mydentify.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:35:51.326Z",
+      "landingUrl": "https://mydentify.com/submit"
+    },
+    "https://productwatch.io/product/create": {
+      "name": "Product Watch",
+      "url": "https://productwatch.io/product/create",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:36:22.674Z",
+      "landingUrl": "https://productwatch.io/product/create"
+    },
+    "https://sidebar.io/submit": {
+      "name": "Sidebar",
+      "url": "https://sidebar.io/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:36:58.038Z",
+      "landingUrl": "https://sidebar.io/log-in?redirect=/submit"
     }
   }
 }
