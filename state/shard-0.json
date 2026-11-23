@@ -320,6 +320,38 @@
       "details": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.dodomrr.com/ Call log: - navigating to \"https://www.dodomrr.com/\", waiting until \"domcontentloaded\"",
       "checkedAt": "2026-11-23T20:20:18.105Z",
       "landingUrl": "about:blank"
+    },
+    "https://indiegamereviewer.com/contact-ir": {
+      "name": "Indie Gamer Reviewer",
+      "url": "https://indiegamereviewer.com/contact-ir",
+      "status": "failed_runtime",
+      "details": "page.goto: Timeout 22000ms exceeded. Call log: - navigating to \"https://indiegamereviewer.com/contact-ir\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T20:21:11.485Z",
+      "landingUrl": "about:blank"
+    },
+    "https://www.makeuseof.com/contributor": {
+      "name": "Make Use Of",
+      "url": "https://www.makeuseof.com/contributor",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:21:43.924Z",
+      "landingUrl": "https://www.makeuseof.com/contributor/"
+    },
+    "https://outbid.lol/": {
+      "name": "Outbid",
+      "url": "https://outbid.lol/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:22:14.811Z",
+      "landingUrl": "https://outbid.lol/"
+    },
+    "https://proofstories.io/directory": {
+      "name": "Proofstories",
+      "url": "https://proofstories.io/directory",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:22:48.106Z",
+      "landingUrl": "https://proofstories.io/submit/"
     }
   }
 }
