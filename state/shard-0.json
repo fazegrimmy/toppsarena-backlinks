@@ -32,6 +32,38 @@
       "details": "Cannot identify safe listing submit button",
       "checkedAt": "2026-11-23T20:00:18.003Z",
       "landingUrl": "https://changelog.com/news/submit"
+    },
+    "https://thestartuppitch.com/post-a-pitch/": {
+      "name": "The Startup Pitch",
+      "url": "https://thestartuppitch.com/post-a-pitch/",
+      "status": "failed_runtime",
+      "details": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://thestartuppitch.com/post-a-pitch/ Call log: - navigating to \"https://thestartuppitch.com/post-a-pitch/\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T20:00:49.597Z",
+      "landingUrl": "about:blank"
+    },
+    "https://www.jayde.com/submit.html": {
+      "name": "Jayde",
+      "url": "https://www.jayde.com/submit.html",
+      "status": "skipped_required_fields",
+      "details": "Unfilled required fields: business_name f-business business name",
+      "checkedAt": "2026-11-23T20:01:21.069Z",
+      "landingUrl": "https://www.jayde.com/submit.html"
+    },
+    "https://viesearch.com/submit": {
+      "name": "Viesearch",
+      "url": "https://viesearch.com/submit",
+      "status": "reported_submitted",
+      "details": "Success or review message detected; publication NOT verified",
+      "checkedAt": "2026-11-23T20:01:54.851Z",
+      "landingUrl": "https://viesearch.com/submit"
+    },
+    "https://www.techdirectory.io/get-listed": {
+      "name": "techdirectory.io",
+      "url": "https://www.techdirectory.io/get-listed",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:02:26.096Z",
+      "landingUrl": "https://www.techdirectory.io/get-listed"
     }
   }
 }
