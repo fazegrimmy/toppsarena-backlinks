@@ -6,8 +6,11 @@ on:
       - 'scripts/verified-campaign.mjs'
       - 'scripts/backlink-helpers.mjs'
       - 'scripts/launchagentic.mjs'
+      - 'scripts/evidence-merge.mjs'
+      - 'scripts/save-evidence.mjs'
       - 'tests/backlink-helpers.test.mjs'
       - 'tests/launchagentic.test.mjs'
+      - 'tests/evidence-merge.test.mjs'
       - '.github/workflows/test-backlinks.yml'
   workflow_dispatch:
 
@@ -29,5 +32,7 @@ jobs:
           node --check scripts/verified-campaign.mjs
           node --check scripts/backlink-helpers.mjs
           node --check scripts/launchagentic.mjs
+          node --check scripts/evidence-merge.mjs
+          node --check scripts/save-evidence.mjs
       - name: Run unit tests (no external submissions)
         run: node --test tests/*.test.mjs
