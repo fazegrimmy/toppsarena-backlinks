@@ -27,6 +27,7 @@ Current results are in [reports/verified-backlinks.md](reports/verified-backlink
 - An existing accepted/rejected submission response is persisted in `state/reliable-campaign.json`, so it is not re-sent on schedules. TechTools and PostLaunchKit use public exact-domain lookup before a POST; PostLaunchKit also tracks the reviewer-issued read-only status UUID.
 - Only reviewed provider IDs and their documented free APIs are ever allowed to receive submissions. No generic 519-site form submission loop.
 - No payments, user accounts, CAPTCHA bypass, forced reciprocal badges, artificial votes or repeated mass submissions.
+- A strict cap of **four recorded free submission attempts per UTC day** prevents bursts. Research and independent publication verification still run even when the cap is reached; see `scripts/submission-policy.mjs` and its tests.
 - Directory private edit keys, queue tickets and owner-contact fields are redacted before saving the **public** repository. Never store private tokens in the repo.
 - Temporary submission queues are retried using in-memory signed tickets during the same workflow run when timing permits; unresolved queues remain **pending**, not successful.
 - Existing published links are rechecked. Failed fetches (403, network errors, JavaScript rendering) are labelled **not verifiable**, not automatically deleted.
@@ -34,7 +35,7 @@ Current results are in [reports/verified-backlinks.md](reports/verified-backlink
 ## Quality checks and reporting
 
 `scripts/backlink-helpers.mjs` contains site validation, proof parsing, secret redaction and status classification.
-`tests/backlink-helpers.test.mjs`, `tests/postlaunchkit.test.mjs`, and `tests/launchsignal.test.mjs` contain native Node.js regression tests.
+`tests/backlink-helpers.test.mjs`, `tests/postlaunchkit.test.mjs`, `tests/launchsignal.test.mjs`, and `tests/submission-policy.test.mjs` contain native Node.js regression tests.
 `scripts/verified-campaign.mjs` runs the eligible API submissions and independent publication checks.
 
 The GitHub Actions job must pass its syntax and unit tests before submitting.
@@ -47,7 +48,7 @@ The GitHub Actions job must pass its syntax and unit tests before submitting.
 
 ## Qualified gaming opportunities
 
-Research in [`campaign/qualified-outreach.json`](campaign/qualified-outreach.json) identifies **12 specific directories and outreach candidates** relevant to gaming sites or website directories, with **eight other destinations explicitly excluded** due to reciprocal-link, paid, gambling, or wrong-product requirements. Owner-account sites (XtremeTop100, RaGEZONE Top Sites, etc.) are deliberately not auto-submitted. The research queue is **not** a count of submitted links.
+Research in [`campaign/qualified-outreach.json`](campaign/qualified-outreach.json) is a growing, screened lead database — **not** a count of real submitted or published backlinks. Owner-account and challenge-gated sites (WebsiteHunt, GameNav, etc.) are deliberately not auto-submitted. A [mobile-friendly owner submission pack](campaign/mobile-owner-submission-pack.md) includes truthful copy and direct forms for Webwiki, Add My URL, 1 Webs Directory, All Business Directory and account-gated gaming sites. Never create fake owner identity or game server records.
 
 ## Stable evidence persistence
 
