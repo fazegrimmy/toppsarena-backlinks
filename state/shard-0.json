@@ -624,6 +624,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:12:49.841Z",
       "landingUrl": "https://web-review.com/submit"
+    },
+    "https://www.postman.com": {
+      "name": "Postman",
+      "url": "https://www.postman.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:13:22.859Z",
+      "landingUrl": "https://www.postman.com/"
+    },
+    "https://apislist.com": {
+      "name": "API List",
+      "url": "https://apislist.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:13:54.375Z",
+      "landingUrl": "https://apislist.com/"
+    },
+    "https://curatetheinternet.com": {
+      "name": "Curate the Internet",
+      "url": "https://curatetheinternet.com",
+      "status": "skipped_required_fields",
+      "details": "Unfilled required fields: name s-name what is it called? name",
+      "checkedAt": "2026-11-23T21:14:26.547Z",
+      "landingUrl": "https://curatetheinternet.com/submit"
+    },
+    "https://scrappystartups.com": {
+      "name": "Scrappy Startups",
+      "url": "https://scrappystartups.com",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T21:14:57.991Z",
+      "landingUrl": "https://scrappystartups.com/"
     }
   }
 }
