@@ -1,6 +1,6 @@
 # TopPSArena — verified backlink evidence
 
-Updated: 2026-11-23T22:49:09.724Z
+Updated: 2026-11-23T22:49:28.507Z
 
 ## Public HTML-verified backlinks (5)
 
@@ -30,5 +30,6 @@ Counted only after an independently fetched public listing has an HTML anchor to
 | PromoteIndex | 201 | api_accepted_not_yet_verified | — | verified_published |
 | LaunchAgentic | 200 | already_listed | — | not_verifiable |
 | PostLaunchKit | 202 | queued_not_published | pending_review | pending |
+| LaunchSignal | 201 | queued_not_published | pending_or_unavailable | pending |
 
 Failed retrieval and JS-only API records are not counted. No paid listings, CAPTCHA bypasses, or reciprocal links are used.
