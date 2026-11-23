@@ -20,8 +20,11 @@ on:
       - '.github/workflows/toppsarena-backlinks.yml'
       - 'scripts/verified-campaign.mjs'
       - 'scripts/backlink-helpers.mjs'
+      - 'scripts/launchagentic.mjs'
       - 'tests/backlink-helpers.test.mjs'
+      - 'tests/launchagentic.test.mjs'
       - 'campaign/verified-opportunities.json'
+      - 'campaign/qualified-outreach.json'
 
 permissions:
   contents: write
@@ -51,7 +54,8 @@ jobs:
         run: |
           node --check scripts/verified-campaign.mjs
           node --check scripts/backlink-helpers.mjs
-          node --test tests/backlink-helpers.test.mjs
+          node --check scripts/launchagentic.mjs
+          node --test tests/*.test.mjs
 
       - name: Submit only via approved free public APIs and verify actual backlink pages
         run: node scripts/verified-campaign.mjs
