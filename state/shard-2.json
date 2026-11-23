@@ -256,6 +256,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:15:32.654Z",
       "landingUrl": "https://forsale.godaddy.com/forsale/www.startupcosts.co?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&"
+    },
+    "https://www.projecthatch.co/your-story": {
+      "name": "Project Hatch",
+      "url": "https://www.projecthatch.co/your-story",
+      "status": "failed_runtime",
+      "details": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.projecthatch.co/your-story Call log: - navigating to \"https://www.projecthatch.co/your-story\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T20:16:04.413Z",
+      "landingUrl": "about:blank"
+    },
+    "https://desifounder.com/spotlight": {
+      "name": "Desifounder",
+      "url": "https://desifounder.com/spotlight",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:16:36.799Z",
+      "landingUrl": "https://desifounder.com/spotlight/2026/48"
+    },
+    "https://bowora.com/register": {
+      "name": "Bowora",
+      "url": "https://bowora.com/register",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:17:08.645Z",
+      "landingUrl": "https://bowora.com/register"
+    },
+    "https://img.shields.io/badge/Directories-582-blue?style=for-the-badge": {
+      "name": "'![Directories'",
+      "url": "https://img.shields.io/badge/Directories-582-blue?style=for-the-badge",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:17:46.495Z",
+      "landingUrl": "https://img.shields.io/badge/Directories-582-blue?style=for-the-badge"
     }
   }
 }
