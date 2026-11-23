@@ -288,6 +288,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:45:07.883Z",
       "landingUrl": "https://americanstartups.com/share-your-story/"
+    },
+    "https://betatesting.com/beta-testing": {
+      "name": "Beta Testing",
+      "url": "https://betatesting.com/beta-testing",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:45:40.011Z",
+      "landingUrl": "https://betatesting.com/beta-testing"
+    },
+    "https://www.cabinetm.com/information/m": {
+      "name": "Cabinet",
+      "url": "https://www.cabinetm.com/information/m",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:46:11.599Z",
+      "landingUrl": "https://cabinetmsd.my.canva.site/"
+    },
+    "https://www.cuspera.com/vendors": {
+      "name": "Cuspera e27",
+      "url": "https://www.cuspera.com/vendors",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:46:42.599Z",
+      "landingUrl": "https://www.cuspera.com/vendors"
+    },
+    "https://geekopedia.me/write-for-us": {
+      "name": "Geekopedia",
+      "url": "https://geekopedia.me/write-for-us",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:47:13.728Z",
+      "landingUrl": "https://geekopedia.me/write-for-us"
     }
   }
 }
