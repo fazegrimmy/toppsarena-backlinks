@@ -224,6 +224,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:13:47.812Z",
       "landingUrl": "https://www.txtlinks.com/sug_url.php?cat_id=0"
+    },
+    "https://once.tools/": {
+      "name": "once.tools",
+      "url": "https://once.tools/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:14:21.177Z",
+      "landingUrl": "https://once.tools/submit"
+    },
+    "https://www.startupranking.com/": {
+      "name": "StartupRanking",
+      "url": "https://www.startupranking.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:14:52.257Z",
+      "landingUrl": "https://www.startupranking.com/"
+    },
+    "https://smollaunch.com/dashboard/products/new": {
+      "name": "Smol Launch",
+      "url": "https://smollaunch.com/dashboard/products/new",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:15:24.303Z",
+      "landingUrl": "https://smollaunch.com/login"
+    },
+    "https://resource.fyi/account/submit": {
+      "name": "Resource FYI",
+      "url": "https://resource.fyi/account/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:15:57.514Z",
+      "landingUrl": "https://resource.fyi/login"
     }
   }
 }
