@@ -320,6 +320,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:47:13.728Z",
       "landingUrl": "https://geekopedia.me/write-for-us"
+    },
+    "https://listyouridea.com/launch": {
+      "name": "ListYourIdea",
+      "url": "https://listyouridea.com/launch",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:47:50.249Z",
+      "landingUrl": "https://listyouridea.com/projects/submit"
+    },
+    "https://ogfolio.com/": {
+      "name": "OGFolio",
+      "url": "https://ogfolio.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:48:21.910Z",
+      "landingUrl": "https://www.ogfolio.com/"
+    },
+    "https://www.pitchbook.com/sponsorship": {
+      "name": "PitchBook",
+      "url": "https://www.pitchbook.com/sponsorship",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:48:52.877Z",
+      "landingUrl": "https://pitchbook.com/sponsorship"
+    },
+    "https://slate.com/pitch": {
+      "name": "Slate",
+      "url": "https://slate.com/pitch",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:49:23.880Z",
+      "landingUrl": "https://slate.com/pitch"
     }
   }
 }
