@@ -1,0 +1,37 @@
+{
+  "shard": 4,
+  "records": {
+    "https://www.freeprwebdirectory.com/submit.php": {
+      "name": "Free PR Web Directory",
+      "url": "https://www.freeprwebdirectory.com/submit.php",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:26:38.911Z",
+      "landingUrl": "https://www.freeprwebdirectory.com/submit.php"
+    },
+    "https://www.ukinternetdirectory.net/submit.php": {
+      "name": "UK Internet Directory",
+      "url": "https://www.ukinternetdirectory.net/submit.php",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:27:10.530Z",
+      "landingUrl": "https://www.ukinternetdirectory.net/submit.php"
+    },
+    "https://www.business-software.com/add-your-product/": {
+      "name": "business-software.com",
+      "url": "https://www.business-software.com/add-your-product/",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:27:41.644Z",
+      "landingUrl": "https://www.business-software.com/add-your-product/"
+    },
+    "https://www.techpluto.com/submit-a-startup/": {
+      "name": "TechPluto",
+      "url": "https://www.techpluto.com/submit-a-startup/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:28:15.095Z",
+      "landingUrl": "https://www.techpluto.com/submit-startup/"
+    }
+  }
+}
