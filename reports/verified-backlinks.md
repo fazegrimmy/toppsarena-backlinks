@@ -1,6 +1,6 @@
 # TopPSArena — independent backlink evidence
 
-Generated: 2026-11-23T21:29:46.761Z
+Generated: 2026-11-23T21:32:18.615Z
 
 ## Public HTML-verified backlinks (5)
 
@@ -30,5 +30,6 @@ A provider listing API can confirm publication while the public page itself is r
 | CurlShip | 201 | api_accepted_not_yet_verified | verified_published |
 | TechTools Launchpad | 200 | already_listed | verified_public_api_record |
 | PromoteIndex | 201 | api_accepted_not_yet_verified | verified_published |
+| LaunchAgentic | 200 | already_listed | not_verifiable |
 
 Published means a page actually links to TopPSArena. A successful workflow, API 201, review notice, or redirect alone never does. Results are rechecked, and unverified does not imply deleted.
