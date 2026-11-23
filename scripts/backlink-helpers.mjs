@@ -64,8 +64,8 @@ export function findOutbound(html,pageUrl) {
 }
 export function classifyApiResponse(status,body) {
   if(status===409 && /already|duplicate|listed|exists/i.test(JSON.stringify(body)))return 'already_listed';
+  if(status===202 || body?.code==='submission_queue' || body?.error?.code==='submission_queue' || body?.error==='submission_queue')return 'queued_not_published';
   if(status===429)return 'rate_limited';
-  if(status===202 || body?.code==='submission_queue' || body?.error==='submission_queue')return 'queued_not_published';
   if(status>=200&&status<300)return 'api_accepted_not_yet_verified';
   return 'api_rejected';
 }
