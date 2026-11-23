@@ -384,6 +384,22 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:24:11.126Z",
       "landingUrl": "https://antdirectory.com/"
+    },
+    "https://navs.site": {
+      "name": "Navs Site",
+      "url": "https://navs.site",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:24:45.254Z",
+      "landingUrl": "https://navs.site/submit"
+    },
+    "https://startupresources.io": {
+      "name": "Startup Resources",
+      "url": "https://startupresources.io",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:25:16.703Z",
+      "landingUrl": "https://startupresources.io/"
     }
   }
 }
