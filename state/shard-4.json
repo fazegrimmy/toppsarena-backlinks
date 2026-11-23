@@ -352,6 +352,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:49:43.585Z",
       "landingUrl": "https://www.softwareadvice.com/vendors"
+    },
+    "https://storyfied.com/get-featured": {
+      "name": "Storyfied",
+      "url": "https://storyfied.com/get-featured",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:50:15.714Z",
+      "landingUrl": "https://forsale.godaddy.com/forsale/storyfied.com?utm_source=TDFS_DASLNC&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-daslnc_base&traffic_type=TDFS_DASLNC&traffic_id=daslnc&"
+    },
+    "https://www.topionetworks.com/#new-sitt": {
+      "name": "Topion Networls",
+      "url": "https://www.topionetworks.com/#new-sitt",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:50:46.879Z",
+      "landingUrl": "https://topionetworks.com/#new-sitt"
+    },
+    "https://x.com/i/communities/1825401786217210316": {
+      "name": "x/Side Projects",
+      "url": "https://x.com/i/communities/1825401786217210316",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:51:17.777Z",
+      "landingUrl": "https://x.com/i/communities/1825401786217210316"
+    },
+    "https://www.launchvibe.app": {
+      "name": "Launch Vibe",
+      "url": "https://www.launchvibe.app",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:51:48.714Z",
+      "landingUrl": "https://www.launchvibe.app/"
     }
   }
 }
