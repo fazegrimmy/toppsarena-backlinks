@@ -592,6 +592,38 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T21:40:18.318Z",
       "landingUrl": "https://softwareontheweb.com/add-product"
+    },
+    "https://submitmysaas.com/projects/submit": {
+      "name": "SubmitMySaas",
+      "url": "https://submitmysaas.com/projects/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:40:51.924Z",
+      "landingUrl": "https://submitmysaas.com/sign-in?redirect=/projects/submit"
+    },
+    "https://todaylaunches.com/pricing": {
+      "name": "Today Launches",
+      "url": "https://todaylaunches.com/pricing",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:41:23.340Z",
+      "landingUrl": "https://todaylaunches.com/pricing"
+    },
+    "https://wayfindio.com/submit": {
+      "name": "Wayfindio",
+      "url": "https://wayfindio.com/submit",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:41:55.024Z",
+      "landingUrl": "https://wayfindio.com/submit"
+    },
+    "https://www.zjnav.com/tougao": {
+      "name": "Zjnav",
+      "url": "https://www.zjnav.com/tougao",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:42:30.946Z",
+      "landingUrl": "https://www.zjnav.com/tougao"
     }
   }
 }
