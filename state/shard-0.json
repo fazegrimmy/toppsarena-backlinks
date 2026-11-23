@@ -192,6 +192,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:11:04.626Z",
       "landingUrl": "https://turbo0.com/submit"
+    },
+    "https://office.angi.com/app/join/registratio": {
+      "name": "Agni",
+      "url": "https://office.angi.com/app/join/registratio",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:11:37.271Z",
+      "landingUrl": "https://signup.angi.com/pro"
+    },
+    "https://forg.to/product/new": {
+      "name": "Forg",
+      "url": "https://forg.to/product/new",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:12:09.700Z",
+      "landingUrl": "https://forg.to/project/new"
+    },
+    "https://www.serchen.com/get-listed": {
+      "name": "Serchen",
+      "url": "https://www.serchen.com/get-listed",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:12:40.878Z",
+      "landingUrl": "https://www.serchen.com/get-listed"
+    },
+    "https://www.sonicrun.com/freelisting.html": {
+      "name": "Sonic Run",
+      "url": "https://www.sonicrun.com/freelisting.html",
+      "status": "attempted_unconfirmed",
+      "details": "Validation/challenge text appeared after clicking",
+      "checkedAt": "2026-11-23T20:13:13.748Z",
+      "landingUrl": "https://www.sonicrun.com/cgi-bin/add.cgi"
     }
   }
 }
