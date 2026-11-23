@@ -21,10 +21,12 @@ on:
       - 'scripts/verified-campaign.mjs'
       - 'scripts/backlink-helpers.mjs'
       - 'scripts/launchagentic.mjs'
+      - 'scripts/postlaunchkit.mjs'
       - 'scripts/evidence-merge.mjs'
       - 'scripts/save-evidence.mjs'
       - 'tests/backlink-helpers.test.mjs'
       - 'tests/launchagentic.test.mjs'
+      - 'tests/postlaunchkit.test.mjs'
       - 'campaign/verified-opportunities.json'
       - 'campaign/qualified-outreach.json'
 
@@ -57,6 +59,7 @@ jobs:
           node --check scripts/verified-campaign.mjs
           node --check scripts/backlink-helpers.mjs
           node --check scripts/launchagentic.mjs
+          node --check scripts/postlaunchkit.mjs
           node --check scripts/evidence-merge.mjs
           node --check scripts/save-evidence.mjs
           node --test tests/*.test.mjs
