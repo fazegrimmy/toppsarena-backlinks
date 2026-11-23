@@ -94,6 +94,22 @@
       "checkedOn": "2026-11-23",
       "approvalBasis": "First-party /for-agents and OpenAPI explicitly permit anonymous JSON POST and status GET; 202 only means queued editorial review",
       "specialHandling": "Read-only public exact-domain preflight before POST. Save returned review UUID for GET /api/v1/submissions/{id}; never count a pending review as a backlink."
+    },
+    {
+      "id": "launchsignal",
+      "name": "LaunchSignal",
+      "domain": "launchsignal.ai",
+      "api": "https://launchsignal.ai/api/v1/products",
+      "documentation": "https://launchsignal.ai/docs/api",
+      "cost": "free",
+      "requiresAccount": false,
+      "requiresBadge": false,
+      "automationAllowed": true,
+      "topicFit": "Free open product website directory, Other category includes working public web resources and games-related tools",
+      "listingLinkPolicy": "Free outbound link rel=ugc nofollow by official docs. Reciprocal link only gives temporary promotion; never add or claim followed link",
+      "checkedOn": "2026-11-23",
+      "approvalBasis": "Official OpenAPI specifies anonymous POST with no-write dry_run, manual pending review and read-only GET approved listing; reviewed live /l/slug pages",
+      "specialHandling": "Dry-run POST validates and prevents duplicate including pending; never resend uncertain submission. Track returned slug. GET /api/v1/products/{slug} before independently verifying /l/{slug} public HTML."
     }
   ],
   "knownListings": [
