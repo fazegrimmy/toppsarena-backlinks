@@ -19,6 +19,8 @@ on:
     paths:
       - '.github/workflows/toppsarena-backlinks.yml'
       - 'scripts/verified-campaign.mjs'
+      - 'scripts/backlink-helpers.mjs'
+      - 'tests/backlink-helpers.test.mjs'
       - 'campaign/verified-opportunities.json'
 
 permissions:
@@ -32,7 +34,7 @@ jobs:
   verify:
     name: Free API submissions and published-link checks
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 30
     env:
       CAMPAIGN_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'submit' }}
       TOPPSARENA_CONTACT_EMAIL: ${{ vars.TOPPSARENA_CONTACT_EMAIL || 'notifications@toppsarena.com' }}
@@ -46,7 +48,10 @@ jobs:
           node-version: '22'
 
       - name: Validate verification-first runner
-        run: node --check scripts/verified-campaign.mjs
+        run: |
+          node --check scripts/verified-campaign.mjs
+          node --check scripts/backlink-helpers.mjs
+          node --test tests/backlink-helpers.test.mjs
 
       - name: Submit only via approved free public APIs and verify actual backlink pages
         run: node scripts/verified-campaign.mjs
