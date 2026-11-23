@@ -464,6 +464,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:32:20.444Z",
       "landingUrl": "https://alternative.tools/submit"
+    },
+    "https://bestdirectories.org/submit": {
+      "name": "Best Directories",
+      "url": "https://bestdirectories.org/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:32:52.972Z",
+      "landingUrl": "https://bestdirectories.org/submit"
+    },
+    "https://directory.project-bs.com/submit": {
+      "name": "BSDirectory",
+      "url": "https://directory.project-bs.com/submit",
+      "status": "skipped_required_fields",
+      "details": "Unfilled required fields: foundername submit-foundername founder name (required)",
+      "checkedAt": "2026-11-23T21:33:24.714Z",
+      "landingUrl": "https://directory.project-bs.com/submit"
+    },
+    "https://www.crowdstax.com/submit": {
+      "name": "Crowdstax",
+      "url": "https://www.crowdstax.com/submit",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:33:55.824Z",
+      "landingUrl": "https://www.crowdstax.com/submit"
+    },
+    "https://www.dark.design/": {
+      "name": "Dark",
+      "url": "https://www.dark.design/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:34:27.234Z",
+      "landingUrl": "https://www.dark.design/"
     }
   }
 }
