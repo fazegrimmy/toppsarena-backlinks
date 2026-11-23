@@ -528,6 +528,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:36:00.468Z",
       "landingUrl": "https://larklaunch.com/"
+    },
+    "https://launches.app/": {
+      "name": "launches",
+      "url": "https://launches.app/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:36:33.951Z",
+      "landingUrl": "https://launches.app/"
+    },
+    "https://launchwren.com/submit": {
+      "name": "LaunchWren",
+      "url": "https://launchwren.com/submit",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:37:05.210Z",
+      "landingUrl": "https://launchwren.com/submit"
+    },
+    "https://newtool.site/submit": {
+      "name": "NewTool",
+      "url": "https://newtool.site/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:37:36.095Z",
+      "landingUrl": "https://newtool.site/submit"
+    },
+    "https://peerpush.com/submit": {
+      "name": "PeerPush",
+      "url": "https://peerpush.com/submit",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T21:38:07.304Z",
+      "landingUrl": "https://peerpush.com/submit"
     }
   }
 }
