@@ -528,6 +528,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:06:30.466Z",
       "landingUrl": "https://app.innmind.com/register"
+    },
+    "https://launchbuff.com/submit": {
+      "name": "LaunchBuff",
+      "url": "https://launchbuff.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:07:03.018Z",
+      "landingUrl": "https://launchbuff.com/submit"
+    },
+    "https://launchrove.com/": {
+      "name": "LaunchRove",
+      "url": "https://launchrove.com/",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:07:37.453Z",
+      "landingUrl": "https://launchrove.com/submit"
+    },
+    "https://microsaas.directory/submit-saas": {
+      "name": "MicroSaaS dot directory",
+      "url": "https://microsaas.directory/submit-saas",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:08:10.048Z",
+      "landingUrl": "https://microsaas.directory/submit-saas"
+    },
+    "https://orpetron.com/submit-site/?plan=free": {
+      "name": "Orpetron",
+      "url": "https://orpetron.com/submit-site/?plan=free",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:08:43.062Z",
+      "landingUrl": "https://orpetron.com/submit-site/"
     }
   }
 }
