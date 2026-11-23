@@ -1,7 +1,7 @@
 {
   "site": "https://toppsarena.com",
-  "approach": "EVIDENCE_FIRST_NO_BULK",
-  "verifiedCriteria": "A fetched, publicly accessible listing page must include a direct HTML hyperlink to toppsarena.com. An accepted submission or HTTP redirect alone never counts.",
+  "approach": "CURATED_FREE_API_PLUS_VERIFIED_HTML_EVIDENCE",
+  "verifiedCriteria": "Count a link only after an independently fetched public listing page contains an HTML anchor to TopPSArena. A JavaScript-rendered API record is separately reported but not counted as HTML proof.",
   "publishers": [
     {
       "id": "develif",
@@ -32,6 +32,36 @@
       "listingLinkPolicy": "Free link is nofollow; followed link requires badge or payment; never enable either",
       "checkedOn": "2026-11-23",
       "approvalBasis": "Public API spec explicitly welcomes automated submissions and free tier"
+    },
+    {
+      "id": "techtools",
+      "name": "TechTools Launchpad",
+      "domain": "techtools.cz",
+      "api": "https://techtools.cz/launchpad-api/tools",
+      "documentation": "https://techtools.cz/launchpad-api/docs",
+      "cost": "free",
+      "requiresAccount": false,
+      "requiresBadge": false,
+      "automationAllowed": true,
+      "topicFit": "Free startup/side-project submission with Games & Entertainment category, TopPSArena is a gaming-community directory",
+      "listingLinkPolicy": "Public share listing URL; verify backlink independently. JS-rendered card alone is API-record evidence, not HTML proof.",
+      "checkedOn": "2026-11-23",
+      "approvalBasis": "First-party docs explicitly permit keyless POST from scripts/agents, with free instant publishing. GET by exact URL before POST."
+    },
+    {
+      "id": "promoteindex",
+      "name": "PromoteIndex",
+      "domain": "promoteindex.com",
+      "api": "https://promoteindex.com/api/v1/projects",
+      "documentation": "https://promoteindex.com/openapi.json",
+      "cost": "free",
+      "requiresAccount": false,
+      "requiresBadge": false,
+      "automationAllowed": true,
+      "topicFit": "Open project directory with Community category and projects including gaming directories",
+      "listingLinkPolicy": "Free listing, followed website link only after genuine distinct-voter threshold; no automated voting or badge requests.",
+      "checkedOn": "2026-11-23",
+      "approvalBasis": "First-party OpenAPI explicitly welcomes owner agents and free listings. First 5 unique URLs per website need no badge; queue tickets are private and kept only in memory."
     }
   ],
   "knownListings": [
@@ -50,5 +80,14 @@
       "url": "https://zearches.com/site/gaming-esports/toppsarena-com-f530c20950",
       "source": "previously reported; re-verification only"
     }
-  ]
+  ],
+  "qualityControls": {
+    "noBulkForms": true,
+    "noPaidTiers": true,
+    "noReciprocalBadges": true,
+    "strictAPIAllowlist": true,
+    "preflightDuplicateDetection": "TechTools; other APIs prevent duplicate POSTs by persistent previous status",
+    "noAutoVotes": true,
+    "noLinkClaimsWithoutHTML": true
+  }
 }
