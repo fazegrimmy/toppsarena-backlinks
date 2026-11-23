@@ -428,5 +428,148 @@
         "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
       }
     ]
-  }
+  },
+  "sourceRepositories": [
+    {
+      "repository": "alvinunreal/awesome-submitlist",
+      "url": "https://github.com/alvinunreal/awesome-submitlist",
+      "value": "Large, maintained submission destination dataset; repository says 3512 total sources, includes non-directory entries",
+      "status": "research_only",
+      "assessment": "Filter to currently free, relevant website/product listings. No permission to auto-submit inferred."
+    },
+    {
+      "repository": "Amplifyx-Labs/backlink-claude-skill",
+      "url": "https://github.com/Amplifyx-Labs/backlink-claude-skill",
+      "value": "Curated and long-tail startup/SaaS submissions with specific submit URLs, DR and follow labels",
+      "status": "research_only",
+      "assessment": "All price, backlink rel and domain scores are third-party claims requiring direct recheck. Many AI/B2B sites irrelevant to gaming."
+    },
+    {
+      "repository": "Mimimiraclez/DRsubmission",
+      "url": "https://github.com/Mimimiraclez/DRsubmission",
+      "value": "Free-directory form automation fork claiming 82 eligible targets after pruning",
+      "status": "not_for_auto_import",
+      "assessment": "Fork's own October 2026 test reports 70 clicked forms but zero published backlinks verified; mostly AI-tool directories; requires graphical bb-browser session."
+    },
+    {
+      "repository": "s87343472/backlink-pilot",
+      "url": "https://github.com/s87343472/backlink-pilot",
+      "value": "Detailed agent playbook, paced human handoffs and safe link-building bookkeeping",
+      "status": "research_only",
+      "assessment": "Current main branch does not contain a runnable bulk submit CLI, historical targets.yaml is unmaintained."
+    },
+    {
+      "repository": "zhuyansen/backlink-guard",
+      "url": "https://github.com/zhuyansen/backlink-guard",
+      "value": "Python site-vetting and backlink risk analysis CLI",
+      "status": "potential_quality_check",
+      "assessment": "Risk tool is not an approved directory submitter; author acknowledges preliminary validation and false positives. Install only after security review."
+    }
+  ],
+  "additionalCandidates": [
+    {
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com/posts/new",
+      "type": "software_launch",
+      "fit": "TopPSArena can be introduced as a new gaming web product, if editorial requirements permit",
+      "source": "https://github.com/Amplifyx-Labs/backlink-claude-skill/blob/main/data/directories.md",
+      "status": "unverified_research_candidate",
+      "price": "unverified",
+      "automationAllowed": false,
+      "requiresHumanReview": true,
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "Launching Next",
+      "url": "https://www.launchingnext.com/submit/",
+      "type": "startup_launch",
+      "fit": "Project website launch listing; whether gaming directories qualify requires checking",
+      "source": "https://github.com/Amplifyx-Labs/backlink-claude-skill/blob/main/data/directories.md",
+      "status": "unverified_research_candidate",
+      "price": "unverified",
+      "automationAllowed": false,
+      "requiresHumanReview": true,
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "Fazier",
+      "url": "https://fazier.com/submit",
+      "type": "product_launch",
+      "fit": "Maker-oriented website launch; no independent eligibility check yet",
+      "source": "https://github.com/Amplifyx-Labs/backlink-claude-skill/blob/main/data/directories.md",
+      "status": "unverified_research_candidate",
+      "price": "unverified",
+      "automationAllowed": false,
+      "requiresHumanReview": true,
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "MicroLaunch",
+      "url": "https://microlaunch.net/submit-product",
+      "type": "product_launch",
+      "fit": "Live web platform launch; maker/product review requirements unknown",
+      "source": "https://github.com/Amplifyx-Labs/backlink-claude-skill/blob/main/data/directories.md",
+      "status": "unverified_research_candidate",
+      "price": "unverified",
+      "automationAllowed": false,
+      "requiresHumanReview": true,
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "TinyLaunch",
+      "url": "https://www.tinylaunch.com/submit",
+      "type": "product_launch",
+      "fit": "Small web product directory candidate; policies and free queue unconfirmed",
+      "source": "https://github.com/Amplifyx-Labs/backlink-claude-skill/blob/main/data/directories.md",
+      "status": "unverified_research_candidate",
+      "price": "unverified",
+      "automationAllowed": false,
+      "requiresHumanReview": true,
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "SaaSHub",
+      "url": "https://www.saashub.com/submit",
+      "type": "product_directory",
+      "fit": "Potential online-service directory, game server toplist may be outside site requirements",
+      "source": "https://github.com/Amplifyx-Labs/backlink-claude-skill/blob/main/data/directories.md",
+      "status": "unverified_research_candidate",
+      "price": "unverified",
+      "automationAllowed": false,
+      "requiresHumanReview": true,
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "AlternativeTo",
+      "url": "https://alternativeto.net/manage/new/",
+      "type": "alternative_directory",
+      "fit": "Potential directory software comparison, needs acceptable listed alternative and account",
+      "source": "https://github.com/Amplifyx-Labs/backlink-claude-skill/blob/main/data/directories.md",
+      "status": "unverified_research_candidate",
+      "price": "unverified",
+      "automationAllowed": false,
+      "requiresHumanReview": true,
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "Startup Stash",
+      "url": "https://startupstash.com/add-listing/",
+      "type": "startup_resource",
+      "fit": "Curated tools directory; TopPSArena may not fit tools-only content",
+      "source": "https://github.com/Amplifyx-Labs/backlink-claude-skill/blob/main/data/directories.md",
+      "status": "unverified_research_candidate",
+      "price": "unverified",
+      "automationAllowed": false,
+      "requiresHumanReview": true,
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    }
+  ]
 }
