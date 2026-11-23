@@ -624,6 +624,38 @@
       "details": "Cannot identify safe listing submit button",
       "checkedAt": "2026-11-23T21:43:05.878Z",
       "landingUrl": "https://cazaproducto.com/"
+    },
+    "https://zivvi.app": {
+      "name": "Zivvi",
+      "url": "https://zivvi.app",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:43:39.180Z",
+      "landingUrl": "https://zivvi.app/submit"
+    },
+    "https://creatortoolly.com": {
+      "name": "CreatorToolly",
+      "url": "https://creatortoolly.com",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T21:44:12.192Z",
+      "landingUrl": "https://creatortoolly.com/submit-tool/"
+    },
+    "https://scheduler.social": {
+      "name": "scheduler.social",
+      "url": "https://scheduler.social",
+      "status": "skipped_terms",
+      "details": "Required consent checkbox must be reviewed manually",
+      "checkedAt": "2026-11-23T21:44:44.008Z",
+      "landingUrl": "https://scheduler.social/submit"
+    },
+    "https://addgoodsites.com": {
+      "name": "Addgoodsites",
+      "url": "https://addgoodsites.com",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T21:45:38.519Z",
+      "landingUrl": "https://addgoodsites.com/submit.php"
     }
   }
 }
