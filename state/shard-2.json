@@ -288,6 +288,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:17:46.495Z",
       "landingUrl": "https://img.shields.io/badge/Directories-582-blue?style=for-the-badge"
+    },
+    "https://arstechnica.com/contact-us": {
+      "name": "ARS Technica",
+      "url": "https://arstechnica.com/contact-us",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:18:19.908Z",
+      "landingUrl": "https://arstechnica.com/contact-us/"
+    },
+    "https://www.builtinchicago.org/send-us-tip": {
+      "name": "BuiltInChicago",
+      "url": "https://www.builtinchicago.org/send-us-tip",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:18:50.762Z",
+      "landingUrl": "https://www.builtinchicago.org/contact/send_us_tip"
+    },
+    "https://ctrlalt.cc/": {
+      "name": "ctrlalt.cc",
+      "url": "https://ctrlalt.cc/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:19:22.226Z",
+      "landingUrl": "https://ctrlalt.cc/"
+    },
+    "https://findthatsoftware.com/vendors": {
+      "name": "FindThatSoftware",
+      "url": "https://findthatsoftware.com/vendors",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T20:19:53.189Z",
+      "landingUrl": "https://findthatsoftware.com/vendors"
     }
   }
 }
