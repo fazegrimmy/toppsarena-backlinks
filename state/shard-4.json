@@ -32,6 +32,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:28:15.095Z",
       "landingUrl": "https://www.techpluto.com/submit-startup/"
+    },
+    "https://www.highrankdirectory.com/submit.php": {
+      "name": "Highrankdirectory",
+      "url": "https://www.highrankdirectory.com/submit.php",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:28:47.878Z",
+      "landingUrl": "https://www.highrankdirectory.com/submit.php"
+    },
+    "https://unmatchedstyle.com/submit": {
+      "name": "Unmatched Style",
+      "url": "https://unmatchedstyle.com/submit",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:29:19.349Z",
+      "landingUrl": "https://unmatchedstyle.com/submit"
+    },
+    "https://sourceforge.net/software/vendors/new": {
+      "name": "SourceForge",
+      "url": "https://sourceforge.net/software/vendors/new",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:29:50.307Z",
+      "landingUrl": "https://sourceforge.net/software/vendors/new"
+    },
+    "https://www.startupfame.com/submit": {
+      "name": "Startup Fame",
+      "url": "https://www.startupfame.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:30:21.560Z",
+      "landingUrl": "https://www.hugedomains.com/domain_profile.cfm?d=startupfame.com"
     }
   }
 }
