@@ -656,6 +656,38 @@
       "details": "Captcha detected; not bypassed",
       "checkedAt": "2026-11-23T21:45:38.519Z",
       "landingUrl": "https://addgoodsites.com/submit.php"
+    },
+    "https://appnetworker.com": {
+      "name": "App Networker",
+      "url": "https://appnetworker.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:46:11.885Z",
+      "landingUrl": "https://appnetworker.com/get-started"
+    },
+    "https://dealmyapp.com": {
+      "name": "dealmyapp",
+      "url": "https://dealmyapp.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:46:44.292Z",
+      "landingUrl": "https://dealmyapp.com/"
+    },
+    "https://www.indiemap.world": {
+      "name": "IndieMap",
+      "url": "https://www.indiemap.world",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:47:16.938Z",
+      "landingUrl": "https://www.indiemap.world/"
+    },
+    "https://www.promoteyourcompany.ca/index.html": {
+      "name": "Promoteyourcompany",
+      "url": "https://www.promoteyourcompany.ca/index.html",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:47:47.752Z",
+      "landingUrl": "https://www.promoteyourcompany.ca/index.html"
     }
   }
 }
