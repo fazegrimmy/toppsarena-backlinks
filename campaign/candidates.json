@@ -1,0 +1,2508 @@
+{
+  "site": "https://toppsarena.com",
+  "status": "CANDIDATES_NOT_VERIFIED_FREE_OR_PUBLISHED",
+  "sourceRevision": "b312c9e83b6f6e9b4fd012bc5eb505a7062dde7d",
+  "notes": "250 potential general website, project, launch and community directories. Each target requires runtime form/paywall/captcha screening; submissions and published links are not guaranteed.",
+  "candidates": [
+    {
+      "id": 1,
+      "name": "ABC Directory",
+      "category": "startup",
+      "url": "https://www.abc-directory.com/submiturl",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 2,
+      "name": "All States USA Directory",
+      "category": "startup",
+      "url": "https://www.allstatesusadirectory.com/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 3,
+      "name": "Free Directory",
+      "category": "startup",
+      "url": "https://www.directory-free.com/submit/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 4,
+      "name": "Free Internet Web Directory",
+      "category": "startup",
+      "url": "https://www.freeinternetwebdirectory.com/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 5,
+      "name": "Free PR Web Directory",
+      "category": "startup",
+      "url": "https://www.freeprwebdirectory.com/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 6,
+      "name": "Marketing Internet Directory",
+      "category": "startup",
+      "url": "https://www.marketinginternetdirectory.com/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 7,
+      "name": "Promote Business Directory",
+      "category": "startup",
+      "url": "https://www.promotebusinessdirectory.com/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 8,
+      "name": "Quality Internet Directory",
+      "category": "startup",
+      "url": "https://www.qualityinternetdirectory.com/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 9,
+      "name": "Site Promotion Directory",
+      "category": "startup",
+      "url": "https://www.sitepromotiondirectory.com/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 10,
+      "name": "UK Internet Directory",
+      "category": "startup",
+      "url": "https://www.ukinternetdirectory.net/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 11,
+      "name": "USA Websites Directory",
+      "category": "startup",
+      "url": "https://www.usawebsitesdirectory.com/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 12,
+      "name": "Alternative.me",
+      "category": "general",
+      "url": "https://alternative.me/how-to/submit-software/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 13,
+      "name": "App Rater",
+      "category": "general",
+      "url": "https://apprater.net/add/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 14,
+      "name": "AppsThunder",
+      "category": "general",
+      "url": "https://appsthunder.com/submit-your-app/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 15,
+      "name": "business-software.com",
+      "category": "general",
+      "url": "https://www.business-software.com/add-your-product/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 16,
+      "name": "Changelog",
+      "category": "general",
+      "url": "https://changelog.com/news/submit",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 17,
+      "name": "Digital Stuff We Love",
+      "category": "general",
+      "url": "https://digitalstuffwelove.org.nz/submit-tool",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 18,
+      "name": "insanelycooltools",
+      "category": "general",
+      "url": "https://www.insanelycooltools.com/submit",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 19,
+      "name": "KillerStartups",
+      "category": "general",
+      "url": "https://www.killerstartups.com/submit-startup/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 20,
+      "name": "TechPluto",
+      "category": "general",
+      "url": "https://www.techpluto.com/submit-a-startup/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 21,
+      "name": "The Startup Pitch",
+      "category": "general",
+      "url": "https://thestartuppitch.com/post-a-pitch/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 22,
+      "name": "Twelve.tools",
+      "category": "general",
+      "url": "https://twelve.tools/submit-your-tool",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 23,
+      "name": "Uneed",
+      "category": "community",
+      "url": "https://www.uneed.best/promote-your-tool",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 24,
+      "name": "9Sites.net",
+      "category": "startup",
+      "url": "https://www.9sites.net/addurl.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 25,
+      "name": "Highrankdirectory",
+      "category": "startup",
+      "url": "https://www.highrankdirectory.com/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 26,
+      "name": "Jayde",
+      "category": "startup",
+      "url": "https://www.jayde.com/submit.html",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 27,
+      "name": "Offpagesavvy",
+      "category": "startup",
+      "url": "https://www.offpagesavvy.com/submit-your-site/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 28,
+      "name": "ProLinkDirectory",
+      "category": "startup",
+      "url": "https://www.prolinkdirectory.com/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 29,
+      "name": "SitesWebdirectory",
+      "category": "startup",
+      "url": "https://www.siteswebdirectory.com/submit.php",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 30,
+      "name": "Unmatched Style",
+      "category": "startup",
+      "url": "https://unmatchedstyle.com/submit",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 31,
+      "name": "Viesearch",
+      "category": "startup",
+      "url": "https://viesearch.com/submit",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 32,
+      "name": "bigstartups.co",
+      "category": "general",
+      "url": "https://bigstartups.co/overview/list-product",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 33,
+      "name": "BufferApps",
+      "category": "general",
+      "url": "https://bufferapps.com/beta-listing/new",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 34,
+      "name": "osalt.com",
+      "category": "general",
+      "url": "https://osalt.com/suggest",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 35,
+      "name": "SourceForge",
+      "category": "general",
+      "url": "https://sourceforge.net/software/vendors/new",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 36,
+      "name": "techdirectory.io",
+      "category": "general",
+      "url": "https://www.techdirectory.io/get-listed",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 37,
+      "name": "01webdirectory",
+      "category": "startup",
+      "url": "https://www.01webdirectory.com/frmPreSubmit.aspx",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 38,
+      "name": "OnToplist.com",
+      "category": "startup",
+      "url": "https://www.ontoplist.com/join/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 39,
+      "name": "Startup Collections",
+      "category": "general",
+      "url": "https://startupcollections.com/submit-product/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 40,
+      "name": "Startup Fame",
+      "category": "general",
+      "url": "https://www.startupfame.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 41,
+      "name": "Better Launch",
+      "category": "startup",
+      "url": "https://www.betterlaunch.co/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 42,
+      "name": "Emoji Launch",
+      "category": "startup",
+      "url": "https://emojilaunch.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 43,
+      "name": "Funnel Directory",
+      "category": "startup",
+      "url": "https://funneldirectory.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 44,
+      "name": "Neeed Directory",
+      "category": "startup",
+      "url": "https://neeed.directory/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 45,
+      "name": "Open-Launch",
+      "category": "startup",
+      "url": "https://open-launch.com/projects/submit/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 46,
+      "name": "Pro Launch",
+      "category": "startup",
+      "url": "https://prolaunch.net/projects/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 47,
+      "name": "Productivity Directory",
+      "category": "startup",
+      "url": "https://productivity.directory/s/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 48,
+      "name": "Startup Fast",
+      "category": "startup",
+      "url": "https://www.startupfa.st/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 49,
+      "name": "Startup.sx",
+      "category": "startup",
+      "url": "https://www.startup.sx/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 50,
+      "name": "Uno Directory",
+      "category": "startup",
+      "url": "https://uno.directory/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 51,
+      "name": "Yo.directory",
+      "category": "startup",
+      "url": "https://yo.directory/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 52,
+      "name": "FoundrList",
+      "category": "general",
+      "url": "https://foundrlist.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 53,
+      "name": "PAT Research",
+      "category": "general",
+      "url": "https://www.patresearch.com/submit-software/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 54,
+      "name": "Software Suggest",
+      "category": "general",
+      "url": "https://www.softwaresuggest.com/add-product",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 55,
+      "name": "Toolradar",
+      "category": "general",
+      "url": "https://toolradar.com/add-tool",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 56,
+      "name": "Looking For Tools",
+      "category": "startup",
+      "url": "https://lookingfortools.com/projects/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 57,
+      "name": "A1 Gallery",
+      "category": "startup",
+      "url": "https://www.a1.gallery/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 58,
+      "name": "All Top Startups",
+      "category": "startup",
+      "url": "https://alltopstartups.com/submit-st",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 59,
+      "name": "Altern",
+      "category": "startup",
+      "url": "https://altern.ai/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 60,
+      "name": "App Listo",
+      "category": "startup",
+      "url": "https://appslisto.com/submit-your-app",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 61,
+      "name": "Aura++",
+      "category": "startup",
+      "url": "https://auraplusplus.com/projects/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 62,
+      "name": "BuildVoyage",
+      "category": "startup",
+      "url": "https://buildvoyage.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 63,
+      "name": "BuiltByIndies",
+      "category": "startup",
+      "url": "https://builtbyindies.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 64,
+      "name": "CitedIndex",
+      "category": "startup",
+      "url": "https://citedindex.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 65,
+      "name": "DaysLaunch",
+      "category": "startup",
+      "url": "https://dayslaunch.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 66,
+      "name": "DevHub",
+      "category": "startup",
+      "url": "https://devhub.best/projects/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 67,
+      "name": "DevPages",
+      "category": "startup",
+      "url": "https://devpages.io/submit-a-tool",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 68,
+      "name": "Earlyhunt",
+      "category": "startup",
+      "url": "https://earlyhunt.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 69,
+      "name": "EBool",
+      "category": "startup",
+      "url": "https://www.ebool.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 70,
+      "name": "Fazier",
+      "category": "startup",
+      "url": "https://fazier.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 71,
+      "name": "Firsto",
+      "category": "startup",
+      "url": "https://firsto.co/projects/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 72,
+      "name": "Fuel Up",
+      "category": "startup",
+      "url": "https://fuelup.co/add",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 73,
+      "name": "FutureStack",
+      "category": "startup",
+      "url": "https://www.usefuturestack.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 74,
+      "name": "Get Worm",
+      "category": "startup",
+      "url": "https://getworm.com/submit-startup",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 75,
+      "name": "How Brands Are Built",
+      "category": "startup",
+      "url": "https://howbrandsarebuilt.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 76,
+      "name": "Indiehunt",
+      "category": "startup",
+      "url": "https://indiehunt.io/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 77,
+      "name": "JustLaunched",
+      "category": "startup",
+      "url": "https://justlaunched.fyi/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 78,
+      "name": "Launch01",
+      "category": "startup",
+      "url": "https://launch01.com/projects/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 79,
+      "name": "LaunchIgniter",
+      "category": "startup",
+      "url": "https://launchigniter.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 80,
+      "name": "LaunchNest",
+      "category": "startup",
+      "url": "https://launchnest.io/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 81,
+      "name": "Launchory",
+      "category": "startup",
+      "url": "https://www.launchory.app/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 82,
+      "name": "LaunchPad India",
+      "category": "startup",
+      "url": "https://launchpadindia.co/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 83,
+      "name": "Launchpadly",
+      "category": "startup",
+      "url": "https://launchpadly.co/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 84,
+      "name": "Launchstag",
+      "category": "startup",
+      "url": "https://launchstag.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 85,
+      "name": "Letter List",
+      "category": "startup",
+      "url": "https://letterlist.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 86,
+      "name": "Lifto",
+      "category": "startup",
+      "url": "https://liftoapp.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 87,
+      "name": "LinkSalad",
+      "category": "startup",
+      "url": "https://linksalad.me/projects/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 88,
+      "name": "Makerhunt",
+      "category": "startup",
+      "url": "https://makerhunt.io/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 89,
+      "name": "MarketingDB",
+      "category": "startup",
+      "url": "https://marketingdb.live/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 90,
+      "name": "Mydentify",
+      "category": "startup",
+      "url": "https://mydentify.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 91,
+      "name": "Open Source Projects",
+      "category": "startup",
+      "url": "https://opensourceprojects.cc/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 92,
+      "name": "OpenAlternative",
+      "category": "startup",
+      "url": "https://openalternative.co/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 93,
+      "name": "OpenHunts",
+      "category": "startup",
+      "url": "https://openhunts.com/projects/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 94,
+      "name": "PeerPush",
+      "category": "startup",
+      "url": "https://peerpush.net/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 95,
+      "name": "Product Watch",
+      "category": "startup",
+      "url": "https://productwatch.io/product/create",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 96,
+      "name": "ProductFame",
+      "category": "startup",
+      "url": "https://productfame.com/products/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 97,
+      "name": "PromoteProject",
+      "category": "startup",
+      "url": "https://www.promoteproject.com/submit-startup",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 98,
+      "name": "ShipBoost",
+      "category": "startup",
+      "url": "https://shipboost.io/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 99,
+      "name": "Shipybara",
+      "category": "startup",
+      "url": "https://shipybara.com/projects/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 100,
+      "name": "Sidebar",
+      "category": "startup",
+      "url": "https://sidebar.io/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 101,
+      "name": "Sidehunt",
+      "category": "startup",
+      "url": "https://sidehunt.io/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 102,
+      "name": "SideProjectors",
+      "category": "startup",
+      "url": "https://www.sideprojectors.com/submit/type",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 103,
+      "name": "Spectacle",
+      "category": "startup",
+      "url": "https://spectacle.is/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 104,
+      "name": "StarterBest",
+      "category": "startup",
+      "url": "https://starterbest.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 105,
+      "name": "Startup Listing",
+      "category": "startup",
+      "url": "https://startuplist.ing/products/new",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 106,
+      "name": "StartupLibrary",
+      "category": "startup",
+      "url": "https://startuplibrary.net/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 107,
+      "name": "StartupTrusted",
+      "category": "startup",
+      "url": "https://startuptrusted.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 108,
+      "name": "SubmitMatic",
+      "category": "startup",
+      "url": "https://submitmatic.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 109,
+      "name": "Taalk",
+      "category": "startup",
+      "url": "https://taalk.com/submit-startup",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 110,
+      "name": "The Agents Index",
+      "category": "startup",
+      "url": "https://theagentsindex.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 111,
+      "name": "The Hive Index",
+      "category": "startup",
+      "url": "https://thehiveindex.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 112,
+      "name": "TheOneStartup",
+      "category": "startup",
+      "url": "https://theonestartup.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 113,
+      "name": "Thing Testing",
+      "category": "startup",
+      "url": "https://thingtesting.com/submit-brand",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 114,
+      "name": "Tiny Startups",
+      "category": "startup",
+      "url": "https://www.tinystartups.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 115,
+      "name": "TrustRoas",
+      "category": "startup",
+      "url": "https://trustroas.com/add-store",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 116,
+      "name": "Turbo0",
+      "category": "startup",
+      "url": "https://turbo0.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 117,
+      "name": "Viral Indian Diary",
+      "category": "startup",
+      "url": "https://www.viralindiandiary.com/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 118,
+      "name": "Webspot",
+      "category": "startup",
+      "url": "https://webspot.app/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 119,
+      "name": "WeekHack",
+      "category": "startup",
+      "url": "https://www.weekhack.com/launches/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 120,
+      "name": "Wired Business",
+      "category": "startup",
+      "url": "https://wired.business/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 121,
+      "name": "Agni",
+      "category": "startup",
+      "url": "https://office.angi.com/app/join/registratio",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 122,
+      "name": "Alt Hunt",
+      "category": "startup",
+      "url": "https://althunt.io/new",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 123,
+      "name": "American Inno",
+      "category": "startup",
+      "url": "https://www.americaninno.com/post-a-star",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 124,
+      "name": "Builders.to",
+      "category": "startup",
+      "url": "https://builders.to/projects/new",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 125,
+      "name": "BuildHop",
+      "category": "startup",
+      "url": "https://buildhop.io/app/create",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 126,
+      "name": "Forg",
+      "category": "startup",
+      "url": "https://forg.to/product/new",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 127,
+      "name": "G2 Crowd",
+      "category": "startup",
+      "url": "https://www.g2crowd.com/products/new",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 128,
+      "name": "GreenRocket",
+      "category": "startup",
+      "url": "https://greenrocket.app/create",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 129,
+      "name": "Huzzler",
+      "category": "startup",
+      "url": "https://huzzler.so/products/create",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 130,
+      "name": "LaunchPact",
+      "category": "startup",
+      "url": "https://www.launchpact.io/launches/new",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 131,
+      "name": "Serchen",
+      "category": "startup",
+      "url": "https://www.serchen.com/get-listed",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 132,
+      "name": "tools.cafe",
+      "category": "startup",
+      "url": "https://tools.cafe/new",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 133,
+      "name": "Toolbase.io",
+      "category": "general",
+      "url": "https://form.typeform.com/to/LQcTJr",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 134,
+      "name": "Fund a Maker",
+      "category": "general",
+      "url": "https://fundamaker.com/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 135,
+      "name": "BusinessSeek.biz",
+      "category": "startup",
+      "url": "https://www.businessseek.biz/page.php?page=submission-policy",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 136,
+      "name": "Sonic Run",
+      "category": "startup",
+      "url": "https://www.sonicrun.com/freelisting.html",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 137,
+      "name": "TXTLinks",
+      "category": "startup",
+      "url": "https://www.txtlinks.com/sug_url.php?cat_id=0",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 138,
+      "name": "Submission Web Directory",
+      "category": "startup",
+      "url": "https://www.submissionwebdirectory.com/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "generic-directory-review",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 139,
+      "name": "Joinly",
+      "category": "general",
+      "url": "https://www.joinly.xyz/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 140,
+      "name": "Launched!",
+      "category": "general",
+      "url": "https://launched.io/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 141,
+      "name": "MicroLaunch",
+      "category": "general",
+      "url": "https://microlaunch.net/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 142,
+      "name": "once.tools",
+      "category": "general",
+      "url": "https://once.tools/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 143,
+      "name": "PitchWall",
+      "category": "general",
+      "url": "https://pitchwall.co/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 144,
+      "name": "Prime Indies",
+      "category": "general",
+      "url": "https://primeindies.com/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 145,
+      "name": "Simple Lister",
+      "category": "general",
+      "url": "https://simplelister.com/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 146,
+      "name": "StartupBase",
+      "category": "general",
+      "url": "https://startupbase.io/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 147,
+      "name": "StartupRanking",
+      "category": "general",
+      "url": "https://www.startupranking.com/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 148,
+      "name": "Toools.design",
+      "category": "general",
+      "url": "https://toools.design/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 149,
+      "name": "Top Best Alternatives",
+      "category": "general",
+      "url": "https://www.topbestalternatives.com/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 150,
+      "name": "WhatLaunched.Today",
+      "category": "general",
+      "url": "https://www.whatlaunched.today",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 151,
+      "name": "Super Launch",
+      "category": "startup",
+      "url": "https://www.superlaun.ch/dashboard/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 152,
+      "name": "Smol Launch",
+      "category": "general",
+      "url": "https://smollaunch.com/dashboard/products/new",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 153,
+      "name": "Product Hunt Ship",
+      "category": "general",
+      "url": "https://www.producthunt.com/ship",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 154,
+      "name": "GainWeb.org",
+      "category": "startup",
+      "url": "https://gainweb.org/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 155,
+      "name": "Submit.biz",
+      "category": "startup",
+      "url": "https://www.submit.biz/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 156,
+      "name": "Tsection",
+      "category": "startup",
+      "url": "https://www.tsection.com/",
+      "sourceAuto": "yes",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 157,
+      "name": "Resource FYI",
+      "category": "startup",
+      "url": "https://resource.fyi/account/submit",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 158,
+      "name": "Startup Costs",
+      "category": "startup",
+      "url": "https://www.startupcosts.co/signup",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 159,
+      "name": "TinyLaunch",
+      "category": "general",
+      "url": "https://www.tinylaunch.com/dashboard/startups/new",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 160,
+      "name": "AlternativeTo",
+      "category": "general",
+      "url": "https://alternativeto.net/faq/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 161,
+      "name": "Broadwise.org",
+      "category": "general",
+      "url": "https://broadwise.org/t/how-to-promote-your-startup-on-broadwise-org/125",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 162,
+      "name": "Launch Llama",
+      "category": "startup",
+      "url": "https://tools.launchllama.co/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 163,
+      "name": "Project Hatch",
+      "category": "startup",
+      "url": "https://www.projecthatch.co/your-story",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 164,
+      "name": "Startup Beat",
+      "category": "startup",
+      "url": "https://startupbeat.com/get-featured",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 165,
+      "name": "Startup Explore",
+      "category": "startup",
+      "url": "https://startupxplore.com/en/startur",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 166,
+      "name": "Startup Tracker",
+      "category": "startup",
+      "url": "https://startuptracker.io/crowdsourcing",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 167,
+      "name": "Zapier Directory",
+      "category": "startup",
+      "url": "https://zapier.com/apps",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 168,
+      "name": "Desifounder",
+      "category": "general",
+      "url": "https://desifounder.com/spotlight",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 169,
+      "name": "Evolmagazine.com",
+      "category": "general",
+      "url": "https://www.evolmagazine.com/en/tools/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 170,
+      "name": "Notion Integrations",
+      "category": "general",
+      "url": "https://www.notion.so/integrations",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 171,
+      "name": "ClaudePro.directory",
+      "category": "general",
+      "url": "https://claudepro.directory/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 172,
+      "name": "Side Project Stack",
+      "category": "general",
+      "url": "https://sideprojectstack.com",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 173,
+      "name": "Bowora",
+      "category": "startup",
+      "url": "https://bowora.com/register",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 174,
+      "name": "Merchant Circle",
+      "category": "startup",
+      "url": "https://www.merchantcircle.com/signup/#‹",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 175,
+      "name": "ScrollLaunch",
+      "category": "startup",
+      "url": "https://www.scrolllaunch.com/dashboard/products/new",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 176,
+      "name": "Trust Revenue",
+      "category": "startup",
+      "url": "https://trust-revenue.com/dashboard/startup",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 177,
+      "name": "WIP.co",
+      "category": "startup",
+      "url": "https://wip.co/settings/projects/new",
+      "sourceAuto": "manual",
+      "submissionPageLikely": true,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 178,
+      "name": "'![Directories'",
+      "category": "startup",
+      "url": "https://img.shields.io/badge/Directories-582-blue?style=for-the-badge",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 179,
+      "name": "American Startups",
+      "category": "startup",
+      "url": "https://americanstartups.com/share-your-s",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 180,
+      "name": "AppAgg",
+      "category": "startup",
+      "url": "https://appagg.com/?hl=en",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 181,
+      "name": "Appolicious",
+      "category": "startup",
+      "url": "https://www.appolicious.com/contact-us",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 182,
+      "name": "AppSumo",
+      "category": "startup",
+      "url": "https://sell.appsumo.com/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 183,
+      "name": "ARS Technica",
+      "category": "startup",
+      "url": "https://arstechnica.com/contact-us",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 184,
+      "name": "Beta Testing",
+      "category": "startup",
+      "url": "https://betatesting.com/beta-testing",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 185,
+      "name": "Big Startups",
+      "category": "startup",
+      "url": "https://biqstartups.co/overview/sub",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 186,
+      "name": "BoostDomainRating",
+      "category": "startup",
+      "url": "https://boostdomainrating.com/item/www.yaps.ai",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 187,
+      "name": "Built In",
+      "category": "startup",
+      "url": "https://builtin.com/expert-contributors",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 188,
+      "name": "BuiltInChicago",
+      "category": "startup",
+      "url": "https://www.builtinchicago.org/send-us-tip",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 189,
+      "name": "Cabinet",
+      "category": "startup",
+      "url": "https://www.cabinetm.com/information/m",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 190,
+      "name": "Clutch",
+      "category": "startup",
+      "url": "https://clutch.co/review",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 191,
+      "name": "craked.dev",
+      "category": "startup",
+      "url": "https://www.craked.dev/products",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 192,
+      "name": "Crunchbase",
+      "category": "startup",
+      "url": "https://www.crunchbase.com/home",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 193,
+      "name": "ctrlalt.cc",
+      "category": "startup",
+      "url": "https://ctrlalt.cc/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 194,
+      "name": "Cuspera e27",
+      "category": "startup",
+      "url": "https://www.cuspera.com/vendors",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 195,
+      "name": "Dev Post",
+      "category": "startup",
+      "url": "https://devpost.com/software",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 196,
+      "name": "DodoMRR",
+      "category": "startup",
+      "url": "https://www.dodomrr.com/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 197,
+      "name": "EU-Startups",
+      "category": "startup",
+      "url": "https://www.eu-startups.com/directory/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 198,
+      "name": "FindThatSoftware",
+      "category": "startup",
+      "url": "https://findthatsoftware.com/vendors",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 199,
+      "name": "Geekopedia",
+      "category": "startup",
+      "url": "https://geekopedia.me/write-for-us",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 200,
+      "name": "Get App",
+      "category": "startup",
+      "url": "https://www.gartner.com/en/digital-marke",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 201,
+      "name": "Indie Gamer Reviewer",
+      "category": "startup",
+      "url": "https://indiegamereviewer.com/contact-ir",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 202,
+      "name": "IndieStack",
+      "category": "startup",
+      "url": "https://www.indiestack.co/contribute",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 203,
+      "name": "LaunchLeague",
+      "category": "startup",
+      "url": "https://launchleague.xyz/?product=yaps",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 204,
+      "name": "ListYourIdea",
+      "category": "startup",
+      "url": "https://listyouridea.com/launch",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 205,
+      "name": "Magnitt",
+      "category": "startup",
+      "url": "https://magnitt.com/startups",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 206,
+      "name": "Make Use Of",
+      "category": "startup",
+      "url": "https://www.makeuseof.com/contributor",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 207,
+      "name": "New Startups",
+      "category": "startup",
+      "url": "https://www.new-startups.com/pron",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 208,
+      "name": "NickLaunches",
+      "category": "startup",
+      "url": "https://nicklaunches.com/products/yaps/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 209,
+      "name": "OGFolio",
+      "category": "startup",
+      "url": "https://ogfolio.com/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 210,
+      "name": "Online Genuises",
+      "category": "startup",
+      "url": "https://onlinegeniuses.com/marketplace-",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 211,
+      "name": "Outbid",
+      "category": "startup",
+      "url": "https://outbid.lol/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 212,
+      "name": "Owwly",
+      "category": "startup",
+      "url": "https://owwly.com/products/all",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 213,
+      "name": "Peerlist Launchpad",
+      "category": "startup",
+      "url": "https://peerlist.io/launchpad",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 214,
+      "name": "PitchBook",
+      "category": "startup",
+      "url": "https://www.pitchbook.com/sponsorship",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 215,
+      "name": "Productburst",
+      "category": "startup",
+      "url": "https://productburst.com/pre-launch",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 216,
+      "name": "Proofstories",
+      "category": "startup",
+      "url": "https://proofstories.io/directory",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 217,
+      "name": "ReadWrite",
+      "category": "startup",
+      "url": "https://readwrite.com/contributor-guideline",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 218,
+      "name": "SHIP OR DIE",
+      "category": "startup",
+      "url": "https://shipordie.club/leaderboard",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 219,
+      "name": "Slate",
+      "category": "startup",
+      "url": "https://slate.com/pitch",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 220,
+      "name": "Software Advice",
+      "category": "startup",
+      "url": "https://www.softwareadvice.com/vendors",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 221,
+      "name": "Space Bandits",
+      "category": "startup",
+      "url": "https://www.spacebandits.io/startups",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 222,
+      "name": "StackShare",
+      "category": "startup",
+      "url": "https://stackshare.io/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 223,
+      "name": "Starter Story",
+      "category": "startup",
+      "url": "https://www.starterstory.com/share",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 224,
+      "name": "Startups UK",
+      "category": "startup",
+      "url": "https://startups.co.uk/contact-us",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 225,
+      "name": "Storyfied",
+      "category": "startup",
+      "url": "https://storyfied.com/get-featured",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 226,
+      "name": "Superbcrew",
+      "category": "startup",
+      "url": "https://www.superbcrew.com/about",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 227,
+      "name": "TeachOnline",
+      "category": "startup",
+      "url": "https://teachonline.ca/tools-trends/best-pr",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 228,
+      "name": "Tech Co.",
+      "category": "startup",
+      "url": "https://tech.co/contact",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 229,
+      "name": "The Indianpreneur",
+      "category": "startup",
+      "url": "https://theindianpreneur.com/advertise-",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 230,
+      "name": "Topion Networls",
+      "category": "startup",
+      "url": "https://www.topionetworks.com/#new-sitt",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 231,
+      "name": "TrustMRR",
+      "category": "startup",
+      "url": "https://trustmrr.com/",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 232,
+      "name": "Venture Beat",
+      "category": "startup",
+      "url": "https://venturebeat.com/quest-posts",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 233,
+      "name": "Versily",
+      "category": "startup",
+      "url": "https://versily.com/start/product",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 234,
+      "name": "Women Entrepreneurs Portal",
+      "category": "startup",
+      "url": "https://wep.gov.in/knowledge-bank/mybl",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 235,
+      "name": "x/Side Projects",
+      "category": "startup",
+      "url": "https://x.com/i/communities/1825401786217210316",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 236,
+      "name": "YourStory",
+      "category": "startup",
+      "url": "https://yourstory.com/companies",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 237,
+      "name": "ZDNet",
+      "category": "startup",
+      "url": "https://www.zdnet.com/blog",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 238,
+      "name": "Ant Directory",
+      "category": "startup",
+      "url": "https://antdirectory.com",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 239,
+      "name": "Launch Vault",
+      "category": "startup",
+      "url": "https://www.launchvault.dev",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 240,
+      "name": "Launch Vibe",
+      "category": "startup",
+      "url": "https://www.launchvibe.app",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 241,
+      "name": "launch.cab",
+      "category": "startup",
+      "url": "https://launch.cab",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 242,
+      "name": "Maker Lead",
+      "category": "startup",
+      "url": "https://makerlead.com",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 243,
+      "name": "Navs Site",
+      "category": "startup",
+      "url": "https://navs.site",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 244,
+      "name": "Open Startup",
+      "category": "startup",
+      "url": "https://openstartup.tm",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 245,
+      "name": "Open Startup List",
+      "category": "startup",
+      "url": "https://openstartuplist.com",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 246,
+      "name": "Startup benchmarks",
+      "category": "startup",
+      "url": "https://www.startupbenchmarks.com",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 247,
+      "name": "Startup Button",
+      "category": "startup",
+      "url": "https://www.startupbutton.com",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 248,
+      "name": "Startup Resources",
+      "category": "startup",
+      "url": "https://startupresources.io",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 249,
+      "name": "Startup Savant",
+      "category": "startup",
+      "url": "https://startupsavant.com",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    },
+    {
+      "id": 250,
+      "name": "Startup Tabs",
+      "category": "startup",
+      "url": "https://www.startuptabs.com",
+      "sourceAuto": "manual",
+      "submissionPageLikely": false,
+      "risk": "unverified",
+      "source": "BacklinkFlow 2026-10-15"
+    }
+  ]
+}
