@@ -192,6 +192,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T20:11:18.465Z",
       "landingUrl": "https://webspot.app/auth/login?callbackUrl=%2Fsubmit"
+    },
+    "https://www.americaninno.com/post-a-star": {
+      "name": "American Inno",
+      "url": "https://www.americaninno.com/post-a-star",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:11:50.888Z",
+      "landingUrl": "https://www.bizjournals.com/inno"
+    },
+    "https://greenrocket.app/create": {
+      "name": "GreenRocket",
+      "url": "https://greenrocket.app/create",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:12:22.740Z",
+      "landingUrl": "https://greenrocket.app/login"
+    },
+    "https://form.typeform.com/to/LQcTJr": {
+      "name": "Toolbase.io",
+      "url": "https://form.typeform.com/to/LQcTJr",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:12:53.929Z",
+      "landingUrl": "https://form.typeform.com/to/LQcTJr"
+    },
+    "https://www.submissionwebdirectory.com/": {
+      "name": "Submission Web Directory",
+      "url": "https://www.submissionwebdirectory.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:13:25.043Z",
+      "landingUrl": "https://www.submissionwebdirectory.com/"
     }
   }
 }
