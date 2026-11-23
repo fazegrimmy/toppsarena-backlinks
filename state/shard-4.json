@@ -816,6 +816,14 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T21:56:32.805Z",
       "landingUrl": "https://toolnetworker.com/get-started"
+    },
+    "https://vibeapps.dev": {
+      "name": "Vibe Apps",
+      "url": "https://vibeapps.dev",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:57:05.330Z",
+      "landingUrl": "https://vibeapps.dev/"
     }
   }
 }
