@@ -46,8 +46,8 @@ async function request(url, init = {}) {
     const r = await fetch(url, {
       redirect: 'follow',
       signal: ctrl.signal,
-      headers: { 'User-Agent': UA, Accept: 'text/html,application/json;q=0.9,*/*;q=0.5', ...(init.headers || {}) },
-      ...init
+      ...init,
+      headers: { 'User-Agent': UA, Accept: 'text/html,application/json;q=0.9,*/*;q=0.5', ...(init.headers || {}) }
     });
     const body = (await r.text()).slice(0, 1500000);
     return { httpStatus:r.status, finalUrl:r.url, body };
