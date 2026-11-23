@@ -224,6 +224,38 @@
       "details": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://launched.io/ Call log: - navigating to \"https://launched.io/\", waiting until \"domcontentloaded\"",
       "checkedAt": "2026-11-23T20:41:12.313Z",
       "landingUrl": "about:blank"
+    },
+    "https://simplelister.com/": {
+      "name": "Simple Lister",
+      "url": "https://simplelister.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:41:46.804Z",
+      "landingUrl": "https://simplelister.com/"
+    },
+    "https://www.whatlaunched.today": {
+      "name": "WhatLaunched.Today",
+      "url": "https://www.whatlaunched.today",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:42:22.998Z",
+      "landingUrl": "https://whatlaunched.today/directory-submission"
+    },
+    "https://www.submit.biz/": {
+      "name": "Submit.biz",
+      "url": "https://www.submit.biz/",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T20:42:54.900Z",
+      "landingUrl": "https://www.submit.biz/"
+    },
+    "https://alternativeto.net/faq/": {
+      "name": "AlternativeTo",
+      "url": "https://alternativeto.net/faq/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:43:25.822Z",
+      "landingUrl": "https://alternativeto.net/faq/"
     }
   }
 }
