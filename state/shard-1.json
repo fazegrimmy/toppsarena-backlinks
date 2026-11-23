@@ -384,6 +384,22 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:24:31.317Z",
       "landingUrl": "https://www.zdnet.com/article/blog-and-forum-comments-unethical-means-of-building-links/"
+    },
+    "https://makerlead.com": {
+      "name": "Maker Lead",
+      "url": "https://makerlead.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:25:03.950Z",
+      "landingUrl": "https://forsale.godaddy.com/forsale/makerlead.com?utm_source=TDFS_DASLNC&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-daslnc_base&traffic_type=TDFS_DASLNC&traffic_id=daslnc&"
+    },
+    "https://www.startupbutton.com": {
+      "name": "Startup Button",
+      "url": "https://www.startupbutton.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:25:35.118Z",
+      "landingUrl": "https://domains.atom.com/lpd/name/startupbutton.com"
     }
   }
 }
