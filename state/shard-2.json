@@ -400,6 +400,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:25:16.703Z",
       "landingUrl": "https://startupresources.io/"
+    },
+    "https://www.bestcss.in/freesubmit": {
+      "name": "Best CSS",
+      "url": "https://www.bestcss.in/freesubmit",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:58:22.072Z",
+      "landingUrl": "https://www.bestcss.in/freesubmit"
+    },
+    "https://fewertools.com/submit/": {
+      "name": "Fewertools",
+      "url": "https://fewertools.com/submit/",
+      "status": "skipped_terms",
+      "details": "Required consent checkbox must be reviewed manually",
+      "checkedAt": "2026-11-23T20:58:53.198Z",
+      "landingUrl": "https://fewertools.com/submit/"
+    },
+    "https://iii.social/submit": {
+      "name": "Indie Internet Index",
+      "url": "https://iii.social/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:59:24.284Z",
+      "landingUrl": "https://iii.social/submit"
+    },
+    "https://madelaunch.com/submit": {
+      "name": "MadeLaunch",
+      "url": "https://madelaunch.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:59:55.313Z",
+      "landingUrl": "https://madelaunch.com/submit"
     }
   }
 }
