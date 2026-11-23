@@ -128,6 +128,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:34:18.099Z",
       "landingUrl": "https://launchigniter.com/submit"
+    },
+    "https://launchstag.com/submit": {
+      "name": "Launchstag",
+      "url": "https://launchstag.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:34:51.467Z",
+      "landingUrl": "https://launchstag.com/"
+    },
+    "https://marketingdb.live/submit": {
+      "name": "MarketingDB",
+      "url": "https://marketingdb.live/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:35:23.450Z",
+      "landingUrl": "https://marketingdb.live/submit"
+    },
+    "https://peerpush.net/submit": {
+      "name": "PeerPush",
+      "url": "https://peerpush.net/submit",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T20:35:55.086Z",
+      "landingUrl": "https://peerpush.com/submit"
+    },
+    "https://shipybara.com/projects/submit": {
+      "name": "Shipybara",
+      "url": "https://shipybara.com/projects/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:36:26.838Z",
+      "landingUrl": "https://shipybara.com/sign-in?redirect=%2Fprojects%2Fsubmit"
     }
   }
 }
