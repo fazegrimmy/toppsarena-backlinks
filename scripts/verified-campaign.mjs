@@ -142,9 +142,10 @@ async function submitPublisher(v){
       try{response=JSON.parse(r.body)}catch{response={message:r.body.slice(0,400)}}
       finalStatus=classifyApiResponse(httpStatus,response);
       if(finalStatus!=='queued_not_published'||v.id!=='promoteindex'||queueRetries>=2)break;
-      const after=Number(response?.details?.retryAfter??response?.retryAfter);
-      const ticket=response?.details?.queue?.ticketId??response?.queue?.ticketId;
-      if(!ticket||!Number.isFinite(after)||after<0||after>420)break;
+      const details=response?.error?.details||response?.details||{};
+      const after=Number(details.retryAfter??response?.retryAfter);
+      const ticket=details.queue?.ticketId??response?.queue?.ticketId;
+      if(!ticket||!Number.isFinite(after)||after<0||after>900)break;
       queueRetries++;
       console.log('PromoteIndex requested a queued retry in '+after+' seconds; ticket kept in memory only');
       await new Promise(resolve=>setTimeout(resolve,(after+1)*1000));
@@ -177,6 +178,7 @@ async function main(){
  for(const v of data.publishers){
    if(MODE==='submit')await submitPublisher(v);
    const row=state.publishers[v.name]||{};
+   if(v.id==='develif' && row.submission?.httpStatus===409 && /already listed/i.test(row.submission?.responseSummary||''))row.submission.status='already_listed';
    if(row.listingUrl){
      row.verification=await verifyListing(row.listingUrl);
      if(row.verification.status!=='verified_published'&&v.id==='techtools'){
