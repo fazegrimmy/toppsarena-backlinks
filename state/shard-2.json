@@ -432,6 +432,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:59:55.313Z",
       "landingUrl": "https://madelaunch.com/submit"
+    },
+    "https://startap.cc/play": {
+      "name": "StarTap",
+      "url": "https://startap.cc/play",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:00:28.422Z",
+      "landingUrl": "https://startap.cc/play"
+    },
+    "https://viberank.dev/": {
+      "name": "VibeRank",
+      "url": "https://viberank.dev/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:00:59.913Z",
+      "landingUrl": "https://viberank.dev/"
+    },
+    "https://techtools.cz/tools/launchpad": {
+      "name": "TechTools Launchpad",
+      "url": "https://techtools.cz/tools/launchpad",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T21:01:32.125Z",
+      "landingUrl": "https://techtools.cz/tools/launchpad/"
+    },
+    "https://aitoolslister.com/submit": {
+      "name": "AI Tools Lister",
+      "url": "https://aitoolslister.com/submit",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:02:04.545Z",
+      "landingUrl": "https://aitoolslister.com/submit"
     }
   }
 }
