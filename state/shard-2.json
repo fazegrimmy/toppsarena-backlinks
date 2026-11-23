@@ -496,6 +496,38 @@
       "details": "Form only accepted a URL; manual verification required",
       "checkedAt": "2026-11-23T21:04:17.962Z",
       "landingUrl": "https://daily.dev/startups/"
+    },
+    "https://digitool.co/submit/submit-tool/": {
+      "name": "Digitool",
+      "url": "https://digitool.co/submit/submit-tool/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:04:52.946Z",
+      "landingUrl": "https://digitool.co/submit/submit-tool/"
+    },
+    "https://dirrove.com/": {
+      "name": "DirRove",
+      "url": "https://dirrove.com/",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:05:26.635Z",
+      "landingUrl": "https://dirrove.com/submit"
+    },
+    "https://firstlook.tools/submit": {
+      "name": "FirstLook.tools",
+      "url": "https://firstlook.tools/submit",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:05:58.620Z",
+      "landingUrl": "https://firstlook.tools/submit"
+    },
+    "https://app.innmind.com/register": {
+      "name": "InnMind",
+      "url": "https://app.innmind.com/register",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:06:30.466Z",
+      "landingUrl": "https://app.innmind.com/register"
     }
   }
 }
