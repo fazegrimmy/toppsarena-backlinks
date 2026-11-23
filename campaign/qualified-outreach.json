@@ -866,6 +866,48 @@
       "requiresAccount": true,
       "submissionAttempted": false,
       "backlinkVerified": false
+    },
+    {
+      "name": "1 Webs Directory",
+      "url": "https://www.1websdirectory.com/submission/0/free-listing",
+      "source": "https://gist.github.com/Hillzacky/dff041932b32afe6f12d29e0502d2eb5",
+      "type": "general_website_directory",
+      "priority": "medium",
+      "fit": "General business/internet directory allows original, functional, English-language sites. Choose Internet / Web Directories for TopPSArena; only one category.",
+      "status": "verified_free_manual_form_editorial_review",
+      "price": "free_basic",
+      "automationAllowed": false,
+      "requiresHumanReview": true,
+      "requiresAccount": false,
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "notes": "First-party FAQ states free URL/title/description with 2–4 week typical review but no guarantee. Form requires website URL, company/project name, owner name and email, category, terms acceptance. No payment or reciprocal link required for basic tier. Human owner must provide authentic contact information.",
+      "evidence": [
+        "https://www.1websdirectory.com/submission/0/free-listing",
+        "https://www.1websdirectory.com/faq/",
+        "https://www.1websdirectory.com/submission-guideline/"
+      ]
+    },
+    {
+      "name": "WebDirectory.top",
+      "url": "https://webdirectory.top/submit",
+      "source": "https://gist.github.com/Hillzacky/dff041932b32afe6f12d29e0502d2eb5",
+      "type": "general_website_directory",
+      "priority": "medium",
+      "fit": "Supports Computers / Computer games and Internet / Catalogs and search engines, relevant to a gaming-server discovery toplist.",
+      "status": "verified_manual_form_email_confirmation",
+      "price": "no_fee_stated",
+      "automationAllowed": false,
+      "requiresHumanReview": true,
+      "requiresAccount": false,
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "notes": "Official page shows name, URL, email, category and description. Terms require owner to click an emailed confirmation link within five minutes; review up to 10 days after confirmation. Page did not state a charge, but free acceptance/link type and actual listing are not verified.",
+      "evidence": [
+        "https://webdirectory.top/submit",
+        "https://webdirectory.top/terms",
+        "https://webdirectory.top/"
+      ]
     }
   ],
   "parallelResearchSources": [
@@ -891,5 +933,56 @@
     "reviewedOn": "2026-11-23",
     "status": "research_only",
     "notes": "34-site 'dofollow' list is not independently validated for nofollow or publication. Typepad shut 2025-09-30; most listed sites are not relevant directories. No automatic submissions or backlinks verified."
+  },
+  "hillzackyGistReview": {
+    "source": "https://gist.github.com/Hillzacky/dff041932b32afe6f12d29e0502d2eb5",
+    "reviewedOn": "2026-11-23",
+    "urlRows": 1022,
+    "uniqueHostnames": 849,
+    "note": "Bulk historical directory compilation. Many duplicate domains, neobacklinks subdomain network entries, parking pages and off-topic sites. Do not import all into active campaign; counts are URL/domain occurrences, not working free opportunities. Only the documented prospects are manually qualified.",
+    "examplesAlreadyTracked": [
+      "viesearch.com",
+      "somuch.com",
+      "cipinet.com",
+      "prolinkdirectory.com",
+      "247webdirectory.com",
+      "siteswebdirectory.com",
+      "directory-free.com"
+    ],
+    "rejected": [
+      {
+        "domain": "dirhello.com",
+        "reason": "Current live site now publishes offshore-casino content rather than the historic web directory",
+        "evidence": "https://dirhello.com/"
+      },
+      {
+        "domain": "blahoo.net",
+        "reason": "Current content is gambling promotions, not the historic web directory",
+        "evidence": "https://www.blahoo.net/"
+      },
+      {
+        "domain": "submitfreeurl.com",
+        "reason": "Domain currently advertises itself for sale, no submission website",
+        "evidence": "https://www.submitfreeurl.com/"
+      },
+      {
+        "domain": "marketingwebdirectory.com",
+        "reason": "Submission page requires reciprocal link and a visual challenge",
+        "evidence": "https://www.marketingwebdirectory.com/submit?LINK_TYPE=1&c=27"
+      },
+      {
+        "domain": "morefunz.com",
+        "reason": "Although free form is available, first-party guide requires sites be at least one year old; TopPSArena's current version is younger",
+        "evidence": "https://morefunz.com/free-url-submit-how-to-add-website"
+      },
+      {
+        "domain": "edom.co.uk",
+        "reason": "Page redirects to a Bulgarian classifieds platform, not UK website directory",
+        "evidence": "https://edom.co.uk/directory/"
+      }
+    ],
+    "allowlistChange": false,
+    "submissionsAttempted": 0,
+    "newBacklinksVerified": 0
   }
 }
