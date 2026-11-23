@@ -464,6 +464,38 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T21:02:04.545Z",
       "landingUrl": "https://aitoolslister.com/submit"
+    },
+    "https://www.applauncher.io/launch/create": {
+      "name": "App Launcher",
+      "url": "https://www.applauncher.io/launch/create",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:02:38.671Z",
+      "landingUrl": "https://www.applauncher.io/auth/login?next=%2Flaunch%2Fcreate"
+    },
+    "https://www.bizwebdirectory.com/": {
+      "name": "Biz Web Directory",
+      "url": "https://www.bizwebdirectory.com/",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:03:13.292Z",
+      "landingUrl": "https://dev-x2uskxv6voevjkyd.us.auth0.com/u/login?state=hKFo2SByZGI3YkpQUjdEUm9IOU1MSURxNlB6Z29IUUJNTWhKeKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtsbzBEcHczanhtVkNyMl9DUV8tc1RCZjVIWjlDX3Qto2NpZNkgM3JvOWoyZ3h3WHpVWXlONGoyMDhDZWwxSDFtR1lWVU8"
+    },
+    "https://account.canopy.education/ai-tools": {
+      "name": "Canopy Directory",
+      "url": "https://account.canopy.education/ai-tools",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:03:45.566Z",
+      "landingUrl": "https://account.canopy.education/ai-tools"
+    },
+    "https://daily.dev/startups/": {
+      "name": "daily.dev for Startups",
+      "url": "https://daily.dev/startups/",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T21:04:17.962Z",
+      "landingUrl": "https://daily.dev/startups/"
     }
   }
 }
