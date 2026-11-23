@@ -192,6 +192,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:38:34.414Z",
       "landingUrl": "https://www.weekhack.com/auth?next=/launches/submit"
+    },
+    "https://builders.to/projects/new": {
+      "name": "Builders.to",
+      "url": "https://builders.to/projects/new",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:39:06.611Z",
+      "landingUrl": "https://builders.to/projects/new"
+    },
+    "https://huzzler.so/products/create": {
+      "name": "Huzzler",
+      "url": "https://huzzler.so/products/create",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:39:40.225Z",
+      "landingUrl": "https://huzzler.so/submit-product"
+    },
+    "https://fundamaker.com/": {
+      "name": "Fund a Maker",
+      "url": "https://fundamaker.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:40:11.057Z",
+      "landingUrl": "https://forsale.godaddy.com/forsale/fundamaker.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&"
+    },
+    "https://www.joinly.xyz/": {
+      "name": "Joinly",
+      "url": "https://www.joinly.xyz/",
+      "status": "skipped_terms",
+      "details": "Required consent checkbox must be reviewed manually",
+      "checkedAt": "2026-11-23T20:40:43.137Z",
+      "landingUrl": "https://www.joinly.xyz/submit-startup"
     }
   }
 }
