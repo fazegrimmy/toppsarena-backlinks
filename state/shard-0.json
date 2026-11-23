@@ -656,6 +656,38 @@
       "details": "Form only accepted a URL; manual verification required",
       "checkedAt": "2026-11-23T21:14:57.991Z",
       "landingUrl": "https://scrappystartups.com/"
+    },
+    "https://addyoursitefreesubmit.com": {
+      "name": "Addyoursitefreesubmit",
+      "url": "https://addyoursitefreesubmit.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:15:30.165Z",
+      "landingUrl": "http://www.addyoursitefreesubmit.com/"
+    },
+    "https://www.bizmaker.org": {
+      "name": "BizMaker",
+      "url": "https://www.bizmaker.org",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:16:01.617Z",
+      "landingUrl": "https://www.bizmaker.org/"
+    },
+    "https://endors.me": {
+      "name": "endors",
+      "url": "https://endors.me",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:16:36.258Z",
+      "landingUrl": "https://endors.me/"
+    },
+    "https://inlinkswetrust.com": {
+      "name": "Inlinkswetrust",
+      "url": "https://inlinkswetrust.com",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:17:11.083Z",
+      "landingUrl": "https://inlinkswetrust.com/auth/login?next=/submit"
     }
   }
 }
