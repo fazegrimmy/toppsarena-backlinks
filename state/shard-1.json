@@ -400,6 +400,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:25:35.118Z",
       "landingUrl": "https://domains.atom.com/lpd/name/startupbutton.com"
+    },
+    "https://arcapush.com/submit": {
+      "name": "Arcapush",
+      "url": "https://arcapush.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:58:23.709Z",
+      "landingUrl": "https://arcapush.com/submit"
+    },
+    "https://support.crunchbase.com/hc/en-us/articles/115011823988-How-do-I-create-a-Crunchbase-profile": {
+      "name": "Crunchbase",
+      "url": "https://support.crunchbase.com/hc/en-us/articles/115011823988-How-do-I-create-a-Crunchbase-profile",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:58:54.596Z",
+      "landingUrl": "https://support.crunchbase.com/hc/en-us/articles/115011823988-How-do-I-create-a-Crunchbase-profile"
+    },
+    "https://index.dodopayments.com/submit": {
+      "name": "Index by Dodo Payments",
+      "url": "https://index.dodopayments.com/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:59:25.506Z",
+      "landingUrl": "https://index.dodopayments.com/submit"
+    },
+    "https://launchbert.com/products/create": {
+      "name": "LaunchBert",
+      "url": "https://launchbert.com/products/create",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:59:57.691Z",
+      "landingUrl": "https://launchbert.com/login"
     }
   }
 }
