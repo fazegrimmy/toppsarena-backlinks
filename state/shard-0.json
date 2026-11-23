@@ -528,6 +528,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:06:19.172Z",
       "landingUrl": "https://sell.g2.com/create-a-profile"
+    },
+    "https://launchaf.com/": {
+      "name": "LaunchAF",
+      "url": "https://launchaf.com/",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T21:06:51.983Z",
+      "landingUrl": "https://launchaf.com/"
+    },
+    "https://launchit.fast/submit/basic": {
+      "name": "LaunchIt.fast",
+      "url": "https://launchit.fast/submit/basic",
+      "status": "skipped_payment",
+      "details": "Page says free submissions unavailable or payment required",
+      "checkedAt": "2026-11-23T21:07:26.172Z",
+      "landingUrl": "https://launchit.fast/submit"
+    },
+    "https://mcpservers.org/submit": {
+      "name": "mcpservers.org",
+      "url": "https://mcpservers.org/submit",
+      "status": "skipped_required_fields",
+      "details": "Unfilled required fields: name server-name e.g., figma mcp server name",
+      "checkedAt": "2026-11-23T21:07:58.763Z",
+      "landingUrl": "https://mcpservers.org/submit"
+    },
+    "https://www.ogimage.gallery/submit": {
+      "name": "OGimage.gallery",
+      "url": "https://www.ogimage.gallery/submit",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:08:29.963Z",
+      "landingUrl": "https://www.ogimage.gallery/submit"
     }
   }
 }
