@@ -496,6 +496,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:34:27.234Z",
       "landingUrl": "https://www.dark.design/"
+    },
+    "https://toolsaiapp.com/submit-your-ai-tool/": {
+      "name": "Directory Tools AI",
+      "url": "https://toolsaiapp.com/submit-your-ai-tool/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:34:59.231Z",
+      "landingUrl": "https://toolsaiapp.com/submit-your-ai-tool/"
+    },
+    "https://domainrating.lol/submit": {
+      "name": "DomainRating.lol",
+      "url": "https://domainrating.lol/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:35:30.827Z",
+      "landingUrl": "https://domainrating.lol/sign-in?next=%2Fsubmit"
+    },
+    "https://link.fountn.design/submit": {
+      "name": "Fountn",
+      "url": "https://link.fountn.design/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:36:02.644Z",
+      "landingUrl": "https://fountn.notion.site/12a9ddf2478a8058924fe0212fc9d499?pvs=105"
+    },
+    "https://www.launch-list.org/submit/product": {
+      "name": "Launch List",
+      "url": "https://www.launch-list.org/submit/product",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:36:33.880Z",
+      "landingUrl": "https://www.launch-list.org/submit/product"
     }
   }
 }
