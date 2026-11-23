@@ -454,9 +454,11 @@
     {
       "repository": "s87343472/backlink-pilot",
       "url": "https://github.com/s87343472/backlink-pilot",
-      "value": "Detailed agent playbook, paced human handoffs and safe link-building bookkeeping",
-      "status": "research_only",
-      "assessment": "Current main branch does not contain a runnable bulk submit CLI, historical targets.yaml is unmaintained."
+      "value": "v3 playbook with submission pacing, qualification and state tracking; targets.yaml has 258 historical rows / 245 distinct domains, source explicitly unmaintained",
+      "status": "reviewed_research_only",
+      "assessment": "November 2026: screened 34 previously untracked overseas general-directory leads, first-party validated 4 selected prospects; not a runnable bulk CLI on main, legacy old branch needs Chrome; source auto:yes unsupported as current automation approval.",
+      "reviewedOn": "2026-11-23",
+      "researchFile": "research/backlink-pilot-untracked-research-2026-11-23.json"
     },
     {
       "repository": "zhuyansen/backlink-guard",
@@ -1053,6 +1055,93 @@
       "submissionAttempted": false,
       "backlinkVerified": false,
       "checkedOn": "2026-11-23"
+    },
+    {
+      "name": "Webwiki",
+      "url": "https://www.webwiki.com/info/add-website.html",
+      "type": "free_general_website_search_index",
+      "priority": "high",
+      "status": "current_free_manual_form_fun_and_games",
+      "fit": "First-party form supports Fun and Games, and specifically accepts a homepage domain, title, description and email; TopPSArena fits.",
+      "requiresAccount": false,
+      "price": "free",
+      "linkPolicy": "Published page backlink/rel not yet verified",
+      "notes": "Historical Backlink Pilot marked URL dead but official live first-party submission form is accessible in November 2026. No fabricated contact details; owner optional address/phone are public if filled.",
+      "evidence": [
+        "https://www.webwiki.com/info/add-website.html"
+      ],
+      "source": "https://github.com/s87343472/backlink-pilot/blob/main/targets.yaml",
+      "sourceCheckedOn": "2026-11-23",
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "automationAllowed": false,
+      "requiresHumanReview": true
+    },
+    {
+      "name": "WebsiteHunt",
+      "url": "https://www.websitehunt.co/websites/submit/create",
+      "type": "curated_gaming_website_showcase",
+      "priority": "high",
+      "status": "first_party_games_category_owner_login_required",
+      "fit": "Site has an active Games category and actual game-related website showcases, potentially useful referrals for a gaming server discovery project.",
+      "requiresAccount": true,
+      "price": "free_tier_not_independently_confirmed",
+      "linkPolicy": "Links to site via redirect /go/### possible; public HTML direct backlink unverified",
+      "notes": "The official Post Website page redirects to sign-in and real account creation. Do not bypass user login or claim followed backlinks.",
+      "evidence": [
+        "https://www.websitehunt.co/",
+        "https://www.websitehunt.co/websites/submit/create"
+      ],
+      "source": "https://github.com/s87343472/backlink-pilot/blob/main/targets.yaml",
+      "sourceCheckedOn": "2026-11-23",
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "automationAllowed": false,
+      "requiresHumanReview": true
+    },
+    {
+      "name": "All Business Directory",
+      "url": "https://www.allbusinessdirectory.biz/link_submit.php",
+      "type": "free_general_business_web_directory",
+      "priority": "medium",
+      "status": "first_party_free_standard_4_month_queue",
+      "fit": "General directory lists Computers and Internet categories; accepts quality English-language websites with no adult themes.",
+      "requiresAccount": false,
+      "price": "free_standard",
+      "linkPolicy": "Follow/nofollow not guaranteed on free tier; paid tiers offer configurable link types",
+      "notes": "Official Standard Listings option explicitly free, only homepage URL accepted, approximate 4 month queue. Paid Express $12 / Featured from $10; never use those for TopPSArena.",
+      "evidence": [
+        "https://www.allbusinessdirectory.biz/directory.php?page=submission-select",
+        "https://www.allbusinessdirectory.biz/directory.php?page=submission-guidelines"
+      ],
+      "source": "https://github.com/s87343472/backlink-pilot/blob/main/targets.yaml",
+      "sourceCheckedOn": "2026-11-23",
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "automationAllowed": false,
+      "requiresHumanReview": true
+    },
+    {
+      "name": "Active Search Results",
+      "url": "https://www.activesearchresults.com/addwebsite.php",
+      "type": "search_engine_indexing_only",
+      "priority": "low",
+      "status": "documented_free_get_post_indexing_not_backlink",
+      "fit": "General independent search engine invites any working website URL; TopPSArena could be indexed.",
+      "requiresAccount": false,
+      "price": "free",
+      "linkPolicy": "No public HTML link verified; do NOT count indexing as backlink.",
+      "notes": "Official first-party form documents POST or GET with fields url and email. This is indexing/crawl submission, NOT a direct backlink publisher; requires a valid email; do not integrate in backlink-verification allowlist.",
+      "evidence": [
+        "https://www.activesearchresults.com/addwebsite.php",
+        "https://www.activesearchresults.com/help/indexschedule.php"
+      ],
+      "source": "https://github.com/s87343472/backlink-pilot/blob/main/targets.yaml",
+      "sourceCheckedOn": "2026-11-23",
+      "submissionAttempted": false,
+      "backlinkVerified": false,
+      "automationAllowed": false,
+      "requiresHumanReview": true
     }
   ],
   "parallelResearchSources": [
@@ -1179,6 +1268,23 @@
     ],
     "automatedSubmissionChanges": "none_from_reddit",
     "submissionsAttempted": 0,
+    "newBacklinksVerified": 0
+  },
+  "backlinkPilotV3Review": {
+    "source": "https://github.com/s87343472/backlink-pilot",
+    "reviewedOn": "2026-11-23",
+    "activeVersion": "v3 main markdown workflow, no batch submit CLI",
+    "historicalTargetRecords": 258,
+    "historicalUniqueDomains": 245,
+    "untrackedGeneralDirectoryRecords": 34,
+    "qualifiedNewEntries": [
+      "Webwiki",
+      "WebsiteHunt",
+      "All Business Directory",
+      "Active Search Results"
+    ],
+    "policyAdopted": "Tag free/free-queue, fit and requirements; track pending vs verified; keep no reciprocal/badge/paid/captcha default. Consider 2–4 actual submissions/day as a safe target.",
+    "fullyAutomatedSubmissionsFromThisSource": 0,
     "newBacklinksVerified": 0
   }
 }
