@@ -352,6 +352,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:22:48.106Z",
       "landingUrl": "https://proofstories.io/submit/"
+    },
+    "https://www.spacebandits.io/startups": {
+      "name": "Space Bandits",
+      "url": "https://www.spacebandits.io/startups",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:23:20.391Z",
+      "landingUrl": "https://www.spacebandits.io/startups"
+    },
+    "https://www.superbcrew.com/about": {
+      "name": "Superbcrew",
+      "url": "https://www.superbcrew.com/about",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:23:53.325Z",
+      "landingUrl": "https://superbcrew.com/about/"
+    },
+    "https://trustmrr.com/": {
+      "name": "TrustMRR",
+      "url": "https://trustmrr.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:24:24.919Z",
+      "landingUrl": "https://trustmrr.com/"
+    },
+    "https://yourstory.com/companies": {
+      "name": "YourStory",
+      "url": "https://yourstory.com/companies",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:24:55.764Z",
+      "landingUrl": "https://yourstory.com/companies"
     }
   }
 }
