@@ -64,6 +64,38 @@
       "details": "Unfilled required fields: name resource name ; submitter_name your name",
       "checkedAt": "2026-11-23T20:30:03.357Z",
       "landingUrl": "https://startupcollections.com/submit-product/"
+    },
+    "https://neeed.directory/submit": {
+      "name": "Neeed Directory",
+      "url": "https://neeed.directory/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:30:36.019Z",
+      "landingUrl": "https://neeed.directory/submit"
+    },
+    "https://www.startup.sx/submit": {
+      "name": "Startup.sx",
+      "url": "https://www.startup.sx/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:31:06.911Z",
+      "landingUrl": "https://www.startup.sx/submit"
+    },
+    "https://www.softwaresuggest.com/add-product": {
+      "name": "Software Suggest",
+      "url": "https://www.softwaresuggest.com/add-product",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:31:38.537Z",
+      "landingUrl": "https://www.softwaresuggest.com/add-product"
+    },
+    "https://altern.ai/submit": {
+      "name": "Altern",
+      "url": "https://altern.ai/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:32:11.550Z",
+      "landingUrl": "https://altern.ai/signin?next=%2Fmaker%2Fsubmit%2Fstart"
     }
   }
 }
