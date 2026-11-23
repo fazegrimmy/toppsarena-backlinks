@@ -224,6 +224,38 @@
       "details": "Required consent checkbox must be reviewed manually",
       "checkedAt": "2026-11-23T20:40:43.137Z",
       "landingUrl": "https://www.joinly.xyz/submit-startup"
+    },
+    "https://primeindies.com/": {
+      "name": "Prime Indies",
+      "url": "https://primeindies.com/",
+      "status": "failed_runtime",
+      "details": "page.goto: net::ERR_CONNECTION_CLOSED at https://primeindies.com/ Call log: - navigating to \"https://primeindies.com/\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T20:41:14.760Z",
+      "landingUrl": "about:blank"
+    },
+    "https://www.topbestalternatives.com/": {
+      "name": "Top Best Alternatives",
+      "url": "https://www.topbestalternatives.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:41:45.664Z",
+      "landingUrl": "https://www.topbestalternatives.com/"
+    },
+    "https://gainweb.org/": {
+      "name": "GainWeb.org",
+      "url": "https://gainweb.org/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:42:17.270Z",
+      "landingUrl": "https://gainweb.org/"
+    },
+    "https://www.tinylaunch.com/dashboard/startups/new": {
+      "name": "TinyLaunch",
+      "url": "https://www.tinylaunch.com/dashboard/startups/new",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:42:48.553Z",
+      "landingUrl": "https://www.tinylaunch.com/login?returnTo=%2Fdashboard%2Fstartups%2Fnew"
     }
   }
 }
