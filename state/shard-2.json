@@ -1,0 +1,37 @@
+{
+  "shard": 2,
+  "records": {
+    "https://www.directory-free.com/submit/submit.php": {
+      "name": "Free Directory",
+      "url": "https://www.directory-free.com/submit/submit.php",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T19:58:53.216Z",
+      "landingUrl": "https://www.directory-free.com/submit/submit.php"
+    },
+    "https://www.qualityinternetdirectory.com/submit.php": {
+      "name": "Quality Internet Directory",
+      "url": "https://www.qualityinternetdirectory.com/submit.php",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T19:59:25.093Z",
+      "landingUrl": "https://www.qualityinternetdirectory.com/submit.php"
+    },
+    "https://apprater.net/add/": {
+      "name": "App Rater",
+      "url": "https://apprater.net/add/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T19:59:55.950Z",
+      "landingUrl": "https://apprater.net/add/"
+    },
+    "https://www.insanelycooltools.com/submit": {
+      "name": "insanelycooltools",
+      "url": "https://www.insanelycooltools.com/submit",
+      "status": "failed_runtime",
+      "details": "page.goto: net::ERR_CONNECTION_CLOSED at https://www.insanelycooltools.com/submit Call log: - navigating to \"https://www.insanelycooltools.com/submit\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T20:00:26.122Z",
+      "landingUrl": "about:blank"
+    }
+  }
+}
