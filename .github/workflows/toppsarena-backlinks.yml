@@ -1,87 +1,94 @@
-name: TopPSArena - 519 directory campaign
+name: TopPSArena - Verified free backlinks
 
 on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Preview all 519 candidates or submit to qualifying forms'
+        description: 'Submit to documented free API directories and verify, or verify only'
         required: true
-        default: preview
+        default: submit
         type: choice
         options:
-          - preview
           - submit
-      confirmation:
-        description: 'Type SUBMIT for live mode'
-        required: false
-        type: string
-      contact_email:
-        description: 'Public TopPSArena contact email (only for submit mode)'
-        required: false
-        type: string
+          - verify
+  schedule:
+    - cron: '12 8,20 * * *'
   push:
     branches:
       - main
     paths:
       - '.github/workflows/toppsarena-backlinks.yml'
-      - 'scripts/campaign.mjs'
-      - 'campaign/candidates.json'
-      - 'package.json'
+      - 'scripts/verified-campaign.mjs'
+      - 'campaign/verified-opportunities.json'
 
 permissions:
   contents: write
 
 concurrency:
-  group: toppsarena-directory-campaign
+  group: toppsarena-verified-public-links
   cancel-in-progress: false
 
 jobs:
-  campaign:
-    name: Directory campaign shard ${{ matrix.shard }} of 5
+  verify:
+    name: Free API submissions and published-link checks
     runs-on: ubuntu-latest
-    timeout-minutes: 330
-    strategy:
-      fail-fast: false
-      max-parallel: 3
-      matrix:
-        shard: [0, 1, 2, 3, 4]
+    timeout-minutes: 12
     env:
-      RUN_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'preview' }}
-      SHARD: ${{ matrix.shard }}
-      CONFIRM: ${{ inputs.confirmation }}
-      CONTACT_EMAIL: ${{ inputs.contact_email }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      CAMPAIGN_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'submit' }}
+      TOPPSARENA_CONTACT_EMAIL: ${{ vars.TOPPSARENA_CONTACT_EMAIL || 'notifications@toppsarena.com' }}
     steps:
-      - name: Check out candidate queue and previous checkpoints
+      - name: Fetch campaign and saved evidence
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
-      - name: Install Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-      - name: Install free browser automation library
-        run: npm install --no-audit --no-fund
+      - name: Validate verification-first runner
+        run: node --check scripts/verified-campaign.mjs
 
-      - name: Validate the campaign script
-        run: npm run check
+      - name: Submit only via approved free public APIs and verify actual backlink pages
+        run: node scripts/verified-campaign.mjs
 
-      - name: Install browser for approved live mode only
-        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'submit'
-        run: npx playwright install --with-deps chromium
+      - name: Show strict publication report
+        if: always()
+        run: |
+          if [ -f reports/verified-backlinks.md ]; then
+            cat reports/verified-backlinks.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "No report generated" >> "$GITHUB_STEP_SUMMARY"
+          fi
 
-      - name: Preview all candidates or run live screening
-        run: node scripts/campaign.mjs
+      - name: Save persistent publication evidence for hourly notifications
+        if: success()
+        run: |
+          git config user.name 'TopPSArena Verification Bot'
+          git config user.email 'notifications@toppsarena.com'
+          git add state/reliable-campaign.json reports/verified-backlinks.md
+          if git diff --cached --quiet; then
+            echo "No new results to save"
+            exit 0
+          fi
+          git commit -m "Store verified TopPSArena backlink evidence"
+          for attempt in 1 2 3 4; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              echo "Published verified evidence in GitHub repository"
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "Could not push evidence; inspect workflow artifact"
+          exit 1
 
-      - name: Upload screening records for this shard
+      - name: Upload full API and backlink verification record
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: toppsarena-directory-shard-${{ matrix.shard }}
+          name: toppsarena-published-backlink-evidence
           path: |
-            results/
-            state/shard-${{ matrix.shard }}.json
+            state/reliable-campaign.json
+            reports/verified-backlinks.md
           if-no-files-found: warn
           retention-days: 30
