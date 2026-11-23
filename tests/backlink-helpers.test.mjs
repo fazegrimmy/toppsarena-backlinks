@@ -38,4 +38,13 @@ test('API acceptance is never called a published backlink',()=>{
   assert.equal(classifyApiResponse(409,{error:'This site is already listed.'}),'already_listed');
   assert.equal(classifyApiResponse(202,{code:'submission_queue'}),'queued_not_published');
   assert.equal(classifyApiResponse(429,{error:'Rate limited'}),'rate_limited');
+  assert.equal(classifyApiResponse(429,{error:{code:'submission_queue',details:{retryAfter:599,queue:{ticketId:'private'}}}}),'queued_not_published');
+});
+
+test('reject private management URLs and keep signed tickets out of evidence',()=>{
+  assert.equal(safeListingUrl('https://techtools.cz/tools/launchpad/?tool=9#manage=lpk_test','techtools.cz'),null);
+  assert.equal(safeListingUrl('https://techtools.cz/tools/launchpad/?key=supersecret','techtools.cz'),null);
+  const row=redact({error:{details:{queue:{ticketId:'SIGNED_PRIVATE_QUEUE',ticketNumber:'92'}}},editUrl:'https://example.com/edit?key=secret'});
+  assert.equal(row.error.details.queue.ticketId,'[REDACTED]');
+  assert.equal(row.editUrl,'[REDACTED]');
 });
