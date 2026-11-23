@@ -656,6 +656,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:15:30.333Z",
       "landingUrl": "https://smartbiztools.io/"
+    },
+    "https://advancedseodirectory.com": {
+      "name": "Advancedseodirectory",
+      "url": "https://advancedseodirectory.com",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T21:16:04.121Z",
+      "landingUrl": "https://advancedseodirectory.com/submit.php"
+    },
+    "https://bro.directory": {
+      "name": "BRO Directory",
+      "url": "https://bro.directory",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:16:36.846Z",
+      "landingUrl": "https://bro.directory/signin"
+    },
+    "https://everfeatured.com": {
+      "name": "everfeatured",
+      "url": "https://everfeatured.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:17:08.264Z",
+      "landingUrl": "https://www.everfeatured.com/"
+    },
+    "https://linkorado.com": {
+      "name": "Linkorado",
+      "url": "https://linkorado.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:17:40.003Z",
+      "landingUrl": "https://linkorado.com/"
     }
   }
 }
