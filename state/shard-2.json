@@ -656,6 +656,38 @@
       "details": "Clicked submit but no confirmation detected; listing NOT verified",
       "checkedAt": "2026-11-23T21:15:15.668Z",
       "landingUrl": "https://startupalternatives.com/submit"
+    },
+    "https://affiliate.watch": {
+      "name": "Affiliate Watch",
+      "url": "https://affiliate.watch",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:15:50.388Z",
+      "landingUrl": "https://affiliate.watch/login"
+    },
+    "https://buildrship.xyz": {
+      "name": "Buildrship",
+      "url": "https://buildrship.xyz",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:16:21.300Z",
+      "landingUrl": "https://buildrship.xyz/"
+    },
+    "https://www.globalbusinesslisting.org": {
+      "name": "Global Business Directory",
+      "url": "https://www.globalbusinesslisting.org",
+      "status": "failed_runtime",
+      "details": "page.goto: Timeout 22000ms exceeded. Call log: - navigating to \"https://www.globalbusinesslisting.org/\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T21:17:13.358Z",
+      "landingUrl": "https://www.globalbusinesslisting.org/"
+    },
+    "https://app.marsdd.com/companies": {
+      "name": "MaRS DD",
+      "url": "https://app.marsdd.com/companies",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:17:44.392Z",
+      "landingUrl": "https://app.marsdd.com/companies"
     }
   }
 }
