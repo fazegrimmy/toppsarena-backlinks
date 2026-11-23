@@ -64,6 +64,38 @@
       "details": "Cannot identify safe listing submit button",
       "checkedAt": "2026-11-23T20:02:40.894Z",
       "landingUrl": "https://www.01webdirectory.com/frmPreSubmit.aspx"
+    },
+    "https://emojilaunch.com/submit": {
+      "name": "Emoji Launch",
+      "url": "https://emojilaunch.com/submit",
+      "status": "skipped_required_fields",
+      "details": "Unfilled required fields: _r_4clubtb_ launch code; _r_2klubtb_ name; _r_6klubtb_ launch date",
+      "checkedAt": "2026-11-23T20:03:13.291Z",
+      "landingUrl": "https://emojilaunch.com/submit"
+    },
+    "https://productivity.directory/s/submit": {
+      "name": "Productivity Directory",
+      "url": "https://productivity.directory/s/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:03:46.489Z",
+      "landingUrl": "https://productivity.directory/user/signin?return_to=%2Fs%2Fsubmit"
+    },
+    "https://foundrlist.com/submit": {
+      "name": "FoundrList",
+      "url": "https://foundrlist.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:04:18.018Z",
+      "landingUrl": "https://foundrlist.com/agent"
+    },
+    "https://www.a1.gallery/submit": {
+      "name": "A1 Gallery",
+      "url": "https://www.a1.gallery/submit",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T20:04:49.959Z",
+      "landingUrl": "https://www.a1.gallery/submit"
     }
   }
 }
