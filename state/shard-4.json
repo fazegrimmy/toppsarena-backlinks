@@ -592,6 +592,38 @@
       "details": "Captcha detected; not bypassed",
       "checkedAt": "2026-11-23T21:40:58.594Z",
       "landingUrl": "https://startfa.st/submit"
+    },
+    "https://superlaunchlist.com/submit": {
+      "name": "SuperLaunchList",
+      "url": "https://superlaunchlist.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:41:31.907Z",
+      "landingUrl": "https://superlaunchlist.com/submit"
+    },
+    "https://toolcurio.com/submit": {
+      "name": "Toolcurio",
+      "url": "https://toolcurio.com/submit",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:42:03.647Z",
+      "landingUrl": "https://toolcurio.com/submit"
+    },
+    "https://wdawards.com/submit-your-work": {
+      "name": "WD Awards",
+      "url": "https://wdawards.com/submit-your-work",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:42:34.693Z",
+      "landingUrl": "https://wdawards.com/submit-your-work"
+    },
+    "https://cazaproducto.com": {
+      "name": "CazaProducto",
+      "url": "https://cazaproducto.com",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:43:05.878Z",
+      "landingUrl": "https://cazaproducto.com/"
     }
   }
 }
