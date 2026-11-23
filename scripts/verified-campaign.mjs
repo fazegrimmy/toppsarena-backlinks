@@ -144,7 +144,7 @@ async function submitPublisher(v){
       if(finalStatus!=='queued_not_published'||v.id!=='promoteindex'||queueRetries>=2)break;
       const after=Number(response?.details?.retryAfter??response?.retryAfter);
       const ticket=response?.details?.queue?.ticketId??response?.queue?.ticketId;
-      if(!ticket||!Number.isFinite(after)||after<0||after>45)break;
+      if(!ticket||!Number.isFinite(after)||after<0||after>420)break;
       queueRetries++;
       console.log('PromoteIndex requested a queued retry in '+after+' seconds; ticket kept in memory only');
       await new Promise(resolve=>setTimeout(resolve,(after+1)*1000));
