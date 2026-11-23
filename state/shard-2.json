@@ -816,6 +816,22 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T21:26:59.740Z",
       "landingUrl": "https://tooldynamo.com/get-started"
+    },
+    "https://toolslisthq.com": {
+      "name": "Tools List HQ",
+      "url": "https://toolslisthq.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:27:33.068Z",
+      "landingUrl": "https://toolslisthq.com/get-started"
+    },
+    "https://techreviewer.co": {
+      "name": "Techreviewer",
+      "url": "https://techreviewer.co",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:28:04.900Z",
+      "landingUrl": "https://techreviewer.co/why-get-listed"
     }
   }
 }
