@@ -8,6 +8,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {findListingUrl,findOutbound,redact,classifyApiResponse,targetHost} from './backlink-helpers.mjs';
+import {submitLaunchAgentic} from './launchagentic.mjs';
 
 const ROOT = process.cwd();
 const SOURCES = path.join(ROOT, 'campaign', 'verified-opportunities.json');
@@ -113,10 +114,24 @@ async function submitPublisher(v){
   if(!v.automationAllowed||v.cost!=='free'||v.requiresAccount||v.requiresBadge){
     console.log('SKIP not eligible for free bot submission: '+v.name);return;
   }
-  if(!['develif','curlship','techtools','promoteindex'].includes(v.id))throw Error('Unreviewed API publisher '+v.id);
+  if(!['develif','curlship','techtools','promoteindex','launchagentic'].includes(v.id))throw Error('Unreviewed API publisher '+v.id);
   const row=state.publishers[v.name]||{};
   // Never replay an accepted or rejected definitive POST on scheduled runs.
   if(row.submission && !['network_error','rate_limited','preflight_unavailable'].includes(row.submission.status))return;
+  if(v.id==='launchagentic'){
+    try{
+      const result=await submitLaunchAgentic({request,site:SITE,title:TITLE,description:DESCRIPTION});
+      row.submission={
+        status:result.status,httpStatus:result.httpStatus,submittedAt:now(),
+        responseSummary:short(JSON.stringify(result.publicInfo)),candidateListingUrl:result.candidateListingUrl
+      };
+      if(result.candidateListingUrl)row.listingUrl=result.candidateListingUrl;
+      console.log('LaunchAgentic: '+result.status+'; candidate: '+(row.listingUrl||'none')+'; no private tokens saved');
+    }catch(e){
+      row.submission={status:'preflight_unavailable',submittedAt:now(),responseSummary:'Safe submission preflight did not complete: '+short(e.message)};
+    }
+    state.publishers[v.name]=row;save();return;
+  }
   if(v.id==='techtools'){
     try{
       const existing=await checkTechtools();
