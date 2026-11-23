@@ -9,6 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {findListingUrl,findOutbound,redact,classifyApiResponse,targetHost} from './backlink-helpers.mjs';
 import {submitLaunchAgentic} from './launchagentic.mjs';
+import {submitPostLaunchKit,checkPostLaunchKit} from './postlaunchkit.mjs';
 
 const ROOT = process.cwd();
 const SOURCES = path.join(ROOT, 'campaign', 'verified-opportunities.json');
@@ -95,8 +96,8 @@ function save(){
     '|---|---|---|',
     ...jsonConfirmed.map(([name,r])=>'| '+name+' | '+r.verification.listedAt+' | Public directory API record |'),
     '',
-    '## Submission and pending statuses','','| Directory | API result | Submission status | Link verification |','|---|---|---|---|',
-    ...Object.entries(state.publishers).map(([name,r])=>'| '+name+' | '+(r.submission?.httpStatus??'—')+' | '+(r.submission?.status??'not attempted')+' | '+(r.verification?.status??'not verified')+' |'),
+    '## Submission and pending statuses','','| Directory | API result | Submission status | Editorial review | Link verification |','|---|---|---|---|---|',
+    ...Object.entries(state.publishers).map(([name,r])=>'| '+name+' | '+(r.submission?.httpStatus??'—')+' | '+(r.submission?.status??'not attempted')+' | '+(r.review?.status??'—')+' | '+(r.verification?.status??'not verified')+' |'),
     '',
     'Published means a page actually links to TopPSArena. A successful workflow, API 201, review notice, or redirect alone never does. Results are rechecked, and unverified does not imply deleted.',
     ''
@@ -114,10 +115,28 @@ async function submitPublisher(v){
   if(!v.automationAllowed||v.cost!=='free'||v.requiresAccount||v.requiresBadge){
     console.log('SKIP not eligible for free bot submission: '+v.name);return;
   }
-  if(!['develif','curlship','techtools','promoteindex','launchagentic'].includes(v.id))throw Error('Unreviewed API publisher '+v.id);
+  if(!['develif','curlship','techtools','promoteindex','launchagentic','postlaunchkit'].includes(v.id))throw Error('Unreviewed API publisher '+v.id);
   const row=state.publishers[v.name]||{};
   // Never replay an accepted or rejected definitive POST on scheduled runs.
   if(row.submission && !['network_error','rate_limited','preflight_unavailable'].includes(row.submission.status))return;
+  if(v.id==='postlaunchkit'){
+    try{
+      const result=await submitPostLaunchKit({request,site:SITE,title:TITLE,description:DESCRIPTION});
+      row.submission={
+        status:result.status,httpStatus:result.httpStatus,submittedAt:now(),
+        ...(result.reviewId?{reviewId:result.reviewId}:{}),
+        responseSummary:short(JSON.stringify(result.publicInfo)),
+        candidateListingUrl:result.listingUrl||null
+      };
+      if(result.listingUrl)row.listingUrl=result.listingUrl;
+      console.log('PostLaunchKit: '+result.status+'; review reference saved for read-only checks; no backlink claimed');
+    }catch(e){
+      // A failed preflight or POST never counts as a published backlink.
+      row.submission={status:'preflight_unavailable',submittedAt:now(),responseSummary:short(e.message)};
+      console.log('PostLaunchKit: submission unavailable; no backlink claimed');
+    }
+    state.publishers[v.name]=row;save();return;
+  }
   if(v.id==='launchagentic'){
     try{
       const result=await submitLaunchAgentic({request,site:SITE,title:TITLE,description:DESCRIPTION});
@@ -193,6 +212,15 @@ async function main(){
  for(const v of data.publishers){
    if(MODE==='submit')await submitPublisher(v);
    const row=state.publishers[v.name]||{};
+   if(v.id==='postlaunchkit'){
+     try{
+       const review=await checkPostLaunchKit({request,site:SITE,reviewId:row.submission?.reviewId});
+       row.review={status:review.status,checkedAt:now()};
+       if(review.listingUrl)row.listingUrl=review.listingUrl;
+     }catch(e){
+       row.review={status:'check_unavailable',reason:short(e.message),checkedAt:now()};
+     }
+   }
    if(v.id==='develif' && row.submission?.httpStatus===409 && /already listed/i.test(row.submission?.responseSummary||''))row.submission.status='already_listed';
    if(row.listingUrl){
      row.verification=await verifyListing(row.listingUrl);
