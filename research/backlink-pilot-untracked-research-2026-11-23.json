@@ -1,0 +1,787 @@
+{
+  "source": "https://github.com/s87343472/backlink-pilot/blob/main/targets.yaml",
+  "reviewedOn": "2026-11-23",
+  "sourceWarning": "Upstream marks target list DEPRECATED/UNMAINTAINED. Its auto:yes fields are historical source claims, NOT real no-login/API automation permissions.",
+  "site": "https://toppsarena.com",
+  "totalRows": 258,
+  "distinctDomains": 245,
+  "bySection": {
+    "overseas_ai_directories": {
+      "total": 86,
+      "known": 1,
+      "untracked": 85
+    },
+    "overseas_general": {
+      "total": 59,
+      "known": 35,
+      "untracked": 24
+    },
+    "overseas_directories": {
+      "total": 39,
+      "known": 29,
+      "untracked": 10
+    },
+    "chinese_ai_directories": {
+      "total": 33,
+      "known": 0,
+      "untracked": 33
+    },
+    "chinese_general": {
+      "total": 14,
+      "known": 0,
+      "untracked": 14
+    },
+    "communities_manual": {
+      "total": 13,
+      "known": 5,
+      "untracked": 8
+    },
+    "awesome_lists": {
+      "total": 4,
+      "known": 4,
+      "untracked": 0
+    },
+    "reddit": {
+      "total": 10,
+      "known": 10,
+      "untracked": 0
+    }
+  },
+  "researchFocus": "Previously untracked English-language overseas_general and overseas_directories candidate records ONLY. All entries are not yet approved for automated submission.",
+  "records": [
+    {
+      "section": "overseas_general",
+      "name": "Appoid",
+      "submit_url": "http://appiod.com/submit-app-for-review/",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "appiod.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "research_only"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "All Startups",
+      "submit_url": "http://www.allstartups.info/Startups/Submit",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "allstartups.info",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "research_only"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "Betalist",
+      "submit_url": "https://betalist.com/users/sign_in",
+      "type": "form",
+      "auto": "manual",
+      "lang": "en",
+      "notes": "Requires login",
+      "domain": "betalist.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "manual",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "research_only"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "DataTau",
+      "submit_url": "https://datatau.net/",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "notes": "HN clone for data science",
+      "domain": "datatau.net",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "research_only"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "10words",
+      "submit_url": "https://10words.io/",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "10words.io",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "research_only"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "Fiddy",
+      "submit_url": "https://fiddy.co/",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "notes": "Weekly indie hacker ranking",
+      "domain": "fiddy.co",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "research_only"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "OpenAlternative",
+      "submit_url": "https://airtable.com/appcN6nvv5iyo3x/pagzZyGl6fEI2RWDq/form",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "404 as of 2026-03",
+      "domain": "airtable.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "LibHunt",
+      "submit_url": "https://www.libhunt.com/repo/submit",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "403 as of 2026-03",
+      "domain": "libhunt.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "PayOnceApps",
+      "submit_url": "https://payonceapps.com/add-your-app/",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "404 as of 2026-03",
+      "domain": "payonceapps.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "Tool Finder",
+      "submit_url": "https://toolfinder.co/submit-your-tool",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "404 as of 2026-03",
+      "domain": "toolfinder.co",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "TechFaster",
+      "submit_url": "http://techfaster.com/submit-your-company/",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "techfaster.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "research_only"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "Unloc",
+      "submit_url": "https://www.unloc.tools/submit-tool",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "unloc.tools",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "first_party_submission_404",
+        "verdict": "exclude",
+        "evidence": "https://www.unloc.tools/submit-tool",
+        "note": "Old submit form HTTP 404."
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "Wewaat",
+      "submit_url": "https://www.wewaat.com/submitnewtool",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "notes": "No-code tools",
+      "domain": "wewaat.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "first_party_submission_404",
+        "verdict": "exclude",
+        "evidence": "https://www.wewaat.com/submitnewtool",
+        "note": "Old submit form HTTP 404."
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "Indie Tools",
+      "submit_url": "https://indietools.co/",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "indietools.co",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "first_party_domain_parked",
+        "verdict": "exclude",
+        "evidence": "https://indietools.co/",
+        "note": "Domain listed for sale, not active project directory."
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "No Code Family",
+      "submit_url": "https://nocodefamily.com/submit-tool",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "503 as of 2026-03",
+      "domain": "nocodefamily.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "SpotSaaS",
+      "submit_url": "https://www.spotsaas.com/get-listed",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "403 as of 2026-03",
+      "domain": "spotsaas.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "MakerPeak",
+      "submit_url": "https://makerpeak.com/sign-up?redirect=/profile/products/submit",
+      "type": "form",
+      "auto": "manual",
+      "lang": "en",
+      "notes": "Requires signup",
+      "domain": "makerpeak.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "manual",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "research_only"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "Launching Today",
+      "submit_url": "https://www.launching.today/",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "launching.today",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "research_only"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "WebsiteHunt",
+      "submit_url": "https://www.websitehunt.co/",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "websitehunt.co",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "first_party_site_verified_login_required",
+        "verdict": "manual_high_priority",
+        "evidence": "https://www.websitehunt.co/websites/submit/create",
+        "note": "Site has a Games category with genuine listing examples. Submission redirects to sign-in; no unattended automation."
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "Top10",
+      "submit_url": "https://top10.now/submit",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "404 as of 2026-03",
+      "domain": "top10.now",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "ASR",
+      "submit_url": "https://www.activesearchresults.com/addwebsite.php",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "activesearchresults.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "first_party_submission_endpoint_verified",
+        "verdict": "indexing_request_not_backlink",
+        "evidence": "https://www.activesearchresults.com/addwebsite.php",
+        "note": "Official search engine permits GET or POST url/email with no account. Indexing a website is NOT verified HTML backlink. Do not re-add as a backlink publisher automatically."
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "AddictiveTips",
+      "submit_url": "https://www.addictivetips.com/tip-us/",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "405 as of 2026-03",
+      "domain": "addictivetips.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "findatool",
+      "submit_url": "https://www.findatool.io/add-a-tool",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "403 as of 2026-03",
+      "domain": "findatool.io",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_general",
+      "name": "700.tools",
+      "submit_url": "https://700.tools/add",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "700.tools",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "research_only"
+      }
+    },
+    {
+      "section": "overseas_directories",
+      "name": "Sitelike",
+      "submit_url": "https://www.sitelike.org/add-site",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "403 as of 2026-03",
+      "domain": "sitelike.org",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_directories",
+      "name": "Dizila",
+      "submit_url": "https://www.dizila.com/submit",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "dizila.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "first_party_step_one_confirmed",
+        "verdict": "research_low_priority",
+        "evidence": "https://www.dizila.com/submit",
+        "note": "Shows category selection but terms/free final state and relevance not confirmed."
+      }
+    },
+    {
+      "section": "overseas_directories",
+      "name": "DesignRush",
+      "submit_url": "https://www.designrush.com/submit/agency",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "403 as of 2026-03",
+      "domain": "designrush.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_directories",
+      "name": "Good Design Tools",
+      "submit_url": "https://www.gooddesign.tools/submit",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "404 as of 2026-03",
+      "domain": "gooddesign.tools",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_directories",
+      "name": "Webwiki",
+      "submit_url": "https://www.webwiki.com/info/add-website.html",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "403 as of 2026-03",
+      "domain": "webwiki.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "first_party_free_submission_form_verified",
+        "verdict": "manual_high_priority",
+        "evidence": "https://www.webwiki.com/info/add-website.html",
+        "note": "Direct no-fee form, Fun and Games category and owner contact email. Historic source marked dead, but current first-party form works."
+      }
+    },
+    {
+      "section": "overseas_directories",
+      "name": "All Business Directory",
+      "submit_url": "https://www.allbusinessdirectory.biz/directory.php?page=submission-guidelines",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "allbusinessdirectory.biz",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "first_party_free_standard_option_verified",
+        "verdict": "manual_medium_priority",
+        "evidence": "https://www.allbusinessdirectory.biz/directory.php?page=submission-select",
+        "note": "Standard free listing, homepage URL only, says ~4 months queue. Paid featured/express not needed."
+      }
+    },
+    {
+      "section": "overseas_directories",
+      "name": "Info-Listings",
+      "submit_url": "https://info-listings.com/submit.php",
+      "type": "form",
+      "auto": "no",
+      "lang": "en",
+      "status": "dead",
+      "notes": "500 as of 2026-03",
+      "domain": "info-listings.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "no",
+      "sourceClaimStatus": "dead",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "historically_dead"
+      }
+    },
+    {
+      "section": "overseas_directories",
+      "name": "Thales Directory",
+      "submit_url": "https://thalesdirectory.com/submit/",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "thalesdirectory.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "first_party_submission_404",
+        "verdict": "exclude",
+        "evidence": "https://thalesdirectory.com/submit/",
+        "note": "Official historical submission route HTTP 404."
+      }
+    },
+    {
+      "section": "overseas_directories",
+      "name": "World Web Directory",
+      "submit_url": "https://www.worldweb-directory.com/add.php",
+      "type": "form",
+      "auto": "yes",
+      "lang": "en",
+      "domain": "worldweb-directory.com",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "first_party_bot_gate",
+        "verdict": "manual_only_low",
+        "evidence": "https://www.worldweb-directory.com/add.php",
+        "note": "Request verification gate, do not bypass."
+      }
+    },
+    {
+      "section": "overseas_directories",
+      "name": "5118.link",
+      "submit_url": "http://www.5118.link/article/22.html",
+      "type": "form",
+      "auto": "yes",
+      "lang": "zh",
+      "notes": "Chinese directory, 1-2 day review",
+      "domain": "5118.link",
+      "currentlyTracked": false,
+      "sourceClaimAuto": "yes",
+      "sourceClaimStatus": "unknown",
+      "sourceUnmaintained": true,
+      "submissionAttempted": false,
+      "verifiedPublishedBacklink": false,
+      "autoSubmitPermitted": false,
+      "vetting": {
+        "status": "not_independently_verified",
+        "verdict": "research_only"
+      }
+    }
+  ]
+}
