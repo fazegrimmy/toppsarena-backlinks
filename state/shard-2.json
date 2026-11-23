@@ -64,6 +64,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:02:37.202Z",
       "landingUrl": "https://www.ontoplist.com/join/"
+    },
+    "https://funneldirectory.com/submit": {
+      "name": "Funnel Directory",
+      "url": "https://funneldirectory.com/submit",
+      "status": "skipped_terms",
+      "details": "Required consent checkbox must be reviewed manually",
+      "checkedAt": "2026-11-23T20:03:09.606Z",
+      "landingUrl": "https://funneldirectory.com/submit"
+    },
+    "https://www.startupfa.st/submit": {
+      "name": "Startup Fast",
+      "url": "https://www.startupfa.st/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:03:41.760Z",
+      "landingUrl": "https://www.startupfa.st/sign-in?redirect=/projects/submit"
+    },
+    "https://www.patresearch.com/submit-software/": {
+      "name": "PAT Research",
+      "url": "https://www.patresearch.com/submit-software/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:04:14.174Z",
+      "landingUrl": "http://patresearch.com/submit-software/"
+    },
+    "https://alltopstartups.com/submit-st": {
+      "name": "All Top Startups",
+      "url": "https://alltopstartups.com/submit-st",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:04:47.293Z",
+      "landingUrl": "https://alltopstartups.com/success-story/"
     }
   }
 }
