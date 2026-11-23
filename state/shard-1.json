@@ -320,6 +320,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:20:16.018Z",
       "landingUrl": "https://www.eu-startups.com/directory/"
+    },
+    "https://www.indiestack.co/contribute": {
+      "name": "IndieStack",
+      "url": "https://www.indiestack.co/contribute",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:20:49.157Z",
+      "landingUrl": "https://indiestack.co/contribute"
+    },
+    "https://www.new-startups.com/pron": {
+      "name": "New Startups",
+      "url": "https://www.new-startups.com/pron",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:21:22.586Z",
+      "landingUrl": "https://www.new-startups.com/pron"
+    },
+    "https://owwly.com/products/all": {
+      "name": "Owwly",
+      "url": "https://owwly.com/products/all",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:21:53.937Z",
+      "landingUrl": "https://owwly.com/products/all"
+    },
+    "https://readwrite.com/contributor-guideline": {
+      "name": "ReadWrite",
+      "url": "https://readwrite.com/contributor-guideline",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:22:24.847Z",
+      "landingUrl": "https://readwrite.com/contributor-guideline"
     }
   }
 }
