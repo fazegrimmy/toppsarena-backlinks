@@ -624,6 +624,38 @@
       "details": "Success or review message detected; publication NOT verified",
       "checkedAt": "2026-11-23T21:13:22.257Z",
       "landingUrl": "https://www.websiterating.com/submit/?error=turnstile"
+    },
+    "https://produk.co": {
+      "name": "Produk.co",
+      "url": "https://produk.co",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T21:13:55.178Z",
+      "landingUrl": "https://produk.co/"
+    },
+    "https://apis.io": {
+      "name": "APIs.io",
+      "url": "https://apis.io",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:14:26.167Z",
+      "landingUrl": "https://apis.io/"
+    },
+    "https://foxeet.fr": {
+      "name": "Foxeet",
+      "url": "https://foxeet.fr",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:14:58.205Z",
+      "landingUrl": "https://foxeet.fr/"
+    },
+    "https://smartbiztools.io": {
+      "name": "SmartBizTools",
+      "url": "https://smartbiztools.io",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:15:30.333Z",
+      "landingUrl": "https://smartbiztools.io/"
     }
   }
 }
