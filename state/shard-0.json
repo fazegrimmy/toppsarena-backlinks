@@ -464,6 +464,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:01:59.738Z",
       "landingUrl": "https://app.10words.io/submit"
+    },
+    "https://altimateguide.com/request-inclusion": {
+      "name": "Altimateguide",
+      "url": "https://altimateguide.com/request-inclusion",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:02:32.043Z",
+      "landingUrl": "https://altimateguide.com/request-inclusion"
+    },
+    "https://bestsky.tools/submit": {
+      "name": "BestskyTools",
+      "url": "https://bestsky.tools/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:03:03.368Z",
+      "landingUrl": "https://bestsky.tools/submit"
+    },
+    "https://builtbyme.io/submit": {
+      "name": "Built By Me",
+      "url": "https://builtbyme.io/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:03:37.334Z",
+      "landingUrl": "https://builtbyme.io/login"
+    },
+    "https://curated.design/submit/": {
+      "name": "Curated.design",
+      "url": "https://curated.design/submit/",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:04:08.311Z",
+      "landingUrl": "https://curated.design/submit/"
     }
   }
 }
