@@ -816,6 +816,22 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:25:46.672Z",
       "landingUrl": "https://techlondon.io/"
+    },
+    "https://toolparade.com": {
+      "name": "Tool Parade",
+      "url": "https://toolparade.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:26:19.703Z",
+      "landingUrl": "https://toolparade.com/get-started"
+    },
+    "https://launchorbit.co": {
+      "name": "LaunchOrbit",
+      "url": "https://launchorbit.co",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T21:26:50.658Z",
+      "landingUrl": "https://launchorbit.co/"
     }
   }
 }
