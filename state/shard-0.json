@@ -496,6 +496,38 @@
       "details": "Cannot identify safe listing submit button",
       "checkedAt": "2026-11-23T21:04:08.311Z",
       "landingUrl": "https://curated.design/submit/"
+    },
+    "https://www.designnominees.com/submit-site": {
+      "name": "DesignNominees",
+      "url": "https://www.designnominees.com/submit-site",
+      "status": "skipped_payment",
+      "details": "Page says free submissions unavailable or payment required",
+      "checkedAt": "2026-11-23T21:04:42.380Z",
+      "landingUrl": "https://www.designnominees.com/site-submission"
+    },
+    "https://directoryhunt.com/": {
+      "name": "DirectoryHunt.com",
+      "url": "https://directoryhunt.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:05:13.816Z",
+      "landingUrl": "https://directoryhunt.com/"
+    },
+    "https://earlylaunch.co/submit/": {
+      "name": "EarlyLaunch.co",
+      "url": "https://earlylaunch.co/submit/",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:05:47.820Z",
+      "landingUrl": "https://earlylaunch.co/login/?next=/submit/"
+    },
+    "https://sell.g2.com/create-a-profile": {
+      "name": "G2",
+      "url": "https://sell.g2.com/create-a-profile",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:06:19.172Z",
+      "landingUrl": "https://sell.g2.com/create-a-profile"
     }
   }
 }
