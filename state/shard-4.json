@@ -160,6 +160,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:36:58.038Z",
       "landingUrl": "https://sidebar.io/log-in?redirect=/submit"
+    },
+    "https://startuplist.ing/products/new": {
+      "name": "Startup Listing",
+      "url": "https://startuplist.ing/products/new",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:37:30.611Z",
+      "landingUrl": "https://startuplist.ing/login?redirect=%2Fproducts%2Fnew"
+    },
+    "https://theagentsindex.com/submit": {
+      "name": "The Agents Index",
+      "url": "https://theagentsindex.com/submit",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T20:38:02.489Z",
+      "landingUrl": "https://theagentsindex.com/join"
+    },
+    "https://trustroas.com/add-store": {
+      "name": "TrustRoas",
+      "url": "https://trustroas.com/add-store",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:38:34.508Z",
+      "landingUrl": "https://trustroas.com/login?redirect=/add-store"
+    },
+    "https://wired.business/submit": {
+      "name": "Wired Business",
+      "url": "https://wired.business/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:39:06.377Z",
+      "landingUrl": "https://wired.business/submit"
     }
   }
 }
