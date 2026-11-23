@@ -784,6 +784,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:53:18.067Z",
       "landingUrl": "https://forsale.godaddy.com/forsale/publicbuilders.org?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&"
+    },
+    "https://saasnetworker.com": {
+      "name": "SaaS Networker",
+      "url": "https://saasnetworker.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:53:51.808Z",
+      "landingUrl": "https://saasnetworker.com/get-started"
+    },
+    "https://saassoftware.org": {
+      "name": "Saassoftware",
+      "url": "https://saassoftware.org",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:54:23.208Z",
+      "landingUrl": "https://saassoftware.org/submit/"
+    },
+    "https://www.startupgrind.com": {
+      "name": "Startup Grind",
+      "url": "https://www.startupgrind.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:54:57.958Z",
+      "landingUrl": "https://www.startupgrind.com/"
+    },
+    "https://toolignite.com": {
+      "name": "Tool Ignite",
+      "url": "https://toolignite.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:55:29.820Z",
+      "landingUrl": "https://toolignite.com/get-started"
     }
   }
 }
