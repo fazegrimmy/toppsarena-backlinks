@@ -128,6 +128,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T20:06:57.486Z",
       "landingUrl": "https://launch01.com/sign-in?redirect=/projects/submit"
+    },
+    "https://launchpadly.co/submit": {
+      "name": "Launchpadly",
+      "url": "https://launchpadly.co/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:07:32.252Z",
+      "landingUrl": "https://launchpadly.co/login?redirect=%2Fsubmit"
+    },
+    "https://makerhunt.io/submit": {
+      "name": "Makerhunt",
+      "url": "https://makerhunt.io/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:08:04.451Z",
+      "landingUrl": "https://makerhunt.io/submit"
+    },
+    "https://openhunts.com/projects/submit": {
+      "name": "OpenHunts",
+      "url": "https://openhunts.com/projects/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:08:36.296Z",
+      "landingUrl": "https://openhunts.com/sign-in?redirect=/projects/submit"
+    },
+    "https://shipboost.io/submit": {
+      "name": "ShipBoost",
+      "url": "https://shipboost.io/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:09:09.658Z",
+      "landingUrl": "https://shipboost.io/submit"
     }
   }
 }
