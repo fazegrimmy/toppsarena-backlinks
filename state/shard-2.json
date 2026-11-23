@@ -720,6 +720,38 @@
       "details": "Required consent checkbox must be reviewed manually",
       "checkedAt": "2026-11-23T21:20:27.481Z",
       "landingUrl": "https://inuidea.com/hunt/submit"
+    },
+    "https://www.launchradar.xyz": {
+      "name": "Launchradar Xyz",
+      "url": "https://www.launchradar.xyz",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:21:02.676Z",
+      "landingUrl": "https://www.launchradar.xyz/"
+    },
+    "https://superlaunch.io": {
+      "name": "Super Launch",
+      "url": "https://superlaunch.io",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T21:21:38.246Z",
+      "landingUrl": "https://superlaunch.io/auth?redirect=%2Fsubmit"
+    },
+    "https://biz.smartcustomer.com": {
+      "name": "Sitejabber",
+      "url": "https://biz.smartcustomer.com",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:22:09.375Z",
+      "landingUrl": "https://biz.smartcustomer.com/login"
+    },
+    "https://appsandwebsites.com": {
+      "name": "Apps and Websites",
+      "url": "https://appsandwebsites.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:22:41.330Z",
+      "landingUrl": "https://appsandwebsites.com/"
     }
   }
 }
