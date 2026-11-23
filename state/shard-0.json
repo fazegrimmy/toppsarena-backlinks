@@ -432,6 +432,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:59:53.586Z",
       "landingUrl": "https://junkstartups.com/submit"
+    },
+    "https://phyco.org/submit": {
+      "name": "Phyco",
+      "url": "https://phyco.org/submit",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:00:26.261Z",
+      "landingUrl": "https://phyco.org/submit"
+    },
+    "https://www.verysaas.io/contact": {
+      "name": "VerySaaS",
+      "url": "https://www.verysaas.io/contact",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:00:57.246Z",
+      "landingUrl": "https://www.verysaas.io/contact"
+    },
+    "https://weeklylaunches.com/": {
+      "name": "Weekly Launches",
+      "url": "https://weeklylaunches.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:01:28.588Z",
+      "landingUrl": "https://weeklylaunches.com/"
+    },
+    "https://app.10words.io/submit": {
+      "name": "10words",
+      "url": "https://app.10words.io/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:01:59.738Z",
+      "landingUrl": "https://app.10words.io/submit"
     }
   }
 }
