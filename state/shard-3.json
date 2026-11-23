@@ -400,6 +400,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:52:59.406Z",
       "landingUrl": "https://startupsavant.com/"
+    },
+    "https://browse.fyi/submit": {
+      "name": "Browse.fyi",
+      "url": "https://browse.fyi/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:27:56.230Z",
+      "landingUrl": "https://browse.fyi/submit"
+    },
+    "https://foundersengineroom.com/join": {
+      "name": "Founders Engine Room",
+      "url": "https://foundersengineroom.com/join",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:28:27.298Z",
+      "landingUrl": "https://foundersengineroom.com/join"
+    },
+    "https://indie-builds.com/submit": {
+      "name": "Indie-Builds",
+      "url": "https://indie-builds.com/submit",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:28:58.994Z",
+      "landingUrl": "https://indie-builds.com/submit"
+    },
+    "https://maqtoob.com/software-submit-page/": {
+      "name": "Maqtoob",
+      "url": "https://maqtoob.com/software-submit-page/",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:29:30.377Z",
+      "landingUrl": "https://maqtoob.com/login/"
     }
   }
 }
