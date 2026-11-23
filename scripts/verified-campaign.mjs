@@ -10,6 +10,7 @@ import path from 'node:path';
 import {findListingUrl,findOutbound,redact,classifyApiResponse,targetHost} from './backlink-helpers.mjs';
 import {submitLaunchAgentic} from './launchagentic.mjs';
 import {submitPostLaunchKit,checkPostLaunchKit} from './postlaunchkit.mjs';
+import {submitLaunchSignal,checkLaunchSignal} from './launchsignal.mjs';
 
 const ROOT = process.cwd();
 const SOURCES = path.join(ROOT, 'campaign', 'verified-opportunities.json');
@@ -115,10 +116,29 @@ async function submitPublisher(v){
   if(!v.automationAllowed||v.cost!=='free'||v.requiresAccount||v.requiresBadge){
     console.log('SKIP not eligible for free bot submission: '+v.name);return;
   }
-  if(!['develif','curlship','techtools','promoteindex','launchagentic','postlaunchkit'].includes(v.id))throw Error('Unreviewed API publisher '+v.id);
+  if(!['develif','curlship','techtools','promoteindex','launchagentic','postlaunchkit','launchsignal'].includes(v.id))throw Error('Unreviewed API publisher '+v.id);
   const row=state.publishers[v.name]||{};
   // Never replay an accepted or rejected definitive POST on scheduled runs.
   if(row.submission && !['network_error','rate_limited','preflight_unavailable'].includes(row.submission.status))return;
+  if(v.id==='launchsignal'){
+    try{
+      const result=await submitLaunchSignal({request,site:SITE,title:TITLE,description:DESCRIPTION,email:EMAIL});
+      row.submission={
+        status:result.status,
+        ...(result.httpStatus?{httpStatus:result.httpStatus}:{}),
+        submittedAt:now(),
+        ...(result.slug?{slug:result.slug}:{}),
+        responseSummary:short(JSON.stringify(result.publicInfo||{})),
+        candidateListingUrl:null
+      };
+      console.log('LaunchSignal: '+result.status+'; no public backlink claimed');
+    }catch(e){
+      // If a POST outcome cannot be determined, never replay it automatically.
+      row.submission={status:'preflight_unavailable',submittedAt:now(),responseSummary:short(e.message)};
+      console.log('LaunchSignal: preflight unavailable');
+    }
+    state.publishers[v.name]=row;save();return;
+  }
   if(v.id==='postlaunchkit'){
     try{
       const result=await submitPostLaunchKit({request,site:SITE,title:TITLE,description:DESCRIPTION});
@@ -212,6 +232,15 @@ async function main(){
  for(const v of data.publishers){
    if(MODE==='submit')await submitPublisher(v);
    const row=state.publishers[v.name]||{};
+   if(v.id==='launchsignal'){
+     try{
+       const review=await checkLaunchSignal({request,site:SITE,slug:row.submission?.slug});
+       row.review={status:review.status,checkedAt:now()};
+       if(review.listingUrl)row.listingUrl=review.listingUrl;
+     }catch(e){
+       row.review={status:'check_unavailable',reason:short(e.message),checkedAt:now()};
+     }
+   }
    if(v.id==='postlaunchkit'){
      try{
        const review=await checkPostLaunchKit({request,site:SITE,reviewId:row.submission?.reviewId});
