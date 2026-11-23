@@ -720,6 +720,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:50:07.648Z",
       "landingUrl": "https://launch-daddy.com/submit"
+    },
+    "https://openlaunch.ai": {
+      "name": "Openlaunch",
+      "url": "https://openlaunch.ai",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:50:41.965Z",
+      "landingUrl": "https://openlaunch.ai/sign-in?redirect=/projects/submit"
+    },
+    "https://yourfirst.app": {
+      "name": "YourFirstApp",
+      "url": "https://yourfirst.app",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:51:13.579Z",
+      "landingUrl": "https://yourfirst.app/sign-in?redirect=%2Fprojects%2Fsubmit"
+    },
+    "https://alterbase.co": {
+      "name": "AlterBase",
+      "url": "https://alterbase.co",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:51:45.130Z",
+      "landingUrl": "https://alterbase.co/submit"
+    },
+    "https://boilerplatelist.com": {
+      "name": "Boilerplatelist",
+      "url": "https://boilerplatelist.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:52:17.561Z",
+      "landingUrl": "https://boilerplatelist.com/submit/"
     }
   }
 }
