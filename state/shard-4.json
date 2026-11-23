@@ -64,6 +64,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:30:21.560Z",
       "landingUrl": "https://www.hugedomains.com/domain_profile.cfm?d=startupfame.com"
+    },
+    "https://open-launch.com/projects/submit/": {
+      "name": "Open-Launch",
+      "url": "https://open-launch.com/projects/submit/",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:30:56.744Z",
+      "landingUrl": "https://open-launch.com/sign-in?redirect=/projects/submit"
+    },
+    "https://uno.directory/submit": {
+      "name": "Uno Directory",
+      "url": "https://uno.directory/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:31:29.514Z",
+      "landingUrl": "https://uno.directory/auth/signin"
+    },
+    "https://toolradar.com/add-tool": {
+      "name": "Toolradar",
+      "url": "https://toolradar.com/add-tool",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:32:02.253Z",
+      "landingUrl": "https://toolradar.com/vendors"
+    },
+    "https://appslisto.com/submit-your-app": {
+      "name": "App Listo",
+      "url": "https://appslisto.com/submit-your-app",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:32:35.525Z",
+      "landingUrl": "https://appslisto.com/submit-your-app/"
     }
   }
 }
