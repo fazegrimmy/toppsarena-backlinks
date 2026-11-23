@@ -288,6 +288,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:18:09.798Z",
       "landingUrl": "https://wip.co/users/sign_in"
+    },
+    "https://sell.appsumo.com/": {
+      "name": "AppSumo",
+      "url": "https://sell.appsumo.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:18:42.801Z",
+      "landingUrl": "https://sell.appsumo.com/"
+    },
+    "https://builtin.com/expert-contributors": {
+      "name": "Built In",
+      "url": "https://builtin.com/expert-contributors",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:19:14.084Z",
+      "landingUrl": "https://builtin.com/expert-contributors"
+    },
+    "https://www.crunchbase.com/home": {
+      "name": "Crunchbase",
+      "url": "https://www.crunchbase.com/home",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:19:44.951Z",
+      "landingUrl": "https://www.crunchbase.com/home"
+    },
+    "https://www.eu-startups.com/directory/": {
+      "name": "EU-Startups",
+      "url": "https://www.eu-startups.com/directory/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:20:16.018Z",
+      "landingUrl": "https://www.eu-startups.com/directory/"
     }
   }
 }
