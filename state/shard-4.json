@@ -784,6 +784,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:54:24.935Z",
       "landingUrl": "https://roastortoast.io/submit/step/1"
+    },
+    "https://saasscanner.com": {
+      "name": "SaaS Scanner",
+      "url": "https://saasscanner.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:54:58.427Z",
+      "landingUrl": "https://saasscanner.com/get-started"
+    },
+    "https://saaswall.co": {
+      "name": "Saaswall",
+      "url": "https://saaswall.co",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:55:29.620Z",
+      "landingUrl": "https://saaswall.co/"
+    },
+    "https://techimply.com": {
+      "name": "techimply",
+      "url": "https://techimply.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:56:00.572Z",
+      "landingUrl": "https://www.techimply.com/"
+    },
+    "https://toolnetworker.com": {
+      "name": "Tool Networker",
+      "url": "https://toolnetworker.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:56:32.805Z",
+      "landingUrl": "https://toolnetworker.com/get-started"
     }
   }
 }
