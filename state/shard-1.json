@@ -528,6 +528,38 @@
       "details": "Cannot identify safe listing submit button",
       "checkedAt": "2026-11-23T21:06:30.787Z",
       "landingUrl": "https://gets.tools/submit"
+    },
+    "https://launchboard.dev/": {
+      "name": "LaunchBoard.dev",
+      "url": "https://launchboard.dev/",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:07:06.768Z",
+      "landingUrl": "https://www.launchboard.dev/pricing"
+    },
+    "https://www.launchpanda.dev/": {
+      "name": "LaunchPanda",
+      "url": "https://www.launchpanda.dev/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:07:37.968Z",
+      "landingUrl": "https://www.launchpanda.dev/"
+    },
+    "https://www.meritdirectory.com/": {
+      "name": "Merit Directory",
+      "url": "https://www.meritdirectory.com/",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:08:12.069Z",
+      "landingUrl": "https://dev-x2uskxv6voevjkyd.us.auth0.com/u/login?state=hKFo2SBxMFpnSG1qaGZyU3VMdG9kVTBoSmF3VFZVUzNpYUpoN6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGw3TE9WSUxMRDNNMkRza0ExS25zWVJ3VjFtd3NKX2gwo2NpZNkgcTNQem5YTXBkTlhZZ1psV2ZyQ2ZzQkFpb3ZkNjZOR20"
+    },
+    "https://www.oribisoft.com/submit": {
+      "name": "Oribisoft",
+      "url": "https://www.oribisoft.com/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:08:50.660Z",
+      "landingUrl": "https://www.oribisoft.com/login?next=%2Fsubmit"
     }
   }
 }
