@@ -1,6 +1,6 @@
 # TopPSArena — verified backlink evidence
 
-Updated: 2026-11-23T22:29:38.439Z
+Updated: 2026-11-23T22:30:05.883Z
 
 ## Public HTML-verified backlinks (5)
 
@@ -22,12 +22,13 @@ Counted only after an independently fetched public listing has an HTML anchor to
 
 ## Submissions
 
-| Directory | HTTP | API status | Link verification |
-|---|---|---|---|
-| DevElif | 409 | already_listed | verified_published |
-| CurlShip | 201 | api_accepted_not_yet_verified | verified_published |
-| TechTools Launchpad | 200 | already_listed | verified_public_api_record |
-| PromoteIndex | 201 | api_accepted_not_yet_verified | verified_published |
-| LaunchAgentic | 200 | already_listed | not_verifiable |
+| Directory | HTTP | API status | Editorial review | Link verification |
+|---|---|---|---|---|
+| DevElif | 409 | already_listed | — | verified_published |
+| CurlShip | 201 | api_accepted_not_yet_verified | — | verified_published |
+| TechTools Launchpad | 200 | already_listed | — | verified_public_api_record |
+| PromoteIndex | 201 | api_accepted_not_yet_verified | — | verified_published |
+| LaunchAgentic | 200 | already_listed | — | not_verifiable |
+| PostLaunchKit | 202 | queued_not_published | pending_review | pending |
 
 Failed retrieval and JS-only API records are not counted. No paid listings, CAPTCHA bypasses, or reciprocal links are used.
