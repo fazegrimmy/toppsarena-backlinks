@@ -1,12 +1,12 @@
-# TopPSArena — independent backlink evidence
+# TopPSArena — verified backlink evidence
 
-Generated: 2026-11-23T21:32:18.615Z
+Updated: 2026-11-23T21:33:17.617Z
 
 ## Public HTML-verified backlinks (5)
 
-**Counted only if an independently fetched, public directory HTML page contains a direct <a href> to https://toppsarena.com.** No claim of ranking benefit.
+Counted only after an independently fetched public listing has an HTML anchor to https://toppsarena.com. A green workflow or accepted API response is not a backlink.
 
-| Directory | Public page | Link relationship |
+| Directory | Published listing page | Relationship |
 |---|---|---|
 | DevElif | https://develif.com/s/toppsarena | noopener noreferrer |
 | CurlShip | https://curlship.com/l/11593 | noopener nofollow |
@@ -14,17 +14,15 @@ Generated: 2026-11-23T21:32:18.615Z
 | MeWebLink | https://meweblink.com/site/7491-toppsarena-com/ | ugc nofollow noopener noreferrer |
 | Zearches | https://zearches.com/site/gaming-esports/toppsarena-com-f530c20950 | ugc nofollow noopener noreferrer |
 
-## Public API records — not counted as HTML backlinks (1)
+## Public provider API records — HTML link not proven (1)
 
-A provider listing API can confirm publication while the public page itself is rendered in JavaScript. The HTML backlink has not independently been proven.
-
-| Directory | Listing/share page | Evidence |
+| Directory | Public candidate listing | Evidence |
 |---|---|---|
-| TechTools Launchpad | https://techtools.cz/tools/launchpad/?tool=12141 | Public directory API record |
+| TechTools Launchpad | https://techtools.cz/tools/launchpad/?tool=12141 | Public API record only |
 
-## Submission and pending statuses
+## Submissions
 
-| Directory | API result | Submission status | Link verification |
+| Directory | HTTP | API status | Link verification |
 |---|---|---|---|
 | DevElif | 409 | already_listed | verified_published |
 | CurlShip | 201 | api_accepted_not_yet_verified | verified_published |
@@ -32,4 +30,4 @@ A provider listing API can confirm publication while the public page itself is r
 | PromoteIndex | 201 | api_accepted_not_yet_verified | verified_published |
 | LaunchAgentic | 200 | already_listed | not_verifiable |
 
-Published means a page actually links to TopPSArena. A successful workflow, API 201, review notice, or redirect alone never does. Results are rechecked, and unverified does not imply deleted.
+Failed retrieval and JS-only API records are not counted. No paid listings, CAPTCHA bypasses, or reciprocal links are used.
