@@ -697,8 +697,8 @@
       "type": "gaming_and_general_product_directory",
       "fit": "Accepts games, web products and useful projects; TopPSArena is a live gaming community directory.",
       "priority": "high",
-      "status": "documented_free_keyless_api_review_queue",
-      "automationAllowed": false,
+      "status": "integrated_free_api_pending_editorial_review",
+      "automationAllowed": true,
       "requiresHumanReview": false,
       "requiresAccount": false,
       "approvalBasis": "Official OpenAPI explicitly permits anonymous JSON POST and a free Games category; accepted submissions await editorial approval. Not yet integrated in live workflow.",
@@ -723,8 +723,9 @@
         "https://postlaunchkit.com/directory/submit/"
       ],
       "source": "Parallel research, official pages fetched 2026-11-23",
-      "submissionAttempted": false,
-      "backlinkVerified": false
+      "submissionAttempted": true,
+      "backlinkVerified": false,
+      "notes": "Submitted 2026-11-23 via documented anonymous Games API: HTTP 202 pending_review. Enabled in live verified publisher allowlist. Scheduled runs check review status and verify any published HTML link."
     },
     {
       "name": "GameNav",
