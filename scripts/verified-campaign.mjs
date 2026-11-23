@@ -11,6 +11,7 @@ import {findListingUrl,findOutbound,redact,classifyApiResponse,targetHost} from 
 import {submitLaunchAgentic} from './launchagentic.mjs';
 import {submitPostLaunchKit,checkPostLaunchKit} from './postlaunchkit.mjs';
 import {submitLaunchSignal,checkLaunchSignal} from './launchsignal.mjs';
+import {DAILY_SUBMISSION_CAP,attemptsOnUtcDate,maySubmit} from './submission-policy.mjs';
 
 const ROOT = process.cwd();
 const SOURCES = path.join(ROOT, 'campaign', 'verified-opportunities.json');
@@ -86,6 +87,7 @@ function save(){
   const pending=Object.entries(state.publishers).filter(([name,r])=>!['verified_published','verified_public_api_record'].includes(r.verification?.status));
   const lines=[
     '# TopPSArena — independent backlink evidence','','Generated: '+state.updatedAt,'',
+    'Free API submission pace: '+attemptsOnUtcDate(state.publishers,state.updatedAt.slice(0,10))+' of '+DAILY_SUBMISSION_CAP+' recorded attempts on '+state.updatedAt.slice(0,10)+' UTC. Publication checks continue even at the limit.','',
     '## Public HTML-verified backlinks ('+published.length+')','',
     '**Counted only if an independently fetched, public directory HTML page contains a direct <a href> to https://toppsarena.com.** No claim of ranking benefit.','',
     '| Directory | Public page | Link relationship |',
@@ -230,7 +232,16 @@ async function submitPublisher(v){
 async function main(){
  console.log('TopPSArena verified campaign: '+MODE+'; '+data.publishers.length+' preapproved free API publishers');
  for(const v of data.publishers){
-   if(MODE==='submit')await submitPublisher(v);
+   if(MODE==='submit'){
+     const previous=state.publishers[v.name]?.submission;
+     const potentiallyNew=!previous||['network_error','rate_limited','preflight_unavailable'].includes(previous.status);
+     const day=now().slice(0,10);
+     if(potentiallyNew&&!maySubmit(state.publishers,day)){
+       console.log('Daily free submission cap reached ('+DAILY_SUBMISSION_CAP+' on '+day+' UTC); '+v.name+' is deferred. Public link verification continues.');
+     }else{
+       await submitPublisher(v);
+     }
+   }
    const row=state.publishers[v.name]||{};
    if(v.id==='launchsignal'){
      try{
