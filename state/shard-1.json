@@ -592,6 +592,38 @@
       "details": "locator.click: Timeout 6500ms exceeded. Call log: - waiting for locator('form').first().locator('button[type=\"submit\"],input[type=\"submit\"],button:not([type])').first() - locator resolved to <input disabled type=\"submit\"",
       "checkedAt": "2026-11-23T21:11:05.916Z",
       "landingUrl": "https://siiimple.com/submit/"
+    },
+    "https://startupranked.com/": {
+      "name": "Startup Ranked",
+      "url": "https://startupranked.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:11:39.744Z",
+      "landingUrl": "https://startupranked.com/auth"
+    },
+    "https://thesaasdir.com/submit/": {
+      "name": "TheSaaSDir",
+      "url": "https://thesaasdir.com/submit/",
+      "status": "attempted_unconfirmed",
+      "details": "Validation/challenge text appeared after clicking",
+      "checkedAt": "2026-11-23T21:12:13.474Z",
+      "landingUrl": "https://thesaasdir.com/submit/"
+    },
+    "https://topdesignking.com/free-submit": {
+      "name": "Top Design King",
+      "url": "https://topdesignking.com/free-submit",
+      "status": "attempted_unconfirmed",
+      "details": "Validation/challenge text appeared after clicking",
+      "checkedAt": "2026-11-23T21:12:48.881Z",
+      "landingUrl": "https://topdesignking.com/free-submit"
+    },
+    "https://www.websiterating.com/submit/": {
+      "name": "Website Rating",
+      "url": "https://www.websiterating.com/submit/",
+      "status": "reported_submitted",
+      "details": "Success or review message detected; publication NOT verified",
+      "checkedAt": "2026-11-23T21:13:22.257Z",
+      "landingUrl": "https://www.websiterating.com/submit/?error=turnstile"
     }
   }
 }
