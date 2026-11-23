@@ -160,6 +160,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T20:09:25.017Z",
       "landingUrl": "https://www.promoteproject.com/login"
+    },
+    "https://www.sideprojectors.com/submit/type": {
+      "name": "SideProjectors",
+      "url": "https://www.sideprojectors.com/submit/type",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:09:57.501Z",
+      "landingUrl": "https://www.sideprojectors.com/submit/type"
+    },
+    "https://startuptrusted.com/submit": {
+      "name": "StartupTrusted",
+      "url": "https://startuptrusted.com/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:10:29.472Z",
+      "landingUrl": "https://startuptrusted.com/login?callbackUrl=%2Fsubmit"
+    },
+    "https://theonestartup.com/submit": {
+      "name": "TheOneStartup",
+      "url": "https://theonestartup.com/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:11:01.597Z",
+      "landingUrl": "https://theonestartup.com/auth/login?callbackUrl=%2Fsubmit"
+    },
+    "https://www.viralindiandiary.com/submit": {
+      "name": "Viral Indian Diary",
+      "url": "https://www.viralindiandiary.com/submit",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:11:40.075Z",
+      "landingUrl": "https://www.viralindiandiary.com/submit-here/"
     }
   }
 }
