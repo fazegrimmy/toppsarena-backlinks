@@ -656,6 +656,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:44:42.531Z",
       "landingUrl": "https://acedirectory.org/submit"
+    },
+    "https://alabamaindex.com": {
+      "name": "Alabamaindex",
+      "url": "https://alabamaindex.com",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T21:45:15.760Z",
+      "landingUrl": "https://alabamaindex.com/"
+    },
+    "https://codeown.space": {
+      "name": "codeown",
+      "url": "https://codeown.space",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:45:47.046Z",
+      "landingUrl": "https://codeown.space/"
+    },
+    "https://hub.biz": {
+      "name": "hub",
+      "url": "https://hub.biz",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:46:18.186Z",
+      "landingUrl": "https://hub.biz/"
+    },
+    "https://maxibestof.one/submit": {
+      "name": "MaxieBestOf",
+      "url": "https://maxibestof.one/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:46:49.066Z",
+      "landingUrl": "https://maxibestof.one/submit"
     }
   }
 }
