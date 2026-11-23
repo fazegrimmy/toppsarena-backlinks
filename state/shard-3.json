@@ -496,6 +496,38 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T21:33:49.072Z",
       "landingUrl": "https://daniellaunches.com/submit"
+    },
+    "https://directory.ldmstudio.com/add/add.php": {
+      "name": "Directory LDM Studio",
+      "url": "https://directory.ldmstudio.com/add/add.php",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:34:23.453Z",
+      "landingUrl": "http://www.directory.ldmstudio.com/add/add.php"
+    },
+    "https://discoverlaunches.com/submit": {
+      "name": "DiscoverLaunches",
+      "url": "https://discoverlaunches.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:34:55.792Z",
+      "landingUrl": "https://discoverlaunches.com/submit"
+    },
+    "https://www.founders.page/signup": {
+      "name": "founders.page",
+      "url": "https://www.founders.page/signup",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:35:27.960Z",
+      "landingUrl": "https://www.founders.page/signup"
+    },
+    "https://larklaunch.com/": {
+      "name": "LarkLaunch",
+      "url": "https://larklaunch.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:36:00.468Z",
+      "landingUrl": "https://larklaunch.com/"
     }
   }
 }
