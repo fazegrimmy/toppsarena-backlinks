@@ -400,6 +400,38 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T20:26:09.539Z",
       "landingUrl": "https://startupbenchmarks.com/get-started"
+    },
+    "https://actuallygoodtools.com/submit": {
+      "name": "Actually Good Tools",
+      "url": "https://actuallygoodtools.com/submit",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T20:58:18.604Z",
+      "landingUrl": "https://actuallygoodtools.com/submit"
+    },
+    "https://www.clapstorm.com/submit": {
+      "name": "Clapstorm",
+      "url": "https://www.clapstorm.com/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:58:50.155Z",
+      "landingUrl": "https://www.clapstorm.com/sign-in?intent=submit"
+    },
+    "https://freestartupdirectories.com/submit-tool": {
+      "name": "Free Startup Directories",
+      "url": "https://freestartupdirectories.com/submit-tool",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:59:22.405Z",
+      "landingUrl": "https://freestartupdirectories.com/submit-tool"
+    },
+    "https://junkstartups.com/submit": {
+      "name": "JunkStartups",
+      "url": "https://junkstartups.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:59:53.586Z",
+      "landingUrl": "https://junkstartups.com/submit"
     }
   }
 }
