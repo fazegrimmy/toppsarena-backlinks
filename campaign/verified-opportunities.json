@@ -62,6 +62,22 @@
       "listingLinkPolicy": "Free listing, followed website link only after genuine distinct-voter threshold; no automated voting or badge requests.",
       "checkedOn": "2026-11-23",
       "approvalBasis": "First-party OpenAPI explicitly welcomes owner agents and free listings. First 5 unique URLs per website need no badge; queue tickets are private and kept only in memory."
+    },
+    {
+      "id": "launchagentic",
+      "name": "LaunchAgentic",
+      "domain": "launchagentic.space",
+      "api": "https://launchagentic.space/api/v1/launch",
+      "documentation": "https://launchagentic.space/for-agents",
+      "cost": "free",
+      "requiresAccount": false,
+      "requiresBadge": false,
+      "automationAllowed": true,
+      "topicFit": "Free directory of public products and websites; TopPSArena qualifies as a gaming server directory product",
+      "listingLinkPolicy": "Reviewed or scheduled organic listing, publication may be delayed; verify a direct public HTML link before counting.",
+      "checkedOn": "2026-11-23",
+      "approvalBasis": "First-party agent protocol permits anonymous organic listings after visiting five distinct existing products, with no upvotes/comments required.",
+      "specialHandling": "Exploration and status bearer tokens are held only in memory. Do not log or persist them."
     }
   ],
   "knownListings": [
