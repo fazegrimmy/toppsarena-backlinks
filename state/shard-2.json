@@ -752,6 +752,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:22:41.330Z",
       "landingUrl": "https://appsandwebsites.com/"
+    },
+    "https://creativetribes.co": {
+      "name": "Creative Tribes",
+      "url": "https://creativetribes.co",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:23:14.207Z",
+      "landingUrl": "https://creativetribes.co/"
+    },
+    "https://freestuff.dev": {
+      "name": "Freestuff",
+      "url": "https://freestuff.dev",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:23:46.525Z",
+      "landingUrl": "https://freestuff.dev/submit/"
+    },
+    "https://justsimple.tools": {
+      "name": "justsimple",
+      "url": "https://justsimple.tools",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:24:18.292Z",
+      "landingUrl": "https://www.justsimple.tools/submit"
+    },
+    "https://oss.gallery": {
+      "name": "OSS Gallery",
+      "url": "https://oss.gallery",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:24:50.743Z",
+      "landingUrl": "https://oss.gallery/"
     }
   }
 }
