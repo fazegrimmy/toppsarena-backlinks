@@ -720,6 +720,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:49:05.104Z",
       "landingUrl": "https://kittylaunch.com/"
+    },
+    "https://lazyhunt.com": {
+      "name": "lazyhunt",
+      "url": "https://lazyhunt.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:49:37.396Z",
+      "landingUrl": "https://lazyhunt.com/"
+    },
+    "https://toolfolio.io": {
+      "name": "toolfolio",
+      "url": "https://toolfolio.io",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:50:09.933Z",
+      "landingUrl": "https://toolfolio.com/"
+    },
+    "https://techmasters.chat": {
+      "name": "#TechMasters",
+      "url": "https://techmasters.chat",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:50:41.198Z",
+      "landingUrl": "https://techmasters.chat/"
+    },
+    "https://www.bestsaastools.com": {
+      "name": "Best SaaS Tools",
+      "url": "https://www.bestsaastools.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:51:12.056Z",
+      "landingUrl": "https://forsale.godaddy.com/forsale/www.bestsaastools.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&"
     }
   }
 }
