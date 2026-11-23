@@ -1,0 +1,64 @@
+{
+  "publishers": {
+    "DevElif": {
+      "submission": {
+        "status": "api_rejected",
+        "httpStatus": 409,
+        "submittedAt": "2026-11-23T21:06:05.202Z",
+        "responseSummary": "{\"error\":\"This site is already listed.\"}",
+        "candidateListingUrl": null
+      }
+    },
+    "CurlShip": {
+      "submission": {
+        "status": "api_accepted_not_yet_verified",
+        "httpStatus": 201,
+        "submittedAt": "2026-11-23T21:06:06.894Z",
+        "responseSummary": "{\"ok\":true,\"message\":\"Listed! Add the badge for a dofollow link — see https://curlship.com/badge\",\"listing\":{\"id\":11593,\"url\":\"https://toppsarena.com/\",\"link\":\"https://toppsarena.com/?ref=curlship\",\"tier\":\"free\",\"title\":\"https://toppsarena.com/\",\"description\":null,\"image\":null,\"has_badge\":false,\"cre",
+        "candidateListingUrl": "https://curlship.com/l/11593"
+      },
+      "listingUrl": "https://curlship.com/l/11593",
+      "verification": {
+        "status": "verified_published",
+        "listedAt": "https://curlship.com/l/11593",
+        "destination": "https://toppsarena.com/?ref=curlship",
+        "rel": "noopener nofollow",
+        "followed": false,
+        "checkedAt": "2026-11-23T21:06:07.132Z"
+      }
+    }
+  },
+  "knownListings": {
+    "PRKatalog": {
+      "listingUrl": "https://prkatalog.info/sites/toppsarena",
+      "verification": {
+        "status": "not_verifiable",
+        "reason": "HTTP 403",
+        "checkedAt": "2026-11-23T21:06:07.193Z"
+      }
+    },
+    "MeWebLink": {
+      "listingUrl": "https://meweblink.com/site/7491-toppsarena-com/",
+      "verification": {
+        "status": "verified_published",
+        "listedAt": "https://meweblink.com/site/7491-toppsarena-com/",
+        "destination": "https://toppsarena.com/",
+        "rel": "ugc nofollow noopener noreferrer",
+        "followed": false,
+        "checkedAt": "2026-11-23T21:06:07.672Z"
+      }
+    },
+    "Zearches": {
+      "listingUrl": "https://zearches.com/site/gaming-esports/toppsarena-com-f530c20950",
+      "verification": {
+        "status": "verified_published",
+        "listedAt": "https://zearches.com/site/gaming-esports/toppsarena-com-f530c20950",
+        "destination": "https://toppsarena.com/",
+        "rel": "ugc nofollow noopener noreferrer",
+        "followed": false,
+        "checkedAt": "2026-11-23T21:06:08.003Z"
+      }
+    }
+  },
+  "updatedAt": "2026-11-23T21:06:08.003Z"
+}
