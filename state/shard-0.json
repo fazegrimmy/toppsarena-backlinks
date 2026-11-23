@@ -128,6 +128,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:06:50.467Z",
       "landingUrl": "https://indiehunt.io/submit"
+    },
+    "https://www.launchory.app/submit": {
+      "name": "Launchory",
+      "url": "https://www.launchory.app/submit",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:07:23.276Z",
+      "landingUrl": "https://www.launchory.app/submit"
+    },
+    "https://liftoapp.com/submit": {
+      "name": "Lifto",
+      "url": "https://liftoapp.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:07:54.400Z",
+      "landingUrl": "https://liftoapp.com/auth?next=%2Fsubmit"
+    },
+    "https://opensourceprojects.cc/submit": {
+      "name": "Open Source Projects",
+      "url": "https://opensourceprojects.cc/submit",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:08:25.656Z",
+      "landingUrl": "https://opensourceprojects.cc/submit"
+    },
+    "https://productfame.com/products/submit": {
+      "name": "ProductFame",
+      "url": "https://productfame.com/products/submit",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T20:08:57.444Z",
+      "landingUrl": "https://productfame.com/products/submit"
     }
   }
 }
