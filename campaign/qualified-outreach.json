@@ -804,6 +804,68 @@
       "source": "Parallel research, official pages fetched 2026-11-23",
       "submissionAttempted": false,
       "backlinkVerified": false
+    },
+    {
+      "name": "LinkCentre",
+      "url": "https://www.linkcentre.com",
+      "submissionUrl": "https://www.linkcentre.com",
+      "type": "free_general_website_directory",
+      "priority": "high",
+      "fit": "General website directory with Entertainment and Computers/Internet categories; TopPSArena is a live gaming website.",
+      "status": "free_plan_confirmed_account_flow_unchecked",
+      "source": "https://gist.github.com/lilac/2f04b349bbfab0e63b2ade66772154c0",
+      "evidence": "https://www.linkcentre.com/pricing/?plan=pro",
+      "notes": "First-party pricing currently shows Free $0/year with directory submission. A working free account/submission flow and exact outbound link rel on a published listing still need inspection.",
+      "automationAllowed": false,
+      "requiresAccount": true,
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com",
+      "type": "visual_content_publishing",
+      "priority": "medium",
+      "fit": "Potential referral traffic by publishing original game-category graphics linked to relevant pages on TopPSArena.",
+      "status": "editorial_content_idea_not_directory_submission",
+      "source": "https://gist.github.com/lilac/2f04b349bbfab0e63b2ade66772154c0",
+      "evidence": "https://business.pinterest.com/en-gb/how-to-make-pins/",
+      "notes": "Pinterest says Pins can link to website pages. Publishing requires a genuine account and original visual assets. No guarantee of followed links or search benefit.",
+      "automationAllowed": false,
+      "requiresAccount": true,
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "HackerNoon",
+      "url": "https://hackernoon.com",
+      "type": "editorial_technology_writing",
+      "priority": "medium",
+      "fit": "Potential original technical engineering case study about building a gaming server discovery and voting platform.",
+      "status": "editorial_pitch_not_approved",
+      "source": "https://gist.github.com/lilac/2f04b349bbfab0e63b2ade66772154c0",
+      "evidence": "https://help.hackernoon.com/backlinks-guideline",
+      "notes": "First-party rules: real technical article, editor review, limits promotional backlinks and requires brand account for brand stories. Not a free backlink drop.",
+      "automationAllowed": false,
+      "requiresAccount": true,
+      "submissionAttempted": false,
+      "backlinkVerified": false
+    },
+    {
+      "name": "Brownbook",
+      "url": "https://www.brownbook.net",
+      "submissionUrl": "https://www.brownbook.net/add-business",
+      "type": "business_directory",
+      "priority": "low",
+      "fit": "Only if TopPSArena has a genuine business entity and accurate real-world business details; don't fabricate an address.",
+      "status": "free_business_listing_eligibility_not_confirmed",
+      "source": "https://gist.github.com/lilac/2f04b349bbfab0e63b2ade66772154c0",
+      "evidence": "https://www.brownbook.net/add-business",
+      "notes": "First-party form requests business name, category, country and optional website; may be inappropriate for an online-only community project without a qualifying business.",
+      "automationAllowed": false,
+      "requiresAccount": true,
+      "submissionAttempted": false,
+      "backlinkVerified": false
     }
   ],
   "parallelResearchSources": [
@@ -823,5 +885,11 @@
       "value": "Sourced, dated free-tier requirements; 7 checked options and 29 research rows; direct JSON API."
     }
   ],
-  "researchUpdate": "2026-11-23"
+  "researchUpdate": "2026-11-23",
+  "lastGistReview": {
+    "source": "https://gist.github.com/lilac/2f04b349bbfab0e63b2ade66772154c0",
+    "reviewedOn": "2026-11-23",
+    "status": "research_only",
+    "notes": "34-site 'dofollow' list is not independently validated for nofollow or publication. Typepad shut 2025-09-30; most listed sites are not relevant directories. No automatic submissions or backlinks verified."
+  }
 }
