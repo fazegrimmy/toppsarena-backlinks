@@ -96,6 +96,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:32:35.525Z",
       "landingUrl": "https://appslisto.com/submit-your-app/"
+    },
+    "https://dayslaunch.com/submit": {
+      "name": "DaysLaunch",
+      "url": "https://dayslaunch.com/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:33:09.107Z",
+      "landingUrl": "https://dayslaunch.com/auth/login?callbackUrl=%2Fsubmit"
+    },
+    "https://fazier.com/submit": {
+      "name": "Fazier",
+      "url": "https://fazier.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:33:41.390Z",
+      "landingUrl": "https://fazier.com/submit"
+    },
+    "https://howbrandsarebuilt.com/submit": {
+      "name": "How Brands Are Built",
+      "url": "https://howbrandsarebuilt.com/submit",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:34:13.873Z",
+      "landingUrl": "https://howbrandsarebuilt.com/submit/#genesis-nav-primary"
+    },
+    "https://launchnest.io/submit": {
+      "name": "LaunchNest",
+      "url": "https://launchnest.io/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:34:46.728Z",
+      "landingUrl": "https://launchnest.io/signin?next=%2Fsubmit"
     }
   }
 }
