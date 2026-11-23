@@ -688,6 +688,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:47:47.752Z",
       "landingUrl": "https://www.promoteyourcompany.ca/index.html"
+    },
+    "https://showmeyour.site": {
+      "name": "showmeyour",
+      "url": "https://showmeyour.site",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:48:26.265Z",
+      "landingUrl": "https://showmeyour.site/pricing"
+    },
+    "https://uksmallbusinessdirectory.co.uk": {
+      "name": "Uksmallbusinessdirectory.Co",
+      "url": "https://uksmallbusinessdirectory.co.uk",
+      "status": "attempted_unverified",
+      "details": "Page changed after submit; listing NOT verified",
+      "checkedAt": "2026-11-23T21:49:00.468Z",
+      "landingUrl": "https://www.uksmallbusinessdirectory.co.uk/reg-form/formtoemailpro.php"
+    },
+    "https://www.earlylaunch.online": {
+      "name": "Earlylaunch",
+      "url": "https://www.earlylaunch.online",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:49:32.521Z",
+      "landingUrl": "https://earlylaunch.co/"
+    },
+    "https://launch-daddy.com": {
+      "name": "launch-daddy",
+      "url": "https://launch-daddy.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:50:07.648Z",
+      "landingUrl": "https://launch-daddy.com/submit"
     }
   }
 }
