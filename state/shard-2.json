@@ -592,6 +592,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:10:52.726Z",
       "landingUrl": "https://www.sites-plus.com/submit"
+    },
+    "https://submitstartup.io/submit": {
+      "name": "Submit Startup",
+      "url": "https://submitstartup.io/submit",
+      "status": "skipped_required_fields",
+      "details": "Unfilled required fields: tubepilot ai",
+      "checkedAt": "2026-11-23T21:11:26.434Z",
+      "landingUrl": "https://submitstartup.io/submit"
+    },
+    "https://thesaasdirectory.com/create-listing/": {
+      "name": "TheSaaSDirectory",
+      "url": "https://thesaasdirectory.com/create-listing/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:11:58.581Z",
+      "landingUrl": "https://thesaasdirectory.com/create-listing/"
+    },
+    "https://ufind.best/pricing": {
+      "name": "ufind.best",
+      "url": "https://ufind.best/pricing",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:12:31.301Z",
+      "landingUrl": "https://ufind.best/pricing"
+    },
+    "https://pulse.welodge.co.zw/app/startups/new": {
+      "name": "Welodge Pulse",
+      "url": "https://pulse.welodge.co.zw/app/startups/new",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:13:04.202Z",
+      "landingUrl": "https://pulse.welodge.co.zw/users/sign_in"
     }
   }
 }
