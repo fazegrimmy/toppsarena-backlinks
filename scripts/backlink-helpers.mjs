@@ -11,6 +11,7 @@ export function safeListingUrl(value, host) {
     const domain=u.hostname.toLowerCase().replace(/^www\./,'');
     if (u.protocol!=='https:' || domain!==host.replace(/^www\./,'').toLowerCase()) return null;
     if (u.username || u.password || (u.pathname==='/' && !u.search)) return null;
+    if (u.hash || [...u.searchParams.keys()].some(k=>/token|secret|auth|manage|edit|key/i.test(k))) return null;
     return u.href;
   } catch { return null; }
 }
@@ -21,7 +22,7 @@ export function redact(value,depth=0) {
   if (Array.isArray(value))return value.slice(0,30).map(x=>redact(x,depth+1));
   const out={};
   for(const [k,v] of Object.entries(value).slice(0,60)){
-    if(/secret|password|token|auth|session|cookie|api.?key|manage.?key|edit.?key|ticket|bearer|contact.?email|owner.?email|private.?url/i.test(k))out[k]='[REDACTED]';
+    if(/secret|password|token|auth|session|cookie|api.?key|manage.?key|edit.?key|edit.?url|manage.?url|ticket|bearer|contact.?email|owner.?email|private.?url/i.test(k))out[k]='[REDACTED]';
     else out[k]=redact(v,depth+1);
   }
   return out;
