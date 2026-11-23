@@ -96,6 +96,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T20:32:11.550Z",
       "landingUrl": "https://altern.ai/signin?next=%2Fmaker%2Fsubmit%2Fstart"
+    },
+    "https://citedindex.com/submit": {
+      "name": "CitedIndex",
+      "url": "https://citedindex.com/submit",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T20:32:44.247Z",
+      "landingUrl": "https://citedindex.com/join"
+    },
+    "https://www.ebool.com/submit": {
+      "name": "EBool",
+      "url": "https://www.ebool.com/submit",
+      "status": "skipped_payment",
+      "details": "Page says free submissions unavailable or payment required",
+      "checkedAt": "2026-11-23T20:33:16.149Z",
+      "landingUrl": "https://www.ebool.com/submit/start?plan=free"
+    },
+    "https://getworm.com/submit-startup": {
+      "name": "Get Worm",
+      "url": "https://getworm.com/submit-startup",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:33:47.198Z",
+      "landingUrl": "https://getworm.com/submit-startup"
+    },
+    "https://launchigniter.com/submit": {
+      "name": "LaunchIgniter",
+      "url": "https://launchigniter.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:34:18.099Z",
+      "landingUrl": "https://launchigniter.com/submit"
     }
   }
 }
