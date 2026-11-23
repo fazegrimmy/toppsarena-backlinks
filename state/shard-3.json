@@ -624,6 +624,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:42:30.946Z",
       "landingUrl": "https://www.zjnav.com/tougao"
+    },
+    "https://www.topsimilarsites.com": {
+      "name": "Top Similar Sites",
+      "url": "https://www.topsimilarsites.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:43:03.206Z",
+      "landingUrl": "https://www.topsimilarsites.com/"
+    },
+    "https://contentcreators.com": {
+      "name": "ContentCreators",
+      "url": "https://contentcreators.com",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T21:43:36.236Z",
+      "landingUrl": "https://contentcreators.com/submit"
+    },
+    "https://nextpedia.io": {
+      "name": "NextPedia",
+      "url": "https://nextpedia.io",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:44:07.510Z",
+      "landingUrl": "https://nextpedia.io/"
+    },
+    "https://acedirectory.org": {
+      "name": "Acedirectory",
+      "url": "https://acedirectory.org",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:44:42.531Z",
+      "landingUrl": "https://acedirectory.org/submit"
     }
   }
 }
