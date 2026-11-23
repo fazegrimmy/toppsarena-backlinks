@@ -352,6 +352,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:22:24.847Z",
       "landingUrl": "https://readwrite.com/contributor-guideline"
+    },
+    "https://stackshare.io/": {
+      "name": "StackShare",
+      "url": "https://stackshare.io/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:22:57.264Z",
+      "landingUrl": "https://stackshare.io/"
+    },
+    "https://teachonline.ca/tools-trends/best-pr": {
+      "name": "TeachOnline",
+      "url": "https://teachonline.ca/tools-trends/best-pr",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:23:28.621Z",
+      "landingUrl": "https://teachonline.ca/tools-trends/searchable-directories/must-read-books-on-online-learning/best-practices-designing-courses-open-educational-resources/"
+    },
+    "https://venturebeat.com/quest-posts": {
+      "name": "Venture Beat",
+      "url": "https://venturebeat.com/quest-posts",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:23:59.486Z",
+      "landingUrl": "https://venturebeat.com/quest-posts"
+    },
+    "https://www.zdnet.com/blog": {
+      "name": "ZDNet",
+      "url": "https://www.zdnet.com/blog",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:24:31.317Z",
+      "landingUrl": "https://www.zdnet.com/article/blog-and-forum-comments-unethical-means-of-building-links/"
     }
   }
 }
