@@ -496,6 +496,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:04:18.154Z",
       "landingUrl": "https://curlie.org/public/suggest"
+    },
+    "https://devrove.com/": {
+      "name": "DevRove",
+      "url": "https://devrove.com/",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:04:56.446Z",
+      "landingUrl": "https://devrove.com/submit"
+    },
+    "https://www.directree.io/submit": {
+      "name": "Directree",
+      "url": "https://www.directree.io/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:05:27.756Z",
+      "landingUrl": "https://www.directree.io/submit"
+    },
+    "https://fellowmakers.app/join": {
+      "name": "FellowMakers",
+      "url": "https://fellowmakers.app/join",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:05:59.161Z",
+      "landingUrl": "https://fellowmakers.app/join"
+    },
+    "https://gets.tools/submit": {
+      "name": "Gets.Tools",
+      "url": "https://gets.tools/submit",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:06:30.787Z",
+      "landingUrl": "https://gets.tools/submit"
     }
   }
 }
