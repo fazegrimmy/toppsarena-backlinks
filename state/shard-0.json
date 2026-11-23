@@ -64,6 +64,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:02:26.096Z",
       "landingUrl": "https://www.techdirectory.io/get-listed"
+    },
+    "https://www.betterlaunch.co/submit": {
+      "name": "Better Launch",
+      "url": "https://www.betterlaunch.co/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:02:59.712Z",
+      "landingUrl": "https://www.betterlaunch.co/sign-in?redirect_url=https%3A%2F%2Fwww.betterlaunch.co%2Fsubmit"
+    },
+    "https://prolaunch.net/projects/submit": {
+      "name": "Pro Launch",
+      "url": "https://prolaunch.net/projects/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:03:32.774Z",
+      "landingUrl": "https://prolaunch.net/sign-in?redirect=/projects/submit"
+    },
+    "https://yo.directory/submit": {
+      "name": "Yo.directory",
+      "url": "https://yo.directory/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:04:03.847Z",
+      "landingUrl": "https://yo.directory/pricing"
+    },
+    "https://lookingfortools.com/projects/submit": {
+      "name": "Looking For Tools",
+      "url": "https://lookingfortools.com/projects/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:04:36.843Z",
+      "landingUrl": "https://lookingfortools.com/sign-in?redirect=/projects/submit"
     }
   }
 }
