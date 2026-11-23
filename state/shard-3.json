@@ -432,6 +432,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T21:29:30.377Z",
       "landingUrl": "https://maqtoob.com/login/"
+    },
+    "https://startup-list.org/submit": {
+      "name": "Startup List",
+      "url": "https://startup-list.org/submit",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:30:03.509Z",
+      "landingUrl": "https://startup-list.org/submit"
+    },
+    "https://votekicker.com/submit": {
+      "name": "Votekicker",
+      "url": "https://votekicker.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:30:34.723Z",
+      "landingUrl": "https://votekicker.com/submit"
+    },
+    "https://launchfree.io": {
+      "name": "LaunchFree",
+      "url": "https://launchfree.io",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:31:05.876Z",
+      "landingUrl": "https://launchfree.io/"
+    },
+    "https://aidirectory.website/": {
+      "name": "AIDirectory.website",
+      "url": "https://aidirectory.website/",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:31:38.410Z",
+      "landingUrl": "https://aidirectory.website/submit"
     }
   }
 }
