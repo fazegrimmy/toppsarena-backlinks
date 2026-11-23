@@ -384,6 +384,22 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T20:51:56.057Z",
       "landingUrl": "https://www.launchvault.dev/sign-in?redirect=/projects/submit"
+    },
+    "https://openstartup.tm": {
+      "name": "Open Startup",
+      "url": "https://openstartup.tm",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:52:28.391Z",
+      "landingUrl": "https://openstartup.tm/"
+    },
+    "https://startupsavant.com": {
+      "name": "Startup Savant",
+      "url": "https://startupsavant.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:52:59.406Z",
+      "landingUrl": "https://startupsavant.com/"
     }
   }
 }
