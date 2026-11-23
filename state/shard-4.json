@@ -256,6 +256,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:43:25.822Z",
       "landingUrl": "https://alternativeto.net/faq/"
+    },
+    "https://startupxplore.com/en/startur": {
+      "name": "Startup Explore",
+      "url": "https://startupxplore.com/en/startur",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:44:00.076Z",
+      "landingUrl": "https://startupxplore.com/en/login/auth"
+    },
+    "https://www.notion.so/integrations": {
+      "name": "Notion Integrations",
+      "url": "https://www.notion.so/integrations",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:44:31.770Z",
+      "landingUrl": "https://www.notion.com/connections"
+    },
+    "https://www.scrolllaunch.com/dashboard/products/new": {
+      "name": "ScrollLaunch",
+      "url": "https://www.scrolllaunch.com/dashboard/products/new",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:45:03.080Z",
+      "landingUrl": "https://www.scrolllaunch.com/auth/signin?callbackUrl=%2Fdashboard%2Fproducts%2Fnew"
+    },
+    "https://appagg.com/?hl=en": {
+      "name": "AppAgg",
+      "url": "https://appagg.com/?hl=en",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:45:33.995Z",
+      "landingUrl": "https://appagg.com/?hl=en"
     }
   }
 }
