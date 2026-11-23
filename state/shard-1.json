@@ -128,6 +128,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:07:07.798Z",
       "landingUrl": "https://justlaunched.fyi/submit"
+    },
+    "https://launchpadindia.co/submit": {
+      "name": "LaunchPad India",
+      "url": "https://launchpadindia.co/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:07:41.078Z",
+      "landingUrl": "https://launchpadindia.co/auth"
+    },
+    "https://linksalad.me/projects/submit": {
+      "name": "LinkSalad",
+      "url": "https://linksalad.me/projects/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:08:14.457Z",
+      "landingUrl": "https://linksalad.me/sign-in?redirect=/projects/submit"
+    },
+    "https://openalternative.co/submit": {
+      "name": "OpenAlternative",
+      "url": "https://openalternative.co/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:08:47.299Z",
+      "landingUrl": "https://openalternative.co/auth/login?next=%2Fsubmit"
+    },
+    "https://www.promoteproject.com/submit-startup": {
+      "name": "PromoteProject",
+      "url": "https://www.promoteproject.com/submit-startup",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:09:25.017Z",
+      "landingUrl": "https://www.promoteproject.com/login"
     }
   }
 }
