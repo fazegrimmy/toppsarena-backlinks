@@ -720,6 +720,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:19:21.341Z",
       "landingUrl": "https://indie.page/index.php/Indie.Page"
+    },
+    "https://launchlog.fun": {
+      "name": "LaunchLog",
+      "url": "https://launchlog.fun",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:19:56.444Z",
+      "landingUrl": "https://launchlog.fun/ideas/10"
+    },
+    "https://www.shipitsoon.com": {
+      "name": "Shipitsoon",
+      "url": "https://www.shipitsoon.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:20:27.485Z",
+      "landingUrl": "https://www.shipitsoon.com/"
+    },
+    "https://vendor.revleads.com": {
+      "name": "Crozdesk",
+      "url": "https://vendor.revleads.com",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:20:58.728Z",
+      "landingUrl": "https://vendor.revleads.com/user/login"
+    },
+    "https://apphublist.com": {
+      "name": "App Hub List",
+      "url": "https://apphublist.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:21:30.777Z",
+      "landingUrl": "https://apphublist.com/get-started"
     }
   }
 }
