@@ -784,6 +784,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:24:50.743Z",
       "landingUrl": "https://oss.gallery/"
+    },
+    "https://saasbranch.com": {
+      "name": "SaaS Branch",
+      "url": "https://saasbranch.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:25:24.015Z",
+      "landingUrl": "https://saasbranch.com/get-started"
+    },
+    "https://saascrawler.com": {
+      "name": "Saascrawler",
+      "url": "https://saascrawler.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:25:55.826Z",
+      "landingUrl": "https://saascrawler.com/get-started"
+    },
+    "https://stacker.news": {
+      "name": "Stacker News",
+      "url": "https://stacker.news",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:26:27.916Z",
+      "landingUrl": "https://stacker.news/"
+    },
+    "https://tooldynamo.com": {
+      "name": "Tool Dynamo",
+      "url": "https://tooldynamo.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:26:59.740Z",
+      "landingUrl": "https://tooldynamo.com/get-started"
     }
   }
 }
