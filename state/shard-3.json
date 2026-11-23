@@ -256,6 +256,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T20:42:48.553Z",
       "landingUrl": "https://www.tinylaunch.com/login?returnTo=%2Fdashboard%2Fstartups%2Fnew"
+    },
+    "https://startupbeat.com/get-featured": {
+      "name": "Startup Beat",
+      "url": "https://startupbeat.com/get-featured",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:43:21.303Z",
+      "landingUrl": "https://startupbeat.com/get-featured/"
+    },
+    "https://www.evolmagazine.com/en/tools/": {
+      "name": "Evolmagazine.com",
+      "url": "https://www.evolmagazine.com/en/tools/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:43:53.560Z",
+      "landingUrl": "https://rupiah89.it.com/"
+    },
+    "https://www.merchantcircle.com/signup/#‹": {
+      "name": "Merchant Circle",
+      "url": "https://www.merchantcircle.com/signup/#‹",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:44:25.206Z",
+      "landingUrl": "https://www.merchantcircle.com/signup/#step=stepOne"
+    },
+    "https://americanstartups.com/share-your-s": {
+      "name": "American Startups",
+      "url": "https://americanstartups.com/share-your-s",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:45:07.883Z",
+      "landingUrl": "https://americanstartups.com/share-your-story/"
     }
   }
 }
