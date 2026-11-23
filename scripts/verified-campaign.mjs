@@ -7,6 +7,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import {findListingUrl,findOutbound,redact,classifyApiResponse,targetHost} from './backlink-helpers.mjs';
 
 const ROOT = process.cwd();
 const SOURCES = path.join(ROOT, 'campaign', 'verified-opportunities.json');
@@ -30,15 +31,6 @@ fs.mkdirSync(path.dirname(STATE), { recursive: true });
 fs.mkdirSync(path.dirname(REPORT), { recursive: true });
 
 function short(e) { return String(e ?? '').slice(0, 300); }
-function safeUrl(value, allowedHost) {
-  if (typeof value !== 'string' || value.length > 2048) return null;
-  try {
-    const url = new URL(value);
-    if (url.protocol !== 'https:' || ![allowedHost, 'www.' + allowedHost].includes(url.hostname)) return null;
-    if (url.pathname === '/' && !url.search) return null;
-    return url.href;
-  } catch { return null; }
-}
 async function request(url, init = {}) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 18000);
@@ -53,134 +45,167 @@ async function request(url, init = {}) {
     return { httpStatus:r.status, finalUrl:r.url, body };
   } finally { clearTimeout(timer); }
 }
-function findListingUrl(value, allowedHost, depth = 0) {
-  if (depth > 5 || !value) return null;
-  if (Array.isArray(value)) {
-    for (const v of value) { const found = findListingUrl(v, allowedHost, depth + 1); if (found) return found; }
-  } else if (typeof value === 'object') {
-    const preferred = ['listing_url','listingUrl','public_url','publicUrl','permalink','detail_url','detailUrl','profile_url','profileUrl','link','url','href'];
-    for (const k of preferred) {
-      const u = safeUrl(value[k], allowedHost);
-      if (u) return u;
-    }
-    for (const [k,v] of Object.entries(value)) {
-      if (/(?:listing|profile|result|data|site|url)/i.test(k)) {
-        const found = findListingUrl(v, allowedHost, depth+1);
-        if (found) return found;
-      }
-    }
-  } else if (typeof value === 'string') {
-    return safeUrl(value, allowedHost);
-  }
-  return null;
-}
-function findOutbound(body, pageUrl) {
-  const re = /<a\b([^>]*?)>/gi;
-  let match;
-  while ((match = re.exec(body)) !== null) {
-    const attrs = match[1] || '';
-    const href = attrs.match(/\bhref\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
-    if (!href) continue;
-    const raw = (href[1] || href[2] || href[3] || '').replace(/&amp;/gi, '&').trim();
-    try {
-      const u = new URL(raw, pageUrl);
-      if (u.protocol !== 'https:' && u.protocol !== 'http:') continue;
-      const domain = u.hostname.replace(/^www\./i, '').toLowerCase();
-      if (domain !== 'toppsarena.com') continue;
-      const rel = (attrs.match(/\brel\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i) || []).slice(1).find(Boolean) || '';
-      return { destination:u.href, rel:rel.toLowerCase(), followed: !/\b(?:nofollow|ugc|sponsored)\b/i.test(rel) };
-    } catch {}
-  }
-  return null;
-}
 async function verifyListing(listingUrl) {
   try {
-    const r = await request(listingUrl);
-    if (r.httpStatus !== 200) return { status:'not_verifiable', reason:'HTTP ' + r.httpStatus, checkedAt:now() };
-    const a = findOutbound(r.body, r.finalUrl);
-    if (!a) return { status:'not_verifiable', reason:'No direct public link to toppsarena.com in fetched page HTML', checkedAt:now() };
-    return { status:'verified_published', listedAt:r.finalUrl, destination:a.destination, rel:a.rel || '(none)', followed:a.followed, checkedAt:now() };
-  } catch(e) { return { status:'not_verifiable', reason:short(e.message), checkedAt:now() }; }
+    const originalHost=targetHost(listingUrl);
+    const r=await request(listingUrl);
+    if (r.httpStatus!==200) return {status:'not_verifiable',reason:'HTTP '+r.httpStatus,checkedAt:now()};
+    if (targetHost(r.finalUrl)!==originalHost) return {status:'not_verifiable',reason:'Listing redirects off its own directory host',checkedAt:now()};
+    const a=findOutbound(r.body,r.finalUrl);
+    if(!a)return {status:'not_verifiable',reason:'No direct HTML anchor to toppsarena.com',checkedAt:now()};
+    return {status:'verified_published',listedAt:r.finalUrl,destination:a.destination,rel:a.rel,followed:a.followed,checkedAt:now()};
+  }catch(e){return {status:'not_verifiable',reason:short(e.message),checkedAt:now()};}
 }
-function save() {
-  state.updatedAt = now();
+async function checkTechtools(){
+  const url='https://techtools.cz/launchpad-api/tools?url='+encodeURIComponent(SITE);
+  const response=await request(url);
+  if(response.httpStatus!==200)throw Error('TechTools read API: HTTP '+response.httpStatus);
+  const parsed=JSON.parse(response.body);
+  const listing=(Array.isArray(parsed.data)?parsed.data:[]).find(item=>targetHost(item?.url)===targetHost(SITE));
+  if(!listing)return null;
+  if(!Number.isInteger(Number(listing.id))||Number(listing.id)<=0)throw Error('TechTools existing record lacks a public numeric id');
+  const listingUrl='https://techtools.cz/tools/launchpad/?tool='+encodeURIComponent(String(listing.id));
+  return {listingUrl,listId:listing.id,raw:listing};
+}
+async function verifyTechtoolsApi(){
+  try{
+    const item=await checkTechtools();
+    if(!item)return {status:'not_verifiable',reason:'No matching public TechTools API record',checkedAt:now()};
+    return {status:'verified_public_api_record',listedAt:item.listingUrl,destination:SITE,rel:'unknown; page may render with JavaScript',followed:null,checkedAt:now()};
+  }catch(e){return {status:'not_verifiable',reason:'TechTools lookup: '+short(e.message),checkedAt:now()};}
+}
+function save(){
+  state.updatedAt=now();
   fs.writeFileSync(STATE,JSON.stringify(state,null,2)+'\n');
-  const published = [];
-  for (const [name,v] of Object.entries(state.publishers)) if (v.verification?.status==='verified_published') published.push({ name, ...v.verification });
-  for (const [name,v] of Object.entries(state.knownListings)) if (v.verification?.status==='verified_published') published.push({name, ...v.verification});
-  const lines = [
-    '# TopPSArena — verified published backlinks',
-    '',
-    'Generated: ' + state.updatedAt,
-    '',
-    '**Only a fetched public page with a direct HTML link to https://toppsarena.com counts as verified.** API submissions alone are not successes.',
-    '',
-    '| Directory | Public listing page | Link rel |',
+  const all=[...Object.entries(state.publishers),...Object.entries(state.knownListings)];
+  const published=all.filter(([name,r])=>r.verification?.status==='verified_published');
+  const jsonConfirmed=all.filter(([name,r])=>r.verification?.status==='verified_public_api_record');
+  const pending=Object.entries(state.publishers).filter(([name,r])=>!['verified_published','verified_public_api_record'].includes(r.verification?.status));
+  const lines=[
+    '# TopPSArena — independent backlink evidence','','Generated: '+state.updatedAt,'',
+    '## Public HTML-verified backlinks ('+published.length+')','',
+    '**Counted only if an independently fetched, public directory HTML page contains a direct <a href> to https://toppsarena.com.** No claim of ranking benefit.','',
+    '| Directory | Public page | Link relationship |',
     '|---|---|---|',
-    ...published.map(x => '| '+x.name+' | '+x.listedAt+' | '+x.rel+' |'),
+    ...published.map(([name,r])=>'| '+name+' | '+r.verification.listedAt+' | '+r.verification.rel+' |'),
     '',
-    '## API submission records (publication not implied)',
+    '## Public API records — not counted as HTML backlinks ('+jsonConfirmed.length+')','','A provider listing API can confirm publication while the public page itself is rendered in JavaScript. The HTML backlink has not independently been proven.','',
+    '| Directory | Listing/share page | Evidence |',
+    '|---|---|---|',
+    ...jsonConfirmed.map(([name,r])=>'| '+name+' | '+r.verification.listedAt+' | Public directory API record |'),
     '',
-    '| Directory | HTTP result | Submission record | Listing verification |',
-    '|---|---|---|---|',
-    ...Object.entries(state.publishers).map(([name,x]) => '| '+name+' | '+(x.submission?.httpStatus??'—')+' | '+(x.submission?.status??'not attempted')+' | '+(x.verification?.status??'pending')+' |'),
+    '## Submission and pending statuses','','| Directory | API result | Submission status | Link verification |','|---|---|---|---|',
+    ...Object.entries(state.publishers).map(([name,r])=>'| '+name+' | '+(r.submission?.httpStatus??'—')+' | '+(r.submission?.status??'not attempted')+' | '+(r.verification?.status??'not verified')+' |'),
     '',
-    'Known listing pages are verification-only. No payment, account creation, CAPTCHA or bulk form submission is performed.',
+    'Published means a page actually links to TopPSArena. A successful workflow, API 201, review notice, or redirect alone never does. Results are rechecked, and unverified does not imply deleted.',
     ''
   ];
   fs.writeFileSync(REPORT,lines.join('\n'));
 }
-async function submitPublisher(v) {
-  if (!v.automationAllowed || v.cost !== 'free' || v.requiresAccount) {
-    console.log('BLOCKED (not preapproved): '+v.name);
-    return;
+function providerPayload(v){
+  if(v.id==='develif')return {url:SITE,email:EMAIL,name:TITLE,description:DESCRIPTION,category:'Gaming',locale:'en'};
+  if(v.id==='curlship')return {url:SITE,email:EMAIL}; // never request a paid tier or badge verification
+  if(v.id==='techtools')return {name:TITLE,url:SITE,tagline:'Find and vote for private game servers across multiple games',description:DESCRIPTION,category:'games',submitted_by:'TopPSArena GitHub Campaign'};
+  if(v.id==='promoteindex')return {heardAbout:{source:'not-sure'},name:TITLE,url:SITE,tagline:'Discover, compare and vote for private game servers',description:DESCRIPTION,category:'community',tags:['private-servers','gaming','server-directory'],builtWith:['human','chatgpt'],pricing:'freemium',contactEmail:EMAIL,submittedBy:{kind:'agent',agent:'chatgpt'}};
+  throw Error('Provider is not explicitly supported in reviewed code: '+v.id);
+}
+async function submitPublisher(v){
+  if(!v.automationAllowed||v.cost!=='free'||v.requiresAccount||v.requiresBadge){
+    console.log('SKIP not eligible for free bot submission: '+v.name);return;
   }
+  if(!['develif','curlship','techtools','promoteindex'].includes(v.id))throw Error('Unreviewed API publisher '+v.id);
   const row=state.publishers[v.name]||{};
-  if (row.submission && row.submission.status !== 'network_error') return; // idempotent, never post again after any definite HTTP response
-  let payload;
-  if (v.id === 'develif') {
-    payload = { url:SITE, email:EMAIL, name:TITLE, description:DESCRIPTION, category:'Gaming', locale:'en' };
-  } else if (v.id === 'curlship') {
-    payload = { url:SITE, email:EMAIL }; // explicitly omit tier to guarantee free tier
-  } else {throw new Error('Unknown publisher — code review required for adding API: '+v.id);}
-  try {
-    console.log('Sending one documented free API submission to '+v.name);
-    const r=await request(v.api,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
-    let response;
-    try {response=JSON.parse(r.body);}catch {response={message:r.body.slice(0,400)};}
-    const found=findListingUrl(response,v.domain);
-    row.submission={
-      status: r.httpStatus >= 200 && r.httpStatus < 300 ? 'api_accepted_not_yet_verified' : 'api_rejected',
-      httpStatus:r.httpStatus, submittedAt:now(), responseSummary:short(JSON.stringify(response)),
-      candidateListingUrl:found
-    };
-    if (found) row.listingUrl=found;
-    console.log(v.name+': HTTP '+r.httpStatus+'; candidate page '+(found||'not supplied'));
-  } catch(e) {
-    row.submission={status:'network_error',submittedAt:now(),responseSummary:short(e.message)};
-    console.log(v.name+': network error '+short(e.message));
+  // Never replay an accepted or rejected definitive POST on scheduled runs.
+  if(row.submission && !['network_error','rate_limited','preflight_unavailable'].includes(row.submission.status))return;
+  if(v.id==='techtools'){
+    try{
+      const existing=await checkTechtools();
+      if(existing){
+        row.listingUrl=existing.listingUrl;
+        row.submission={status:'already_listed',httpStatus:200,submittedAt:now(),responseSummary:'Public URL lookup returned an existing exact-domain listing; no new POST sent',candidateListingUrl:existing.listingUrl};
+        state.publishers[v.name]=row;save();return;
+      }
+    }catch(e){
+      row.submission={status:'preflight_unavailable',submittedAt:now(),responseSummary:short(e.message)};
+      state.publishers[v.name]=row;save();return;
+    }
   }
-  state.publishers[v.name]=row; save();
+  const payload=providerPayload(v);
+  let response=null, httpStatus=null, finalStatus='network_error',listingUrl=null;
+  let queueRetries=0;
+  try {
+    console.log('One permitted free API submission: '+v.name);
+    let headers={'Content-Type':'application/json','X-Agent-Name':'TopPSArena Assistant'};
+    while(true){
+      const r=await request(v.api,{method:'POST',headers,body:JSON.stringify(payload)});
+      httpStatus=r.httpStatus;
+      try{response=JSON.parse(r.body)}catch{response={message:r.body.slice(0,400)}}
+      finalStatus=classifyApiResponse(httpStatus,response);
+      if(finalStatus!=='queued_not_published'||v.id!=='promoteindex'||queueRetries>=2)break;
+      const after=Number(response?.details?.retryAfter??response?.retryAfter);
+      const ticket=response?.details?.queue?.ticketId??response?.queue?.ticketId;
+      if(!ticket||!Number.isFinite(after)||after<0||after>45)break;
+      queueRetries++;
+      console.log('PromoteIndex requested a queued retry in '+after+' seconds; ticket kept in memory only');
+      await new Promise(resolve=>setTimeout(resolve,(after+1)*1000));
+      headers={...headers,'X-Submission-Ticket':ticket};
+    }
+    listingUrl=findListingUrl(response,v.domain);
+    if(!listingUrl&&v.id==='techtools'){
+      const item=response?.data||response?.existing;
+      if(item?.id&&Number.isInteger(Number(item.id)))listingUrl='https://techtools.cz/tools/launchpad/?tool='+encodeURIComponent(String(item.id));
+    }
+    if(!listingUrl&&v.id==='promoteindex'){
+      const slug=response?.project?.slug||response?.data?.slug||response?.slug||response?.existing?.slug;
+      if(typeof slug==='string'&&/^[a-z0-9-]{2,80}$/.test(slug))listingUrl='https://promoteindex.com/p/'+slug;
+    }
+    row.submission={
+      status:finalStatus,httpStatus,submittedAt:now(),
+      responseSummary:short(JSON.stringify(redact(response))),
+      candidateListingUrl:listingUrl
+    };
+    if(listingUrl)row.listingUrl=listingUrl;
+    console.log(v.name+': HTTP '+httpStatus+', '+finalStatus+'; public candidate URL: '+(listingUrl||'none'));
+  }catch(e){
+    row.submission={status:'network_error',submittedAt:now(),responseSummary:short(e.message)};
+    console.log(v.name+': transient error; pending until reviewed');
+  }
+  state.publishers[v.name]=row;save();
 }
 async function main(){
-  console.log('TopPSArena evidence-first campaign: '+MODE+', '+data.publishers.length+' eligible public APIs');
-  for (const v of data.publishers) {
-    if (MODE==='submit') await submitPublisher(v);
-    const row=state.publishers[v.name]||{};
-    if(row.listingUrl) row.verification=await verifyListing(row.listingUrl);
-    state.publishers[v.name]=row;
-    console.log(v.name+': '+(row.verification?.status||row.submission?.status||'not attempted'));
-    save();
-  }
-  for (const e of data.knownListings){
-    const row=state.knownListings[e.name]||{};
-    row.listingUrl=e.url;
-    row.verification=await verifyListing(e.url);
-    state.knownListings[e.name]=row;
-    console.log('Known '+e.name+': '+row.verification.status);
-    save();
-  }
-  const published=Object.values(state.publishers).filter(x=>x.verification?.status==='verified_published').length;
-  console.log('NEW-PUBLISHER VERIFICATION: '+published+' published backlinks from '+data.publishers.length+' preapproved publishers (not a claim of SEO impact)');
+ console.log('TopPSArena verified campaign: '+MODE+'; '+data.publishers.length+' preapproved free API publishers');
+ for(const v of data.publishers){
+   if(MODE==='submit')await submitPublisher(v);
+   const row=state.publishers[v.name]||{};
+   if(row.listingUrl){
+     row.verification=await verifyListing(row.listingUrl);
+     if(row.verification.status!=='verified_published'&&v.id==='techtools'){
+       const evidence=await verifyTechtoolsApi();
+       if(evidence.status==='verified_public_api_record')row.verification=evidence;
+     }
+   }else if(v.id==='techtools'){
+     const evidence=await verifyTechtoolsApi();
+     if(evidence.status==='verified_public_api_record'){row.listingUrl=evidence.listedAt;row.verification=evidence;}
+   }else if(v.id==='develif' && row.submission?.httpStatus===409){
+     // 409 means already listed; try only the documented /s/slug public route.
+     const candidate='https://develif.com/s/toppsarena';
+     const evidence=await verifyListing(candidate);
+     if(evidence.status==='verified_published'){row.listingUrl=evidence.listedAt;row.verification=evidence;}
+   }
+   state.publishers[v.name]=row;
+   console.log(v.name+': '+(row.verification?.status||row.submission?.status||'not attempted'));
+   save();
+ }
+ for(const e of data.knownListings){
+   const row=state.knownListings[e.name]||{};
+   row.listingUrl=e.url;
+   row.verification=await verifyListing(e.url);
+   state.knownListings[e.name]=row;save();
+   console.log('Known '+e.name+': '+row.verification.status);
+ }
+ const all=[...Object.values(state.publishers),...Object.values(state.knownListings)];
+ const published=all.filter(x=>x.verification?.status==='verified_published').length;
+ const publicApi=all.filter(x=>x.verification?.status==='verified_public_api_record').length;
+ console.log('RESULT: '+published+' HTML-verified published links; '+publicApi+' extra public API records (not counted as HTML backlinks).');
 }
 await main();
