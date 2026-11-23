@@ -752,6 +752,38 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T21:21:30.777Z",
       "landingUrl": "https://apphublist.com/get-started"
+    },
+    "https://www.chromehunt.app": {
+      "name": "Chromehunt",
+      "url": "https://www.chromehunt.app",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:22:03.064Z",
+      "landingUrl": "https://www.chromehunt.app/"
+    },
+    "https://feedbacktools.org": {
+      "name": "Feedbacktools",
+      "url": "https://feedbacktools.org",
+      "status": "attempted_unverified",
+      "details": "Page changed after submit; listing NOT verified",
+      "checkedAt": "2026-11-23T21:22:36.614Z",
+      "landingUrl": "https://formspree.io/hello@feedbacktools.org"
+    },
+    "https://www.indielondon.co": {
+      "name": "Indie London",
+      "url": "https://www.indielondon.co",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:23:07.865Z",
+      "landingUrl": "https://ramenclub.com/"
+    },
+    "https://www.oksaas.co": {
+      "name": "Oksaas",
+      "url": "https://www.oksaas.co",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:23:39.313Z",
+      "landingUrl": "https://www.oksaas.co/"
     }
   }
 }
