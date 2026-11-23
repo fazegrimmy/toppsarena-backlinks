@@ -320,6 +320,38 @@
       "details": "Cannot identify safe listing submit button",
       "checkedAt": "2026-11-23T20:19:53.189Z",
       "landingUrl": "https://findthatsoftware.com/vendors"
+    },
+    "https://launchleague.xyz/?product=yaps": {
+      "name": "LaunchLeague",
+      "url": "https://launchleague.xyz/?product=yaps",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:20:30.863Z",
+      "landingUrl": "https://launchleague.xyz/sign-in?redirectTo=%2Fsubmit-product"
+    },
+    "https://nicklaunches.com/products/yaps/": {
+      "name": "NickLaunches",
+      "url": "https://nicklaunches.com/products/yaps/",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:21:03.764Z",
+      "landingUrl": "https://nicklaunches.com/signin/?callbackUrl=/submit/"
+    },
+    "https://peerlist.io/launchpad": {
+      "name": "Peerlist Launchpad",
+      "url": "https://peerlist.io/launchpad",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:21:34.664Z",
+      "landingUrl": "https://peerlist.io/launchpad"
+    },
+    "https://shipordie.club/leaderboard": {
+      "name": "SHIP OR DIE",
+      "url": "https://shipordie.club/leaderboard",
+      "status": "failed_runtime",
+      "details": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://shipordie.club/leaderboard Call log: - navigating to \"https://shipordie.club/leaderboard\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T20:22:04.759Z",
+      "landingUrl": "about:blank"
     }
   }
 }
