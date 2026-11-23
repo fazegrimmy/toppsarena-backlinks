@@ -688,6 +688,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:46:49.066Z",
       "landingUrl": "https://maxibestof.one/submit"
+    },
+    "https://sharefast.co": {
+      "name": "Share Fast",
+      "url": "https://sharefast.co",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:47:22.412Z",
+      "landingUrl": "https://sharefast.co/submit"
+    },
+    "https://uk-dir.com": {
+      "name": "Uk Dir",
+      "url": "https://uk-dir.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:47:53.697Z",
+      "landingUrl": "https://www.uk-dir.com/"
+    },
+    "https://ailaunch.space": {
+      "name": "AI Launch Space",
+      "url": "https://ailaunch.space",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:48:32.978Z",
+      "landingUrl": "https://ailaunch.space/submit"
+    },
+    "https://kittylaunch.com": {
+      "name": "Kittylaunch",
+      "url": "https://kittylaunch.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:49:05.104Z",
+      "landingUrl": "https://kittylaunch.com/"
     }
   }
 }
