@@ -53,9 +53,9 @@ export function renderEvidenceReport(state={}){
   '',
   '## Submissions',
   '',
-  '| Directory | HTTP | API status | Link verification |',
-  '|---|---|---|---|',
-  ...Object.entries(state.publishers||{}).map(([name,v])=>'| '+line(name)+' | '+line(v.submission?.httpStatus)+' | '+line(v.submission?.status||'not attempted')+' | '+line(v.verification?.status||'pending')+' |'),
+  '| Directory | HTTP | API status | Editorial review | Link verification |',
+  '|---|---|---|---|---|',
+  ...Object.entries(state.publishers||{}).map(([name,v])=>'| '+line(name)+' | '+line(v.submission?.httpStatus)+' | '+line(v.submission?.status||'not attempted')+' | '+line(v.review?.status||'—')+' | '+line(v.verification?.status||'pending')+' |'),
   '',
   'Failed retrieval and JS-only API records are not counted. No paid listings, CAPTCHA bypasses, or reciprocal links are used.',
   ''
