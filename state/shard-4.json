@@ -320,6 +320,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:47:37.993Z",
       "landingUrl": "https://www.gartner.com/en/digital-marke"
+    },
+    "https://magnitt.com/startups": {
+      "name": "Magnitt",
+      "url": "https://magnitt.com/startups",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:48:10.083Z",
+      "landingUrl": "https://magnitt.com/startups"
+    },
+    "https://onlinegeniuses.com/marketplace-": {
+      "name": "Online Genuises",
+      "url": "https://onlinegeniuses.com/marketplace-",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:48:41.791Z",
+      "landingUrl": "https://onlinegeniuses.com/"
+    },
+    "https://productburst.com/pre-launch": {
+      "name": "Productburst",
+      "url": "https://productburst.com/pre-launch",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:49:12.779Z",
+      "landingUrl": "https://productburst.com/pre-launch"
+    },
+    "https://www.softwareadvice.com/vendors": {
+      "name": "Software Advice",
+      "url": "https://www.softwareadvice.com/vendors",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:49:43.585Z",
+      "landingUrl": "https://www.softwareadvice.com/vendors"
     }
   }
 }
