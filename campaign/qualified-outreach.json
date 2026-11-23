@@ -201,5 +201,232 @@
       "url": "https://www.gamingpk.com/directory/?wpbdp_view=submit_listing",
       "reason": "Gambling-focused directory, unrelated to non-gambling private server discovery"
     }
-  ]
+  ],
+  "editorialPublishing": {
+    "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457",
+    "reviewedOn": "2026-11-23",
+    "note": "Candidates found in a public Gist labelled 101 URLs, not verified backlink submission targets. No candidate authorizes automatic submissions or link placement. Many need accounts, original content and editorial/moderator approval. Do not count as backlinks until a live public direct link is independently verified.",
+    "candidates": [
+      {
+        "name": "DEV Community",
+        "url": "https://dev.to",
+        "category": "developer-writing",
+        "suggestedContent": "An engineering write-up about building a multi-game server discovery site",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Hashnode",
+        "url": "https://hashnode.com",
+        "category": "developer-writing",
+        "suggestedContent": "A technical case study on listing discovery, voting and moderation",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Medium",
+        "url": "https://medium.com",
+        "category": "editorial-article",
+        "suggestedContent": "An original article discussing how players discover private gaming communities",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Substack",
+        "url": "https://substack.com",
+        "category": "newsletter-blog",
+        "suggestedContent": "Regular creator updates about the server directory and gaming communities",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Blogger",
+        "url": "https://www.blogger.com",
+        "category": "owned-blog",
+        "suggestedContent": "An original project blog with a relevant TopPSArena reference",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "WordPress.com",
+        "url": "https://wordpress.com",
+        "category": "owned-blog",
+        "suggestedContent": "Project development news written for the gaming community",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Tumblr",
+        "url": "https://www.tumblr.com",
+        "category": "microblog",
+        "suggestedContent": "Visual product launch or update posts with useful descriptive copy",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com",
+        "category": "professional-update",
+        "suggestedContent": "Build-in-public post about running the gaming directory",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com",
+        "category": "community-discussion",
+        "suggestedContent": "Respond to developer or gaming community feedback when links are allowed",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com",
+        "category": "developer-documentation",
+        "suggestedContent": "Useful open-source documentation about the project or publicly shared tools",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Flipboard",
+        "url": "https://flipboard.com",
+        "category": "content-curation",
+        "suggestedContent": "Curate relevant published articles for gaming-community readers",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Scoop.it",
+        "url": "https://www.scoop.it",
+        "category": "content-curation",
+        "suggestedContent": "Research whether relevant project content can be curated and linked",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Diigo",
+        "url": "https://www.diigo.com",
+        "category": "bookmarking",
+        "suggestedContent": "Investigate whether legitimate public research collections are indexable",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Pearltrees",
+        "url": "https://www.pearltrees.com",
+        "category": "bookmarking",
+        "suggestedContent": "Public curation of genuinely useful private-server resources",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "About.me",
+        "url": "https://about.me",
+        "category": "creator-profile",
+        "suggestedContent": "Creator profile where a TopPSArena project link may fit",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Carrd",
+        "url": "https://carrd.co",
+        "category": "project-profile",
+        "suggestedContent": "Optional project landing page only if original useful information is published",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Google Sites",
+        "url": "https://sites.google.com",
+        "category": "owned-site",
+        "suggestedContent": "Project support or documentation with non-duplicative content",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "GrowthHackers",
+        "url": "https://growthhackers.com",
+        "category": "professional-community",
+        "suggestedContent": "Discuss platform growth strategy without link-dropping",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "Slashdot",
+        "url": "https://slashdot.org",
+        "category": "tech-community",
+        "suggestedContent": "Research topical article or submission rules before any outreach",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      },
+      {
+        "name": "LiveJournal",
+        "url": "https://www.livejournal.com",
+        "category": "blog-publishing",
+        "suggestedContent": "Original gaming-community article if platform and audience fit",
+        "status": "research_only_not_submitted",
+        "automationAllowed": false,
+        "publicationVerified": false,
+        "backlinkVerified": false,
+        "source": "https://gist.github.com/stackblogger/7063740852e24b6947e6ebc1ccca6457"
+      }
+    ]
+  }
 }
