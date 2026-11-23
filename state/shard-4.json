@@ -400,6 +400,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:52:51.945Z",
       "landingUrl": "https://www.startuptabs.com/"
+    },
+    "https://www.businesstoolvault.com/": {
+      "name": "Business Tool Vault",
+      "url": "https://www.businesstoolvault.com/",
+      "status": "skipped_required_fields",
+      "details": "Unfilled required fields: toolname toolname-325895-0 enter tool name tool name",
+      "checkedAt": "2026-11-23T21:28:37.858Z",
+      "landingUrl": "https://www.businesstoolvault.com/"
+    },
+    "https://foundertools.ai/tools/submit": {
+      "name": "FounderTools Directory",
+      "url": "https://foundertools.ai/tools/submit",
+      "status": "skipped_required_fields",
+      "details": "Unfilled required fields: name tool-name tool name; category",
+      "checkedAt": "2026-11-23T21:29:09.127Z",
+      "landingUrl": "https://foundertools.ai/tools/submit"
+    },
+    "https://www.indielogs.com/": {
+      "name": "IndieLogs",
+      "url": "https://www.indielogs.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:29:40.838Z",
+      "landingUrl": "https://www.indielogs.com/"
+    },
+    "https://openmakers.io/add-product": {
+      "name": "Open Makers",
+      "url": "https://openmakers.io/add-product",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:30:12.675Z",
+      "landingUrl": "https://openmakers.io/login?returnUrl=%2Fadd-product"
     }
   }
 }
