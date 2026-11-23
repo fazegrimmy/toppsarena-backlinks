@@ -96,6 +96,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T20:04:36.843Z",
       "landingUrl": "https://lookingfortools.com/sign-in?redirect=/projects/submit"
+    },
+    "https://auraplusplus.com/projects/submit": {
+      "name": "Aura++",
+      "url": "https://auraplusplus.com/projects/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:05:11.439Z",
+      "landingUrl": "https://auraplusplus.com/sign-in?redirect=/projects/submit"
+    },
+    "https://devhub.best/projects/submit": {
+      "name": "DevHub",
+      "url": "https://devhub.best/projects/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:05:44.522Z",
+      "landingUrl": "https://devhub.best/sign-in?redirect=/projects/submit"
+    },
+    "https://firsto.co/projects/submit": {
+      "name": "Firsto",
+      "url": "https://firsto.co/projects/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:06:18.128Z",
+      "landingUrl": "https://firsto.co/sign-in?redirect=/projects/submit"
+    },
+    "https://indiehunt.io/submit": {
+      "name": "Indiehunt",
+      "url": "https://indiehunt.io/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:06:50.467Z",
+      "landingUrl": "https://indiehunt.io/submit"
     }
   }
 }
