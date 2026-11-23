@@ -288,6 +288,38 @@
       "details": "page.goto: Timeout 22000ms exceeded. Call log: - navigating to \"https://trust-revenue.com/dashboard/startup\", waiting until \"domcontentloaded\"",
       "checkedAt": "2026-11-23T20:17:54.924Z",
       "landingUrl": "about:blank"
+    },
+    "https://www.appolicious.com/contact-us": {
+      "name": "Appolicious",
+      "url": "https://www.appolicious.com/contact-us",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:18:28.212Z",
+      "landingUrl": "https://www.newsreports.com/contact-us"
+    },
+    "https://boostdomainrating.com/item/www.yaps.ai": {
+      "name": "BoostDomainRating",
+      "url": "https://boostdomainrating.com/item/www.yaps.ai",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:19:00.815Z",
+      "landingUrl": "https://boostdomainrating.com/sign-in?redirect=%2Fsubmit%3Fdomain%3D"
+    },
+    "https://www.craked.dev/products": {
+      "name": "craked.dev",
+      "url": "https://www.craked.dev/products",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:19:32.093Z",
+      "landingUrl": "https://www.craked.dev/products"
+    },
+    "https://www.dodomrr.com/": {
+      "name": "DodoMRR",
+      "url": "https://www.dodomrr.com/",
+      "status": "failed_runtime",
+      "details": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.dodomrr.com/ Call log: - navigating to \"https://www.dodomrr.com/\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T20:20:18.105Z",
+      "landingUrl": "about:blank"
     }
   }
 }
