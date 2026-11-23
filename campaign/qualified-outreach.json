@@ -1,0 +1,205 @@
+{
+  "site": "https://toppsarena.com",
+  "checkedOn": "2026-11-23",
+  "policy": "Qualified research queue, not permission to post. Only documented permitted free JSON APIs can be auto-submitted; account, approval, challenge, or badge-gated destinations are never silently submitted. Verify public HTML anchor links separately.",
+  "opportunities": [
+    {
+      "name": "LaunchAgentic",
+      "url": "https://launchagentic.space/for-agents",
+      "relevance": "software-and-gaming-directory",
+      "category": "free_agent_api",
+      "status": "integrated_auto",
+      "price": "free",
+      "login": false,
+      "gate": "Read five distinct existing product listings without votes or comments; publication may be moderated/scheduled",
+      "source": "https://launchagentic.space/api/v1/launch/schema",
+      "notes": "Agent protocol and organic product type verified; await independent public link proof",
+      "priority": 1
+    },
+    {
+      "name": "XtremeTop100 Gaming Websites",
+      "url": "https://www.xtremetop100.com/add",
+      "relevance": "gaming-directory",
+      "category": "gaming",
+      "status": "owner_account_required",
+      "price": "free",
+      "login": true,
+      "gate": "Account password/email required; Gaming Websites category",
+      "source": "https://www.xtremetop100.com/add",
+      "notes": "Directly accepts gaming websites/fansites, but no approved bot/API path; must not create an account automatically",
+      "priority": 2
+    },
+    {
+      "name": "RaGEZONE Top Sites - Website",
+      "url": "https://forum.ragezone.com/topsites/",
+      "relevance": "gaming-community",
+      "category": "gaming",
+      "status": "account_required",
+      "price": "free",
+      "login": true,
+      "gate": "Forum owner account / Website category",
+      "source": "https://forum.ragezone.com/threads/top-sites-%E2%80%94-the-toplist-that-pays-your-voters-back-list-free-climb-on-votes-wear-your-rank.1271279/",
+      "notes": "Has separate Website category for gaming resources. Free listing Open button, not guaranteed followed hyperlink",
+      "priority": 3
+    },
+    {
+      "name": "Curlie Games Video Games Directories",
+      "url": "https://curlie.org/Games/Video_Games/Directories/",
+      "relevance": "editorial-games-directory",
+      "category": "gaming",
+      "status": "editorial_contact_route_to_verify",
+      "price": "free_candidate",
+      "login": "unknown",
+      "gate": "Human-edited suggestion route not verified as working",
+      "source": "https://curlie.org/desc/Games/Video_Games",
+      "notes": "Site category explicitly accepts directories of video-game related links; publisher must accept listing",
+      "priority": 4
+    },
+    {
+      "name": "Top Games HubsInfo",
+      "url": "https://topgames.hubsinfo.net/?a=join",
+      "relevance": "gaming-toplist",
+      "category": "gaming",
+      "status": "account_and_browser_verification",
+      "price": "free",
+      "login": true,
+      "gate": "Join flow and site challenge",
+      "source": "https://topgames.hubsinfo.net/?a=page&id=5",
+      "notes": "Publisher says gaming sites and private servers are accepted, but site verification blocks automated access",
+      "priority": 5
+    },
+    {
+      "name": "Webcentive Games",
+      "url": "https://www.webcentive.com/addurl/",
+      "relevance": "editorially-curated-gaming",
+      "category": "gaming",
+      "status": "editorial_review",
+      "price": "free_candidate",
+      "login": "unknown",
+      "gate": "Hand-reviewed, many new domains held",
+      "source": "https://www.webcentive.com/addurl/log/",
+      "notes": "Games category exists; site publicly shows many newly registered gaming sites deferred; no published claim until accepted",
+      "priority": 6
+    },
+    {
+      "name": "Random Daily URLs",
+      "url": "https://randomdailyurls.com/submit/",
+      "relevance": "interactive-websites",
+      "category": "web-discovery",
+      "status": "email_verification_and_browser_challenge",
+      "price": "free",
+      "login": false,
+      "gate": "Confirm email; JS browser verification; 3–4 week editorial queue",
+      "source": "https://randomdailyurls.com/submit/",
+      "notes": "Interactive site may be eligible but submissions mainly for browser games, web toys and projects, not link-collection sites; fit uncertain",
+      "priority": 7
+    },
+    {
+      "name": "9Sites web directory",
+      "url": "https://www.9sites.net/addurl.php",
+      "relevance": "general-web",
+      "category": "general",
+      "status": "free_path_requires_form_review",
+      "price": "free",
+      "login": "unknown",
+      "gate": "Editorial review, no approved API",
+      "source": "https://another.directory/where-to-launch/no-login",
+      "notes": "Free entry reported by source; TopPSArena category and review currently unverified",
+      "priority": 8
+    },
+    {
+      "name": "247WebDirectory",
+      "url": "https://www.247webdirectory.com/submit",
+      "relevance": "general-web",
+      "category": "general",
+      "status": "captcha_or_arithmetic_challenge",
+      "price": "free",
+      "login": false,
+      "gate": "Arithmetic anti-bot question, free tier unpromised",
+      "source": "https://submitmystartup.com/",
+      "notes": "Reviewed 23 Nov 2026; excludes autoposting; not worth bypassing validation",
+      "priority": 9
+    },
+    {
+      "name": "App Rater",
+      "url": "https://apprater.net/add",
+      "relevance": "software-product-directory",
+      "category": "general",
+      "status": "form_needs_revalidation",
+      "price": "free",
+      "login": false,
+      "gate": "Manual review; prior campaign could not identify website form",
+      "source": "https://startap.cc/tools/startup-directories",
+      "notes": "Prior GitHub run marked skipped_no_site_form; no automatic reattempt without changed evidence",
+      "priority": 10
+    },
+    {
+      "name": "Linkrena",
+      "url": "https://linkrena.com",
+      "relevance": "product-discovery",
+      "category": "general",
+      "status": "email_magic_link_required",
+      "price": "free",
+      "login": true,
+      "gate": "Email sign-in and creator approval",
+      "source": "https://startap.cc/tools/startup-directories",
+      "notes": "Source reports followed website links; software/product listing fit needs confirmation",
+      "priority": 11
+    },
+    {
+      "name": "Startup List",
+      "url": "https://startup-list.org/submit",
+      "relevance": "startup-discovery",
+      "category": "general",
+      "status": "free_source_claim_not_verified",
+      "price": "free_claim",
+      "login": "unknown",
+      "gate": "Needs first-party submission review",
+      "source": "https://github.com/mmmmingos/where-to-submit-your-startup",
+      "notes": "TopPSArena is a live discovery product; no automated submission method approved",
+      "priority": 12
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Hype Star",
+      "url": "https://hypestar.org/submit",
+      "reason": "First-party page requires Hype Star homepage badge for new free listings; not a no-badge opportunity"
+    },
+    {
+      "name": "RoboDebut",
+      "url": "https://robodebut.com",
+      "reason": "First-party agent workflow requires installing a homepage badge; no unilateral site changes"
+    },
+    {
+      "name": "Qevra",
+      "url": "https://qevra.app",
+      "reason": "First-party updated FAQ requires $2 listing payment; old third-party free claims are stale"
+    },
+    {
+      "name": "GameTopSites.net",
+      "url": "https://www.gametopsites.net/add-site.html",
+      "reason": "Free listing requires a reciprocal backlink; paid no-link path excluded"
+    },
+    {
+      "name": "Warp Point",
+      "url": "https://www.warppoint.games/submit",
+      "reason": "Gaming writing and RSS focused, excludes AI-generated sites; not a fit for TopPSArena"
+    },
+    {
+      "name": "Guassia",
+      "url": "https://guassia.com/games/submit/",
+      "reason": "Accepts playable hosted browser games, not directories about game servers"
+    },
+    {
+      "name": "Breakpoint Games",
+      "url": "https://breakpoint.games/submit",
+      "reason": "Accepts playable programming games, not gaming toplist directories"
+    },
+    {
+      "name": "GamingPK",
+      "url": "https://www.gamingpk.com/directory/?wpbdp_view=submit_listing",
+      "reason": "Gambling-focused directory, unrelated to non-gambling private server discovery"
+    }
+  ]
+}
