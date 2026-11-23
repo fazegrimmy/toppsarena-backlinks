@@ -560,6 +560,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:38:47.122Z",
       "landingUrl": "https://postyourstartup.com/"
+    },
+    "https://rankcert.com/home/products/new": {
+      "name": "RankCert",
+      "url": "https://rankcert.com/home/products/new",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:39:22.324Z",
+      "landingUrl": "https://rankcert.com/signin?next=%2Fhome%2Fproducts%2Fnew"
+    },
+    "https://saascubes.com/pricing": {
+      "name": "SaaS Cubes",
+      "url": "https://saascubes.com/pricing",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T21:39:55.133Z",
+      "landingUrl": "https://saascubes.com/submit?plan=free"
+    },
+    "https://www.shipnlaunch.com/submit": {
+      "name": "ShipNLaunch",
+      "url": "https://www.shipnlaunch.com/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:40:26.731Z",
+      "landingUrl": "https://www.shipnlaunch.com/auth/login?next=%2Fsubmit"
+    },
+    "https://startfa.st/submit": {
+      "name": "StartFast",
+      "url": "https://startfa.st/submit",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T21:40:58.594Z",
+      "landingUrl": "https://startfa.st/submit"
     }
   }
 }
