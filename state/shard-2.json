@@ -560,6 +560,38 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T21:08:43.062Z",
       "landingUrl": "https://orpetron.com/submit-site/"
+    },
+    "https://pwa.directory/submit": {
+      "name": "PWA Directory",
+      "url": "https://pwa.directory/submit",
+      "status": "skipped_payment",
+      "details": "Page says free submissions unavailable or payment required",
+      "checkedAt": "2026-11-23T21:09:15.989Z",
+      "landingUrl": "https://pwa.directory/submit"
+    },
+    "https://robodebut.com/submit-with-a-coding-agent": {
+      "name": "RoboDebut",
+      "url": "https://robodebut.com/submit-with-a-coding-agent",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:09:46.979Z",
+      "landingUrl": "https://robodebut.com/submit-with-a-coding-agent"
+    },
+    "https://saasrove.com/": {
+      "name": "SaaSRove",
+      "url": "https://saasrove.com/",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:10:21.101Z",
+      "landingUrl": "https://saasrove.com/submit"
+    },
+    "https://www.sites-plus.com/submit": {
+      "name": "Site-Plus",
+      "url": "https://www.sites-plus.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:10:52.726Z",
+      "landingUrl": "https://www.sites-plus.com/submit"
     }
   }
 }
