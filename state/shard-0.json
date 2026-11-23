@@ -1,0 +1,37 @@
+{
+  "shard": 0,
+  "records": {
+    "https://www.abc-directory.com/submiturl": {
+      "name": "ABC Directory",
+      "url": "https://www.abc-directory.com/submiturl",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T19:58:43.616Z",
+      "landingUrl": "https://www.abc-directory.com/submiturl"
+    },
+    "https://www.marketinginternetdirectory.com/submit.php": {
+      "name": "Marketing Internet Directory",
+      "url": "https://www.marketinginternetdirectory.com/submit.php",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T19:59:14.952Z",
+      "landingUrl": "https://www.marketinginternetdirectory.com/submit.php"
+    },
+    "https://www.usawebsitesdirectory.com/submit.php": {
+      "name": "USA Websites Directory",
+      "url": "https://www.usawebsitesdirectory.com/submit.php",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T19:59:46.841Z",
+      "landingUrl": "https://www.usawebsitesdirectory.com/submit.php"
+    },
+    "https://changelog.com/news/submit": {
+      "name": "Changelog",
+      "url": "https://changelog.com/news/submit",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T20:00:18.003Z",
+      "landingUrl": "https://changelog.com/news/submit"
+    }
+  }
+}
