@@ -8,7 +8,7 @@ This repo operates a **small, qualified, no-cost backlink campaign**. The previo
 
 The active scheduled GitHub Actions workflow is [TopPSArena - Verified free backlinks](https://github.com/fazegrimmy/toppsarena-backlinks/actions/workflows/toppsarena-backlinks.yml). It runs twice a day, plus on tracked code changes and optionally by manual dispatch.
 
-Four independently researched public directories that explicitly permit keyless API listing submissions are enabled:
+Six independently researched public directory APIs or agent submission methods are now enabled, with review status tracked separately from published-link proof:
 
 | Destination | Evidence of permitted free API | Method | Notes |
 |---|---|---|---|
@@ -17,12 +17,13 @@ Four independently researched public directories that explicitly permit keyless 
 | TechTools Launchpad | https://techtools.cz/launchpad-api/docs | GET /tools?url= preflight, POST /tools | Existing listing found; public API record https://techtools.cz/tools/launchpad/?tool=12141. **HTML backlink is unverified** because listing may render via JavaScript |
 | LaunchAgentic | https://launchagentic.space/for-agents | Anonymous organic agent protocol | Submission accepted; scheduled for 6 December 2026, **not yet published** and not a verified backlink |
 | PromoteIndex | https://promoteindex.com/openapi.json | POST /api/v1/projects | Relevant Community category. Can return a private signed submission queue; temporary tickets remain in memory only, never committed. No automated votes or link-badge requirements |
+| PostLaunchKit | https://postlaunchkit.com/for-agents | GET /api/v1/projects?q=toppsarena preflight, POST /api/v1/submit, GET /api/v1/submissions/{id} | **HTTP 202 accepted on 23 November 2026, pending editorial review**. Gaming category. No login or badge. Public product links default to nofollow and do not count until independently verified. |
 
 Current results are in [reports/verified-backlinks.md](reports/verified-backlinks.md). **Verified HTML backlinks require an independently fetched public listing page with a direct `<a href>` to the exact TopPSArena domain.** A successful GitHub job, POST accepted, 409 already listed, redirect, search result or public API-only entry is NOT enough. This is not a promise of search rankings.
 
 ## Preventing failed or duplicate submissions
 
-- An existing accepted/rejected submission response is persisted in `state/reliable-campaign.json`, so it is not re-sent on schedules. TechTools also supports exact-domain lookup before a POST.
+- An existing accepted/rejected submission response is persisted in `state/reliable-campaign.json`, so it is not re-sent on schedules. TechTools and PostLaunchKit use public exact-domain lookup before a POST; PostLaunchKit also tracks the reviewer-issued read-only status UUID.
 - Only reviewed provider IDs and their documented free APIs are ever allowed to receive submissions. No generic 519-site form submission loop.
 - No payments, user accounts, CAPTCHA bypass, forced reciprocal badges, artificial votes or repeated mass submissions.
 - Directory private edit keys, queue tickets and owner-contact fields are redacted before saving the **public** repository. Never store private tokens in the repo.
@@ -32,7 +33,7 @@ Current results are in [reports/verified-backlinks.md](reports/verified-backlink
 ## Quality checks and reporting
 
 `scripts/backlink-helpers.mjs` contains site validation, proof parsing, secret redaction and status classification.
-`tests/backlink-helpers.test.mjs` contains native Node.js regression tests.
+`tests/backlink-helpers.test.mjs` and `tests/postlaunchkit.test.mjs` contain native Node.js regression tests.
 `scripts/verified-campaign.mjs` runs the eligible API submissions and independent publication checks.
 
 The GitHub Actions job must pass its syntax and unit tests before submitting.
@@ -41,7 +42,7 @@ The GitHub Actions job must pass its syntax and unit tests before submitting.
 - [Published backlink evidence](reports/verified-backlinks.md)
 - [Reviewed provider allowlist](campaign/verified-opportunities.json)
 
-**Limits:** Four eligible APIs are not a high-volume link-building strategy. Gaming-specific publicity, owner outreach and editorial links generally need relevant site owners' approval. A listing that has no public HTML backlink is reported separately, even when its directory API says it is live.
+**Limits:** Six eligible API/agent submission methods are not a high-volume link-building strategy. Gaming-specific publicity, owner outreach and editorial links generally need relevant site owners' approval. A listing that has no public HTML backlink is reported separately, even when its directory API says it is live.
 
 ## Qualified gaming opportunities
 
