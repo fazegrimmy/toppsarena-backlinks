@@ -816,6 +816,22 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T21:55:29.820Z",
       "landingUrl": "https://toolignite.com/get-started"
+    },
+    "https://trustedrevie.ws": {
+      "name": "Trusted Reviews",
+      "url": "https://trustedrevie.ws",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:56:04.501Z",
+      "landingUrl": "https://trustedrevie.ws/"
+    },
+    "https://directory.wearefounders.uk": {
+      "name": "We Are Founders",
+      "url": "https://directory.wearefounders.uk",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:56:36.192Z",
+      "landingUrl": "https://directory.wearefounders.uk/submit/"
     }
   }
 }
