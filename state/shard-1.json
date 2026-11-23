@@ -816,6 +816,22 @@
       "details": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://theindiewall.net/ Call log: - navigating to \"https://theindiewall.net/\", waiting until \"domcontentloaded\"",
       "checkedAt": "2026-11-23T21:26:27.018Z",
       "landingUrl": "about:blank"
+    },
+    "https://toolkitindex.com": {
+      "name": "Toolkit Index",
+      "url": "https://toolkitindex.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:27:00.298Z",
+      "landingUrl": "https://toolkitindex.com/get-started"
+    },
+    "https://purshology.com": {
+      "name": "purshoLOGY",
+      "url": "https://purshology.com",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T21:27:34.790Z",
+      "landingUrl": "https://www.purshology.com/"
     }
   }
 }
