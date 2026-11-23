@@ -256,6 +256,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T20:15:57.514Z",
       "landingUrl": "https://resource.fyi/login"
+    },
+    "https://tools.launchllama.co/": {
+      "name": "Launch Llama",
+      "url": "https://tools.launchllama.co/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:16:31.765Z",
+      "landingUrl": "https://tools.launchllama.co/auth?redirect=%2Fsubmit"
+    },
+    "https://zapier.com/apps": {
+      "name": "Zapier Directory",
+      "url": "https://zapier.com/apps",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:17:03.614Z",
+      "landingUrl": "https://zapier.com/apps"
+    },
+    "https://sideprojectstack.com": {
+      "name": "Side Project Stack",
+      "url": "https://sideprojectstack.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:17:38.228Z",
+      "landingUrl": "https://sideprojectstack.com/"
+    },
+    "https://wip.co/settings/projects/new": {
+      "name": "WIP.co",
+      "url": "https://wip.co/settings/projects/new",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:18:09.798Z",
+      "landingUrl": "https://wip.co/users/sign_in"
     }
   }
 }
