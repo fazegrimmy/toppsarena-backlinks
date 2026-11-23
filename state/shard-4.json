@@ -528,6 +528,38 @@
       "details": "Login needed before submission",
       "checkedAt": "2026-11-23T21:36:33.880Z",
       "landingUrl": "https://www.launch-list.org/submit/product"
+    },
+    "https://www.launchit.site/submit": {
+      "name": "Launchit",
+      "url": "https://www.launchit.site/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:37:06.832Z",
+      "landingUrl": "https://www.launchit.site/register?redirected=true&next=%2Fsubmit"
+    },
+    "https://letslaunch.today/submit": {
+      "name": "LetsLaunch",
+      "url": "https://letslaunch.today/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:37:39.488Z",
+      "landingUrl": "https://letslaunch.today/sign-in?next=%2Fsubmit"
+    },
+    "https://noonlaunch.com/submit": {
+      "name": "Noon Launch",
+      "url": "https://noonlaunch.com/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:38:15.480Z",
+      "landingUrl": "https://noonlaunch.com/login"
+    },
+    "https://postyourstartup.com/": {
+      "name": "Post Your Startup",
+      "url": "https://postyourstartup.com/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:38:47.122Z",
+      "landingUrl": "https://postyourstartup.com/"
     }
   }
 }
