@@ -256,6 +256,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:15:27.253Z",
       "landingUrl": "chrome-error://chromewebdata/"
+    },
+    "https://broadwise.org/t/how-to-promote-your-startup-on-broadwise-org/125": {
+      "name": "Broadwise.org",
+      "url": "https://broadwise.org/t/how-to-promote-your-startup-on-broadwise-org/125",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T20:16:01.464Z",
+      "landingUrl": "https://broadwise.org/submit"
+    },
+    "https://startuptracker.io/crowdsourcing": {
+      "name": "Startup Tracker",
+      "url": "https://startuptracker.io/crowdsourcing",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:16:32.762Z",
+      "landingUrl": "https://startuptracker.io/crowdsourcing"
+    },
+    "https://claudepro.directory/": {
+      "name": "ClaudePro.directory",
+      "url": "https://claudepro.directory/",
+      "status": "failed_runtime",
+      "details": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://claudepro.directory/ Call log: - navigating to \"https://claudepro.directory/\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T20:17:02.860Z",
+      "landingUrl": "about:blank"
+    },
+    "https://trust-revenue.com/dashboard/startup": {
+      "name": "Trust Revenue",
+      "url": "https://trust-revenue.com/dashboard/startup",
+      "status": "failed_runtime",
+      "details": "page.goto: Timeout 22000ms exceeded. Call log: - navigating to \"https://trust-revenue.com/dashboard/startup\", waiting until \"domcontentloaded\"",
+      "checkedAt": "2026-11-23T20:17:54.924Z",
+      "landingUrl": "about:blank"
     }
   }
 }
