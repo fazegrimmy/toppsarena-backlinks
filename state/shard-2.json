@@ -352,6 +352,38 @@
       "details": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://shipordie.club/leaderboard Call log: - navigating to \"https://shipordie.club/leaderboard\", waiting until \"domcontentloaded\"",
       "checkedAt": "2026-11-23T20:22:04.759Z",
       "landingUrl": "about:blank"
+    },
+    "https://www.starterstory.com/share": {
+      "name": "Starter Story",
+      "url": "https://www.starterstory.com/share",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:22:37.987Z",
+      "landingUrl": "https://www.starterstory.com/share"
+    },
+    "https://tech.co/contact": {
+      "name": "Tech Co.",
+      "url": "https://tech.co/contact",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:23:09.028Z",
+      "landingUrl": "https://tech.co/contact"
+    },
+    "https://versily.com/start/product": {
+      "name": "Versily",
+      "url": "https://versily.com/start/product",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:23:40.236Z",
+      "landingUrl": "https://versily.com/login"
+    },
+    "https://antdirectory.com": {
+      "name": "Ant Directory",
+      "url": "https://antdirectory.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:24:11.126Z",
+      "landingUrl": "https://antdirectory.com/"
     }
   }
 }
