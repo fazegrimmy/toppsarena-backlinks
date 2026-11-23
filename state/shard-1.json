@@ -1,0 +1,37 @@
+{
+  "shard": 1,
+  "records": {
+    "https://www.allstatesusadirectory.com/submit.php": {
+      "name": "All States USA Directory",
+      "url": "https://www.allstatesusadirectory.com/submit.php",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T19:58:46.812Z",
+      "landingUrl": "https://www.allstatesusadirectory.com/submit.php"
+    },
+    "https://www.promotebusinessdirectory.com/submit.php": {
+      "name": "Promote Business Directory",
+      "url": "https://www.promotebusinessdirectory.com/submit.php",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T19:59:18.802Z",
+      "landingUrl": "https://www.promotebusinessdirectory.com/submit.php"
+    },
+    "https://alternative.me/how-to/submit-software/": {
+      "name": "Alternative.me",
+      "url": "https://alternative.me/how-to/submit-software/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T19:59:49.981Z",
+      "landingUrl": "https://alternative.me/how-to/submit-software/"
+    },
+    "https://digitalstuffwelove.org.nz/submit-tool": {
+      "name": "Digital Stuff We Love",
+      "url": "https://digitalstuffwelove.org.nz/submit-tool",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:00:21.132Z",
+      "landingUrl": "https://community.net.nz/resources/digital-stuff-we-love"
+    }
+  }
+}
