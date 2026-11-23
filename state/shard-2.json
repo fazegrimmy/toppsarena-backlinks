@@ -96,6 +96,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:04:47.293Z",
       "landingUrl": "https://alltopstartups.com/success-story/"
+    },
+    "https://builtbyindies.com/submit": {
+      "name": "BuiltByIndies",
+      "url": "https://builtbyindies.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:05:20.474Z",
+      "landingUrl": "https://builtbyindies.com/submit"
+    },
+    "https://earlyhunt.com/submit": {
+      "name": "Earlyhunt",
+      "url": "https://earlyhunt.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:05:52.422Z",
+      "landingUrl": "https://earlyhunt.com/submit"
+    },
+    "https://www.usefuturestack.com/submit": {
+      "name": "FutureStack",
+      "url": "https://www.usefuturestack.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:06:23.241Z",
+      "landingUrl": "https://www.usefuturestack.com/submit"
+    },
+    "https://launch01.com/projects/submit": {
+      "name": "Launch01",
+      "url": "https://launch01.com/projects/submit",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T20:06:57.486Z",
+      "landingUrl": "https://launch01.com/sign-in?redirect=/projects/submit"
     }
   }
 }
