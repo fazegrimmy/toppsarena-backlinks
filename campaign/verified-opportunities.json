@@ -1,0 +1,54 @@
+{
+  "site": "https://toppsarena.com",
+  "approach": "EVIDENCE_FIRST_NO_BULK",
+  "verifiedCriteria": "A fetched, publicly accessible listing page must include a direct HTML hyperlink to toppsarena.com. An accepted submission or HTTP redirect alone never counts.",
+  "publishers": [
+    {
+      "id": "develif",
+      "name": "DevElif",
+      "domain": "develif.com",
+      "api": "https://develif.com/api/submit",
+      "documentation": "https://develif.com/docs",
+      "cost": "free",
+      "requiresAccount": false,
+      "requiresBadge": false,
+      "automationAllowed": true,
+      "topicFit": "Gaming category explicitly supported",
+      "listingLinkPolicy": "Public followed link advertised, requires independent URL verification",
+      "checkedOn": "2026-11-23",
+      "approvalBasis": "Public documentation explicitly allows a JSON POST without key or login"
+    },
+    {
+      "id": "curlship",
+      "name": "CurlShip",
+      "domain": "curlship.com",
+      "api": "https://curlship.com/api/submit",
+      "documentation": "https://curlship.com/openapi.json",
+      "cost": "free",
+      "requiresAccount": false,
+      "requiresBadge": false,
+      "automationAllowed": true,
+      "topicFit": "Bot-friendly general product and website listing",
+      "listingLinkPolicy": "Free link is nofollow; followed link requires badge or payment; never enable either",
+      "checkedOn": "2026-11-23",
+      "approvalBasis": "Public API spec explicitly welcomes automated submissions and free tier"
+    }
+  ],
+  "knownListings": [
+    {
+      "name": "PRKatalog",
+      "url": "https://prkatalog.info/sites/toppsarena",
+      "source": "previously reported; re-verification only"
+    },
+    {
+      "name": "MeWebLink",
+      "url": "https://meweblink.com/site/7491-toppsarena-com/",
+      "source": "previously reported; re-verification only"
+    },
+    {
+      "name": "Zearches",
+      "url": "https://zearches.com/site/gaming-esports/toppsarena-com-f530c20950",
+      "source": "previously reported; re-verification only"
+    }
+  ]
+}
