@@ -1,0 +1,37 @@
+{
+  "shard": 3,
+  "records": {
+    "https://www.freeinternetwebdirectory.com/submit.php": {
+      "name": "Free Internet Web Directory",
+      "url": "https://www.freeinternetwebdirectory.com/submit.php",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:26:20.148Z",
+      "landingUrl": "https://www.freeinternetwebdirectory.com/submit.php"
+    },
+    "https://www.sitepromotiondirectory.com/submit.php": {
+      "name": "Site Promotion Directory",
+      "url": "https://www.sitepromotiondirectory.com/submit.php",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:26:52.548Z",
+      "landingUrl": "https://www.sitepromotiondirectory.com/submit.php"
+    },
+    "https://appsthunder.com/submit-your-app/": {
+      "name": "AppsThunder",
+      "url": "https://appsthunder.com/submit-your-app/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:27:25.217Z",
+      "landingUrl": "https://appsthunder.com/submit-your-app/"
+    },
+    "https://www.killerstartups.com/submit-startup/": {
+      "name": "KillerStartups",
+      "url": "https://www.killerstartups.com/submit-startup/",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:27:56.557Z",
+      "landingUrl": "https://www.killerstartups.com/submit-startup/"
+    }
+  }
+}
