@@ -688,6 +688,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:17:40.003Z",
       "landingUrl": "https://linkorado.com/"
+    },
+    "https://www.rankfirms.com": {
+      "name": "Rankfirms",
+      "url": "https://www.rankfirms.com",
+      "status": "reported_submitted",
+      "details": "Success or review message detected; publication NOT verified",
+      "checkedAt": "2026-11-23T21:18:21.887Z",
+      "landingUrl": "https://www.rankfirms.com/get-listed/"
+    },
+    "https://thedirectory.com.ar": {
+      "name": "Thedirectory.Com",
+      "url": "https://thedirectory.com.ar",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T21:18:54.353Z",
+      "landingUrl": "https://thedirectory.com.ar/submit.php"
+    },
+    "https://www.webwiki.co.uk": {
+      "name": "Webwiki UK",
+      "url": "https://www.webwiki.co.uk",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:19:25.840Z",
+      "landingUrl": "https://www.webwiki.com/"
+    },
+    "https://instantlaun.ch": {
+      "name": "InstantLaun.ch",
+      "url": "https://instantlaun.ch",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:19:56.998Z",
+      "landingUrl": "https://instantlaun.ch/"
     }
   }
 }
