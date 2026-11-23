@@ -464,6 +464,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:02:07.867Z",
       "landingUrl": "https://abacklaunch.com/submit"
+    },
+    "https://another.directory/submit": {
+      "name": "Another Directory",
+      "url": "https://another.directory/submit",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T21:02:41.034Z",
+      "landingUrl": "https://another.directory/submit"
+    },
+    "https://www.biglinksdirectory.com/": {
+      "name": "Big Links Directory",
+      "url": "https://www.biglinksdirectory.com/",
+      "status": "skipped_login_or_payment",
+      "details": "Redirected to an account or payment page",
+      "checkedAt": "2026-11-23T21:03:15.190Z",
+      "landingUrl": "https://dev-x2uskxv6voevjkyd.us.auth0.com/u/login?state=hKFo2SBHbGNrVm52MXJ0bnNGYXNZUXVZN0wyZUNJRXQ1QjBUQ6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGN2SjZETW00VXMtekI3NEdvY1NIS282cENyZ2gybXhMo2NpZNkgM3JvOWoyZ3h3WHpVWXlONGoyMDhDZWwxSDFtR1lWVU8"
+    },
+    "https://businesshunt.co/": {
+      "name": "BusinessHunt",
+      "url": "https://businesshunt.co/",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T21:03:46.962Z",
+      "landingUrl": "https://businesshunt.co/businesses/add"
+    },
+    "https://curlie.org/public/suggest": {
+      "name": "Curlie",
+      "url": "https://curlie.org/public/suggest",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:04:18.154Z",
+      "landingUrl": "https://curlie.org/public/suggest"
     }
   }
 }
