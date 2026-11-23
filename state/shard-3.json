@@ -32,6 +32,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:27:56.557Z",
       "landingUrl": "https://www.killerstartups.com/submit-startup/"
+    },
+    "https://www.9sites.net/addurl.php": {
+      "name": "9Sites.net",
+      "url": "https://www.9sites.net/addurl.php",
+      "status": "skipped_no_submit_button",
+      "details": "Cannot identify safe listing submit button",
+      "checkedAt": "2026-11-23T20:28:28.695Z",
+      "landingUrl": "https://www.9sites.net/addurl.php"
+    },
+    "https://www.siteswebdirectory.com/submit.php": {
+      "name": "SitesWebdirectory",
+      "url": "https://www.siteswebdirectory.com/submit.php",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:29:00.221Z",
+      "landingUrl": "https://www.siteswebdirectory.com/submit.php"
+    },
+    "https://osalt.com/suggest": {
+      "name": "osalt.com",
+      "url": "https://osalt.com/suggest",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:29:31.300Z",
+      "landingUrl": "https://osalt.com/suggest"
+    },
+    "https://startupcollections.com/submit-product/": {
+      "name": "Startup Collections",
+      "url": "https://startupcollections.com/submit-product/",
+      "status": "skipped_required_fields",
+      "details": "Unfilled required fields: name resource name ; submitter_name your name",
+      "checkedAt": "2026-11-23T20:30:03.357Z",
+      "landingUrl": "https://startupcollections.com/submit-product/"
     }
   }
 }
