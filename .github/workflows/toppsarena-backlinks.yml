@@ -1,10 +1,10 @@
-name: TopPSArena - 250 directory campaign
+name: TopPSArena - 519 directory campaign
 
 on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Preview all 250 candidates or submit to qualifying forms'
+        description: 'Preview all 519 candidates or submit to qualifying forms'
         required: true
         default: preview
         type: choice
