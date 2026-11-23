@@ -1,0 +1,14 @@
+{
+  "name": "toppsarena-directory-campaign",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "No-credit TopPSArena directory screening and submission workflow",
+  "scripts": {
+    "check": "node --check scripts/campaign.mjs",
+    "preview": "node scripts/campaign.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  }
+}
