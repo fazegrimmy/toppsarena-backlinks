@@ -384,6 +384,22 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:51:48.714Z",
       "landingUrl": "https://www.launchvibe.app/"
+    },
+    "https://openstartuplist.com": {
+      "name": "Open Startup List",
+      "url": "https://openstartuplist.com",
+      "status": "skipped_captcha",
+      "details": "Captcha detected; not bypassed",
+      "checkedAt": "2026-11-23T20:52:20.983Z",
+      "landingUrl": "https://openstartuplist.com/"
+    },
+    "https://www.startuptabs.com": {
+      "name": "Startup Tabs",
+      "url": "https://www.startuptabs.com",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T20:52:51.945Z",
+      "landingUrl": "https://www.startuptabs.com/"
     }
   }
 }
