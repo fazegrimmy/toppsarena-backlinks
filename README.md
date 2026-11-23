@@ -8,7 +8,7 @@ This repo operates a **small, qualified, no-cost backlink campaign**. The previo
 
 The active scheduled GitHub Actions workflow is [TopPSArena - Verified free backlinks](https://github.com/fazegrimmy/toppsarena-backlinks/actions/workflows/toppsarena-backlinks.yml). It runs twice a day, plus on tracked code changes and optionally by manual dispatch.
 
-Six independently researched public directory APIs or agent submission methods are now enabled, with review status tracked separately from published-link proof:
+Seven documented free public directory APIs or agent submission methods are now enabled, with review status tracked separately from published-link proof:
 
 | Destination | Evidence of permitted free API | Method | Notes |
 |---|---|---|---|
@@ -18,6 +18,7 @@ Six independently researched public directory APIs or agent submission methods a
 | LaunchAgentic | https://launchagentic.space/for-agents | Anonymous organic agent protocol | Submission accepted; scheduled for 6 December 2026, **not yet published** and not a verified backlink |
 | PromoteIndex | https://promoteindex.com/openapi.json | POST /api/v1/projects | Relevant Community category. Can return a private signed submission queue; temporary tickets remain in memory only, never committed. No automated votes or link-badge requirements |
 | PostLaunchKit | https://postlaunchkit.com/for-agents | GET /api/v1/projects?q=toppsarena preflight, POST /api/v1/submit, GET /api/v1/submissions/{id} | **HTTP 202 accepted on 23 November 2026, pending editorial review**. Gaming category. No login or badge. Public product links default to nofollow and do not count until independently verified. |
+| LaunchSignal | https://launchsignal.ai/docs/api | POST /api/v1/products?dry_run=1 (read-only), then POST /api/v1/products, then GET /api/v1/products/{slug} | **HTTP 201 accepted on 23 November 2026, pending review**. General 'Other' product category. Free/no account. Saves listing slug; accepts only independently verified public HTML anchor as backlink. No reciprocal badge. |
 
 Current results are in [reports/verified-backlinks.md](reports/verified-backlinks.md). **Verified HTML backlinks require an independently fetched public listing page with a direct `<a href>` to the exact TopPSArena domain.** A successful GitHub job, POST accepted, 409 already listed, redirect, search result or public API-only entry is NOT enough. This is not a promise of search rankings.
 
@@ -33,7 +34,7 @@ Current results are in [reports/verified-backlinks.md](reports/verified-backlink
 ## Quality checks and reporting
 
 `scripts/backlink-helpers.mjs` contains site validation, proof parsing, secret redaction and status classification.
-`tests/backlink-helpers.test.mjs` and `tests/postlaunchkit.test.mjs` contain native Node.js regression tests.
+`tests/backlink-helpers.test.mjs`, `tests/postlaunchkit.test.mjs`, and `tests/launchsignal.test.mjs` contain native Node.js regression tests.
 `scripts/verified-campaign.mjs` runs the eligible API submissions and independent publication checks.
 
 The GitHub Actions job must pass its syntax and unit tests before submitting.
@@ -42,7 +43,7 @@ The GitHub Actions job must pass its syntax and unit tests before submitting.
 - [Published backlink evidence](reports/verified-backlinks.md)
 - [Reviewed provider allowlist](campaign/verified-opportunities.json)
 
-**Limits:** Six eligible API/agent submission methods are not a high-volume link-building strategy. Gaming-specific publicity, owner outreach and editorial links generally need relevant site owners' approval. A listing that has no public HTML backlink is reported separately, even when its directory API says it is live.
+**Limits:** Seven eligible API/agent submission methods are not a high-volume link-building strategy. Gaming-specific publicity, owner outreach and editorial links generally need relevant site owners' approval. A listing that has no public HTML backlink is reported separately, even when its directory API says it is live.
 
 ## Qualified gaming opportunities
 
