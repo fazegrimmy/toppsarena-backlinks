@@ -78,6 +78,22 @@
       "checkedOn": "2026-11-23",
       "approvalBasis": "First-party agent protocol permits anonymous organic listings after visiting five distinct existing products, with no upvotes/comments required.",
       "specialHandling": "Exploration and status bearer tokens are held only in memory. Do not log or persist them."
+    },
+    {
+      "id": "postlaunchkit",
+      "name": "PostLaunchKit",
+      "domain": "postlaunchkit.com",
+      "api": "https://postlaunchkit.com/api/v1/submit",
+      "documentation": "https://postlaunchkit.com/openapi.json",
+      "cost": "free",
+      "requiresAccount": false,
+      "requiresBadge": false,
+      "automationAllowed": true,
+      "topicFit": "Games category officially supported; permits live web products and gaming discovery projects",
+      "listingLinkPolicy": "Free public product URL rel=ugc nofollow; no badge or paid tier used; independent HTML anchor verification mandatory",
+      "checkedOn": "2026-11-23",
+      "approvalBasis": "First-party /for-agents and OpenAPI explicitly permit anonymous JSON POST and status GET; 202 only means queued editorial review",
+      "specialHandling": "Read-only public exact-domain preflight before POST. Save returned review UUID for GET /api/v1/submissions/{id}; never count a pending review as a backlink."
     }
   ],
   "knownListings": [
