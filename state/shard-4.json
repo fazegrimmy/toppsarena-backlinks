@@ -752,6 +752,38 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T21:52:17.561Z",
       "landingUrl": "https://boilerplatelist.com/submit/"
+    },
+    "https://www.thefastlaneforum.com/community": {
+      "name": "Fastlane Forum",
+      "url": "https://www.thefastlaneforum.com/community",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:52:50.528Z",
+      "landingUrl": "https://www.thefastlaneforum.com/community/"
+    },
+    "https://hackaday.io": {
+      "name": "Hackaday",
+      "url": "https://hackaday.io",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:53:22.494Z",
+      "landingUrl": "https://hackaday.io/"
+    },
+    "https://www.microsaasapps.com": {
+      "name": "Microsaasapps",
+      "url": "https://www.microsaasapps.com",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T21:53:53.451Z",
+      "landingUrl": "https://www.microsaasapps.com/"
+    },
+    "https://roastortoast.io": {
+      "name": "Roastortoast",
+      "url": "https://roastortoast.io",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:54:24.935Z",
+      "landingUrl": "https://roastortoast.io/submit/step/1"
     }
   }
 }
