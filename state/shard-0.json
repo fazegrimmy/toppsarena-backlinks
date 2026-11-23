@@ -384,6 +384,22 @@
       "details": "No visible website listing URL form",
       "checkedAt": "2026-11-23T20:24:55.764Z",
       "landingUrl": "https://yourstory.com/companies"
+    },
+    "https://launch.cab": {
+      "name": "launch.cab",
+      "url": "https://launch.cab",
+      "status": "skipped_incomplete_form",
+      "details": "Form only accepted a URL; manual verification required",
+      "checkedAt": "2026-11-23T20:25:35.721Z",
+      "landingUrl": "https://launch.cab/"
+    },
+    "https://www.startupbenchmarks.com": {
+      "name": "Startup benchmarks",
+      "url": "https://www.startupbenchmarks.com",
+      "status": "skipped_login",
+      "details": "Login needed before submission",
+      "checkedAt": "2026-11-23T20:26:09.539Z",
+      "landingUrl": "https://startupbenchmarks.com/get-started"
     }
   }
 }
