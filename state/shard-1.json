@@ -432,6 +432,38 @@
       "details": "Redirected to an account or payment page",
       "checkedAt": "2026-11-23T20:59:57.691Z",
       "landingUrl": "https://launchbert.com/login"
+    },
+    "https://saasolution.io/submit/": {
+      "name": "SaaSolution",
+      "url": "https://saasolution.io/submit/",
+      "status": "attempted_unconfirmed",
+      "details": "Clicked submit but no confirmation detected; listing NOT verified",
+      "checkedAt": "2026-11-23T21:00:31.827Z",
+      "landingUrl": "https://saasolution.io/submit/"
+    },
+    "https://www.vibblelaunch.com/submit": {
+      "name": "VibbleLaunch",
+      "url": "https://www.vibblelaunch.com/submit",
+      "status": "skipped_payment",
+      "details": "Page says free submissions unavailable or payment required",
+      "checkedAt": "2026-11-23T21:01:03.039Z",
+      "landingUrl": "https://www.vibblelaunch.com/submit"
+    },
+    "https://help.wellfound.com/article/720-how-can-i-create-a-new-company-or-access-an-existing-one": {
+      "name": "Wellfound",
+      "url": "https://help.wellfound.com/article/720-how-can-i-create-a-new-company-or-access-an-existing-one",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:01:34.473Z",
+      "landingUrl": "https://help.wellfound.com/article/720-how-can-i-create-a-new-company-or-access-an-existing-one"
+    },
+    "https://abacklaunch.com/submit": {
+      "name": "Aback Launch",
+      "url": "https://abacklaunch.com/submit",
+      "status": "skipped_no_site_form",
+      "details": "No visible website listing URL form",
+      "checkedAt": "2026-11-23T21:02:07.867Z",
+      "landingUrl": "https://abacklaunch.com/submit"
     }
   }
 }
