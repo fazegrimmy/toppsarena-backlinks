@@ -1,6 +1,6 @@
 # TopPSArena — verified backlink evidence
 
-Updated: 2026-11-23T23:09:25.884Z
+Updated: 2026-11-24T19:29:52.366Z
 
 ## Public HTML-verified backlinks (5)
 
@@ -29,7 +29,7 @@ Counted only after an independently fetched public listing has an HTML anchor to
 | TechTools Launchpad | 200 | already_listed | — | verified_public_api_record |
 | PromoteIndex | 201 | api_accepted_not_yet_verified | — | verified_published |
 | LaunchAgentic | 200 | already_listed | — | not_verifiable |
-| PostLaunchKit | 202 | queued_not_published | pending_review | pending |
+| PostLaunchKit | 202 | queued_not_published | rejected | pending |
 | LaunchSignal | 201 | queued_not_published | pending_or_unavailable | pending |
 
 Failed retrieval and JS-only API records are not counted. No paid listings, CAPTCHA bypasses, or reciprocal links are used.
