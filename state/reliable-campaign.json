@@ -15,7 +15,7 @@
         "destination": "https://toppsarena.com/",
         "rel": "noopener noreferrer",
         "followed": true,
-        "checkedAt": "2026-11-24T19:29:46.502Z"
+        "checkedAt": "2026-11-25T03:32:14.080Z"
       }
     },
     "CurlShip": {
@@ -33,7 +33,7 @@
         "destination": "https://toppsarena.com/?ref=curlship",
         "rel": "noopener nofollow",
         "followed": false,
-        "checkedAt": "2026-11-24T19:29:46.988Z"
+        "checkedAt": "2026-11-25T03:32:14.689Z"
       }
     },
     "TechTools Launchpad": {
@@ -51,7 +51,7 @@
         "destination": "https://toppsarena.com",
         "rel": "unknown; page may render with JavaScript",
         "followed": null,
-        "checkedAt": "2026-11-24T19:29:47.815Z"
+        "checkedAt": "2026-11-25T03:32:15.674Z"
       }
     },
     "PromoteIndex": {
@@ -69,7 +69,7 @@
         "destination": "https://toppsarena.com/",
         "rel": "nofollow ugc noopener",
         "followed": false,
-        "checkedAt": "2026-11-24T19:29:49.394Z"
+        "checkedAt": "2026-11-25T03:32:16.181Z"
       }
     },
     "LaunchAgentic": {
@@ -84,7 +84,7 @@
       "verification": {
         "status": "not_verifiable",
         "reason": "HTTP 404",
-        "checkedAt": "2026-11-24T19:29:49.927Z"
+        "checkedAt": "2026-11-25T03:32:16.829Z"
       }
     },
     "PostLaunchKit": {
@@ -98,7 +98,7 @@
       },
       "review": {
         "status": "rejected",
-        "checkedAt": "2026-11-24T19:29:51.306Z"
+        "checkedAt": "2026-11-25T03:32:17.356Z"
       }
     },
     "LaunchSignal": {
@@ -112,7 +112,7 @@
       },
       "review": {
         "status": "pending_or_unavailable",
-        "checkedAt": "2026-11-24T19:29:51.717Z"
+        "checkedAt": "2026-11-25T03:32:17.725Z"
       }
     }
   },
@@ -122,7 +122,7 @@
       "verification": {
         "status": "not_verifiable",
         "reason": "HTTP 403",
-        "checkedAt": "2026-11-24T19:29:51.838Z"
+        "checkedAt": "2026-11-25T03:32:17.848Z"
       }
     },
     "MeWebLink": {
@@ -133,7 +133,7 @@
         "destination": "https://toppsarena.com/",
         "rel": "ugc nofollow noopener noreferrer",
         "followed": false,
-        "checkedAt": "2026-11-24T19:29:51.963Z"
+        "checkedAt": "2026-11-25T03:32:18.136Z"
       }
     },
     "Zearches": {
@@ -144,9 +144,9 @@
         "destination": "https://toppsarena.com/",
         "rel": "ugc nofollow noopener noreferrer",
         "followed": false,
-        "checkedAt": "2026-11-24T19:29:52.052Z"
+        "checkedAt": "2026-11-25T03:32:18.357Z"
       }
     }
   },
-  "updatedAt": "2026-11-24T19:29:52.366Z"
+  "updatedAt": "2026-11-25T03:32:18.776Z"
 }
