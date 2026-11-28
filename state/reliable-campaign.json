@@ -15,7 +15,7 @@
         "destination": "https://toppsarena.com/",
         "rel": "noopener noreferrer",
         "followed": true,
-        "checkedAt": "2026-11-28T02:40:28.143Z"
+        "checkedAt": "2026-11-28T16:52:41.404Z"
       }
     },
     "CurlShip": {
@@ -33,7 +33,7 @@
         "destination": "https://toppsarena.com/?ref=curlship",
         "rel": "noopener nofollow",
         "followed": false,
-        "checkedAt": "2026-11-28T02:40:28.606Z"
+        "checkedAt": "2026-11-28T16:52:42.016Z"
       }
     },
     "TechTools Launchpad": {
@@ -51,7 +51,7 @@
         "destination": "https://toppsarena.com",
         "rel": "unknown; page may render with JavaScript",
         "followed": null,
-        "checkedAt": "2026-11-28T02:40:29.445Z"
+        "checkedAt": "2026-11-28T16:52:42.991Z"
       }
     },
     "PromoteIndex": {
@@ -64,9 +64,12 @@
       },
       "listingUrl": "https://promoteindex.com/p/toppsarena",
       "verification": {
-        "status": "not_verifiable",
-        "reason": "This operation was aborted",
-        "checkedAt": "2026-11-28T02:40:47.447Z"
+        "status": "verified_published",
+        "listedAt": "https://promoteindex.com/p/toppsarena",
+        "destination": "https://toppsarena.com/",
+        "rel": "nofollow ugc noopener",
+        "followed": false,
+        "checkedAt": "2026-11-28T16:52:47.535Z"
       }
     },
     "LaunchAgentic": {
@@ -81,7 +84,7 @@
       "verification": {
         "status": "not_verifiable",
         "reason": "HTTP 404",
-        "checkedAt": "2026-11-28T02:40:48.179Z"
+        "checkedAt": "2026-11-28T16:52:48.185Z"
       }
     },
     "PostLaunchKit": {
@@ -95,7 +98,7 @@
       },
       "review": {
         "status": "rejected",
-        "checkedAt": "2026-11-28T02:40:48.550Z"
+        "checkedAt": "2026-11-28T16:52:48.839Z"
       }
     },
     "LaunchSignal": {
@@ -109,7 +112,7 @@
       },
       "review": {
         "status": "pending_or_unavailable",
-        "checkedAt": "2026-11-28T02:40:48.792Z"
+        "checkedAt": "2026-11-28T16:52:49.180Z"
       }
     }
   },
@@ -119,7 +122,7 @@
       "verification": {
         "status": "not_verifiable",
         "reason": "HTTP 403",
-        "checkedAt": "2026-11-28T02:40:48.968Z"
+        "checkedAt": "2026-11-28T16:52:49.317Z"
       }
     },
     "MeWebLink": {
@@ -130,7 +133,7 @@
         "destination": "https://toppsarena.com/",
         "rel": "ugc nofollow noopener noreferrer",
         "followed": false,
-        "checkedAt": "2026-11-28T02:40:49.265Z"
+        "checkedAt": "2026-11-28T16:52:49.646Z"
       }
     },
     "Zearches": {
@@ -141,9 +144,9 @@
         "destination": "https://toppsarena.com/",
         "rel": "ugc nofollow noopener noreferrer",
         "followed": false,
-        "checkedAt": "2026-11-28T02:40:49.402Z"
+        "checkedAt": "2026-11-28T16:52:49.813Z"
       }
     }
   },
-  "updatedAt": "2026-11-28T02:40:49.764Z"
+  "updatedAt": "2026-11-28T16:52:50.152Z"
 }
