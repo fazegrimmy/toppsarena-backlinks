@@ -1,8 +1,8 @@
 # TopPSArena — verified backlink evidence
 
-Updated: 2026-11-28T02:40:49.764Z
+Updated: 2026-11-28T16:52:50.152Z
 
-## Public HTML-verified backlinks (4)
+## Public HTML-verified backlinks (5)
 
 Counted only after an independently fetched public listing has an HTML anchor to https://toppsarena.com. A green workflow or accepted API response is not a backlink.
 
@@ -10,6 +10,7 @@ Counted only after an independently fetched public listing has an HTML anchor to
 |---|---|---|
 | DevElif | https://develif.com/s/toppsarena | noopener noreferrer |
 | CurlShip | https://curlship.com/l/11593 | noopener nofollow |
+| PromoteIndex | https://promoteindex.com/p/toppsarena | nofollow ugc noopener |
 | MeWebLink | https://meweblink.com/site/7491-toppsarena-com/ | ugc nofollow noopener noreferrer |
 | Zearches | https://zearches.com/site/gaming-esports/toppsarena-com-f530c20950 | ugc nofollow noopener noreferrer |
 
@@ -26,7 +27,7 @@ Counted only after an independently fetched public listing has an HTML anchor to
 | DevElif | 409 | already_listed | — | verified_published |
 | CurlShip | 201 | api_accepted_not_yet_verified | — | verified_published |
 | TechTools Launchpad | 200 | already_listed | — | verified_public_api_record |
-| PromoteIndex | 201 | api_accepted_not_yet_verified | — | not_verifiable |
+| PromoteIndex | 201 | api_accepted_not_yet_verified | — | verified_published |
 | LaunchAgentic | 200 | already_listed | — | not_verifiable |
 | PostLaunchKit | 202 | queued_not_published | rejected | pending |
 | LaunchSignal | 201 | queued_not_published | pending_or_unavailable | pending |
